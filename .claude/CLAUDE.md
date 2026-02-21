@@ -98,6 +98,16 @@ hwickshop/
 └── package.json             # 의존성
 ```
 
+## 콘텐츠 반영 프로토콜
+
+`docs/content/`에서 콘텐츠를 수정한 후 `src/content/articles/`에 반영할 때는 `/sync-content` 스킬을 사용한다.
+
+- **소스**: `docs/content/{category}/{ID}-{slug}.md` (frontmatter 없음, `# 제목` + 본문)
+- **타겟**: `src/content/articles/{category}/{slug}.md` (frontmatter + 본문)
+- 기존 파일은 frontmatter 보존, 본문만 교체
+- 신규 파일은 frontmatter 자동 생성
+- 쿠팡 파트너스 disclaimer 문구는 페이지 템플릿에 있으므로 본문에서 제거
+
 ## 참고 문서
 
 - 기획: `docs/README.md`, `docs/BUILD-PROMPT.md`

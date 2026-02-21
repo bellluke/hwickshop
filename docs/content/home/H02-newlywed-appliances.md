@@ -29,8 +29,8 @@
 - 냉동실 자주 쓰면 → 냉동 비율 큰 것
 - 김치냉장고 별도로 살 건지 먼저 결정
 
-👉 [삼성 비스포크 냉장고 500L](쿠팡:삼성+비스포크+냉장고+500L)
-👉 [LG 디오스 냉장고 480L](쿠팡:LG+디오스+냉장고+480L)
+👉 [삼성 비스포크 냉장고 500L](https://www.coupang.com/np/search?q=%EC%82%BC%EC%84%B1+%EB%B9%84%EC%8A%A4%ED%8F%AC%ED%81%AC+%EB%83%89%EC%9E%A5%EA%B3%A0+500L)
+👉 [LG 디오스 냉장고 480L](https://www.coupang.com/np/search?q=LG+%EB%94%94%EC%98%A4%EC%8A%A4+%EB%83%89%EC%9E%A5%EA%B3%A0+480L)
 
 ### 세탁기
 
@@ -42,8 +42,8 @@
 
 > 💡 **건조기는 맞벌이 필수템.** "나중에 사지" 하다가 결국 3개월 안에 삽니다. 살 거면 처음부터.
 
-👉 [LG 트롬 드럼세탁기 15kg](쿠팡:LG+트롬+드럼+세탁기+15kg)
-👉 [건조기 16kg](쿠팡:건조기+16kg+히트펌프)
+👉 [LG 트롬 드럼세탁기 15kg](https://www.coupang.com/np/search?q=LG+%ED%8A%B8%EB%A1%AC+%EB%93%9C%EB%9F%BC+%EC%84%B8%ED%83%81%EA%B8%B0+15kg)
+👉 [건조기 16kg](https://www.coupang.com/np/search?q=%EA%B1%B4%EC%A1%B0%EA%B8%B0+16kg+%ED%9E%88%ED%8A%B8%ED%8E%8C%ED%94%84)
 
 ### 에어컨
 
@@ -51,13 +51,13 @@
 - 벽걸이 vs 스탠드: 거실 스탠드 + 방 벽걸이 조합이 효율적
 - **설치비 별도** (5~15만원)
 
-👉 [삼성 무풍 에어컨 (거실 스탠드)](쿠팡:삼성+무풍+에어컨+스탠드+거실)
+👉 [삼성 무풍 에어컨 (거실 스탠드)](https://www.coupang.com/np/search?q=%EC%82%BC%EC%84%B1+%EB%AC%B4%ED%92%8D+%EC%97%90%EC%96%B4%EC%BB%A8+%EC%8A%A4%ED%83%A0%EB%93%9C+%EA%B1%B0%EC%8B%A4)
 
 ### 전자레인지
 
 맞벌이 필수. 23L이면 충분.
 
-👉 [LG 전자레인지 23L](쿠팡:LG+전자레인지+23L)
+👉 [LG 전자레인지 23L](https://www.coupang.com/np/search?q=LG+%EC%A0%84%EC%9E%90%EB%A0%88%EC%9D%B8%EC%A7%80+23L)
 
 ---
 
@@ -72,9 +72,9 @@
 | 밥솥 | ⭐⭐⭐ | 10인용 (여유 있게) | 10~30만 |
 | 정수기 | ⭐⭐ | 렌탈 vs 구매 비교 | 월 2~4만 or 30~50만 |
 
-👉 [삼성 비스포크 공기청정기](쿠팡:삼성+비스포크+공기청정기)
-👉 [식기세척기 6인용 (자가설치)](쿠팡:식기세척기+6인용+자가설치)
-👉 [로봇청소기 (물걸레 겸용)](쿠팡:로봇청소기+물걸레+겸용)
+👉 [삼성 비스포크 공기청정기](https://www.coupang.com/np/search?q=%EC%82%BC%EC%84%B1+%EB%B9%84%EC%8A%A4%ED%8F%AC%ED%81%AC+%EA%B3%B5%EA%B8%B0%EC%B2%AD%EC%A0%95%EA%B8%B0)
+👉 [식기세척기 6인용 (자가설치)](https://www.coupang.com/np/search?q=%EC%8B%9D%EA%B8%B0%EC%84%B8%EC%B2%99%EA%B8%B0+6%EC%9D%B8%EC%9A%A9+%EC%9E%90%EA%B0%80%EC%84%A4%EC%B9%98)
+👉 [로봇청소기 (물걸레 겸용)](https://www.coupang.com/np/search?q=%EB%A1%9C%EB%B4%87%EC%B2%AD%EC%86%8C%EA%B8%B0+%EB%AC%BC%EA%B1%B8%EB%A0%88+%EA%B2%B8%EC%9A%A9)
 
 > 💡 **식기세척기 = 신혼 만족도 1위.** "이걸 왜 이제야 샀지"라는 후기가 99%. 설거지 안 하면 부부 싸움도 줄어듭니다.
 
@@ -91,7 +91,7 @@
 | 김치냉장고 | 김장하거나 반찬 많으면 | 50~100만 |
 | 건조대 (전동) | 건조기 안 살 거면 | 15~30만 |
 
-👉 [에어프라이어 5.5L](쿠팡:에어프라이어+5.5L)
+👉 [에어프라이어 5.5L](https://www.coupang.com/np/search?q=%EC%97%90%EC%96%B4%ED%94%84%EB%9D%BC%EC%9D%B4%EC%96%B4+5.5L)
 
 ---
 

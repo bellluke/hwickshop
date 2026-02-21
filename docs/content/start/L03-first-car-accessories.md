@@ -15,9 +15,9 @@
 | 안전 삼각대 | 고장/사고 시 후방 경고 (법적 의무) | 0.5~1만 |
 | 비상 망치 (안전벨트 커터) | 침수/전복 시 탈출 | 0.5~1만 |
 
-👉 [블랙박스 전후방 FHD](쿠팡:블랙박스+전후방+FHD+주차감지)
-👉 [차량용 소화기](쿠팡:차량용+소화기+소형)
-👉 [안전 삼각대 + 비상 망치 세트](쿠팡:안전삼각대+비상망치+세트+차량)
+👉 [블랙박스 전후방 FHD](https://www.coupang.com/np/search?q=%EB%B8%94%EB%9E%99%EB%B0%95%EC%8A%A4+%EC%A0%84%ED%9B%84%EB%B0%A9+FHD+%EC%A3%BC%EC%B0%A8%EA%B0%90%EC%A7%80)
+👉 [차량용 소화기](https://www.coupang.com/np/search?q=%EC%B0%A8%EB%9F%89%EC%9A%A9+%EC%86%8C%ED%99%94%EA%B8%B0+%EC%86%8C%ED%98%95)
+👉 [안전 삼각대 + 비상 망치 세트](https://www.coupang.com/np/search?q=%EC%95%88%EC%A0%84%EC%82%BC%EA%B0%81%EB%8C%80+%EB%B9%84%EC%83%81%EB%A7%9D%EC%B9%98+%EC%84%B8%ED%8A%B8+%EC%B0%A8%EB%9F%89)
 
 > 💡 **블랙박스는 무조건 전후방.** 후방 추돌이 가장 흔한 사고인데 전방만 있으면 증거가 없어요.
 
@@ -33,9 +33,9 @@
 | 선바이저 포켓 | 주차권, 카드 수납 | 0.5~1만 |
 | 트렁크 정리함 | 짐 굴러다님 방지 | 1~3만 |
 
-👉 [차량용 충전기 USB-C PD 60W](쿠팡:차량용+충전기+USB-C+PD+60W)
-👉 [스마트폰 거치대 (에어벤트)](쿠팡:스마트폰+거치대+에어벤트+차량)
-👉 [트렁크 정리함 (접이식)](쿠팡:트렁크+정리함+접이식)
+👉 [차량용 충전기 USB-C PD 60W](https://www.coupang.com/np/search?q=%EC%B0%A8%EB%9F%89%EC%9A%A9+%EC%B6%A9%EC%A0%84%EA%B8%B0+USB-C+PD+60W)
+👉 [스마트폰 거치대 (에어벤트)](https://www.coupang.com/np/search?q=%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0+%EA%B1%B0%EC%B9%98%EB%8C%80+%EC%97%90%EC%96%B4%EB%B2%A4%ED%8A%B8+%EC%B0%A8%EB%9F%89)
+👉 [트렁크 정리함 (접이식)](https://www.coupang.com/np/search?q=%ED%8A%B8%EB%A0%81%ED%81%AC+%EC%A0%95%EB%A6%AC%ED%95%A8+%EC%A0%91%EC%9D%B4%EC%8B%9D)
 
 ---
 
@@ -49,8 +49,8 @@
 | 타이어 공기압 게이지 | 월 1회 체크 | 1~2만 |
 | 실내 청소기 (미니) | 과자 부스러기... | 2~5만 |
 
-👉 [유리 발수 코팅제](쿠팡:유리+발수+코팅제+차량)
-👉 [타이어 공기압 게이지 (디지털)](쿠팡:타이어+공기압+게이지+디지털)
+👉 [유리 발수 코팅제](https://www.coupang.com/np/search?q=%EC%9C%A0%EB%A6%AC+%EB%B0%9C%EC%88%98+%EC%BD%94%ED%8C%85%EC%A0%9C+%EC%B0%A8%EB%9F%89)
+👉 [타이어 공기압 게이지 (디지털)](https://www.coupang.com/np/search?q=%ED%83%80%EC%9D%B4%EC%96%B4+%EA%B3%B5%EA%B8%B0%EC%95%95+%EA%B2%8C%EC%9D%B4%EC%A7%80+%EB%94%94%EC%A7%80%ED%84%B8)
 
 ---
 
@@ -61,7 +61,7 @@
 - [ ] 쿨시트 (통풍 방석) — 등 땀 방지
 - [ ] 차량용 냉장고/쿨러 — 장거리 드라이브
 
-👉 [차량 선셰이드 (앞유리)](쿠팡:차량+선셰이드+앞유리+자외선차단)
+👉 [차량 선셰이드 (앞유리)](https://www.coupang.com/np/search?q=%EC%B0%A8%EB%9F%89+%EC%84%A0%EC%85%B0%EC%9D%B4%EB%93%9C+%EC%95%9E%EC%9C%A0%EB%A6%AC+%EC%9E%90%EC%99%B8%EC%84%A0%EC%B0%A8%EB%8B%A8)
 
 ### 겨울 ❄️
 - [ ] 성에 제거기 — 아침마다 긁지 않아도 됨
@@ -69,8 +69,8 @@
 - [ ] 스노우 체인 or 윈터 타이어 — 눈길 필수
 - [ ] 차량 담요 — 히터 나올 때까지
 
-👉 [성에 제거기 (스프레이)](쿠팡:성에+제거기+스프레이+차량)
-👉 [김서림 방지제](쿠팡:김서림+방지제+차량+유리)
+👉 [성에 제거기 (스프레이)](https://www.coupang.com/np/search?q=%EC%84%B1%EC%97%90+%EC%A0%9C%EA%B1%B0%EA%B8%B0+%EC%8A%A4%ED%94%84%EB%A0%88%EC%9D%B4+%EC%B0%A8%EB%9F%89)
+👉 [김서림 방지제](https://www.coupang.com/np/search?q=%EA%B9%80%EC%84%9C%EB%A6%BC+%EB%B0%A9%EC%A7%80%EC%A0%9C+%EC%B0%A8%EB%9F%89+%EC%9C%A0%EB%A6%AC)
 
 ---
 

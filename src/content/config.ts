@@ -5,7 +5,7 @@ const articles = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    category: z.enum(['home', 'baby', 'health', 'school', 'start', 'gift', 'pet', 'sport']),
+    category: z.enum(['home', 'baby', 'health', 'school', 'start', 'gift', 'pet']),
     articleType: z.enum(['checklist', 'top5', 'comparison', 'guide', 'starter-kit']),
     tags: z.array(z.string()).default([]),
     linkCount: z.number().default(0),

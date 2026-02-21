@@ -25,9 +25,9 @@
 | 도마 + 칼 (별도) | 아기 전용 위생 | 항균 도마 |
 | 계량컵 + 계량스푼 | 물:쌀 비율 | |
 
-👉 [이유식 냄비 스테인리스 16cm](쿠팡:이유식+냄비+스테인리스+16cm)
-👉 [핸드 블렌더 (이유식용)](쿠팡:핸드블렌더+이유식+소형)
-👉 [이유식 체 + 절구 세트](쿠팡:이유식+체+절구+세트)
+👉 [이유식 냄비 스테인리스 16cm](https://www.coupang.com/np/search?q=%EC%9D%B4%EC%9C%A0%EC%8B%9D+%EB%83%84%EB%B9%84+%EC%8A%A4%ED%85%8C%EC%9D%B8%EB%A6%AC%EC%8A%A4+16cm)
+👉 [핸드 블렌더 (이유식용)](https://www.coupang.com/np/search?q=%ED%95%B8%EB%93%9C%EB%B8%94%EB%A0%8C%EB%8D%94+%EC%9D%B4%EC%9C%A0%EC%8B%9D+%EC%86%8C%ED%98%95)
+👉 [이유식 체 + 절구 세트](https://www.coupang.com/np/search?q=%EC%9D%B4%EC%9C%A0%EC%8B%9D+%EC%B2%B4+%EC%A0%88%EA%B5%AC+%EC%84%B8%ED%8A%B8)
 
 > 💡 **핸드 블렌더 vs 일반 블렌더**: 이유식은 소량이라 핸드 블렌더가 훨씬 편해요. 냄비에 직접 넣고 갈면 됨.
 
@@ -41,9 +41,9 @@
 | 이유식 숟가락 (실리콘) | 잇몸에 부드러운 실리콘 소재 |
 | 턱받이 (실리콘 포켓) | 흘린 음식 받아주는 포켓형 |
 
-👉 [흡착 이유식 그릇 세트](쿠팡:흡착+이유식+그릇+세트+실리콘)
-👉 [이유식 실리콘 숟가락 (6개)](쿠팡:이유식+실리콘+숟가락+6개)
-👉 [실리콘 턱받이 (포켓형)](쿠팡:실리콘+턱받이+포켓형+이유식)
+👉 [흡착 이유식 그릇 세트](https://www.coupang.com/np/search?q=%ED%9D%A1%EC%B0%A9+%EC%9D%B4%EC%9C%A0%EC%8B%9D+%EA%B7%B8%EB%A6%87+%EC%84%B8%ED%8A%B8+%EC%8B%A4%EB%A6%AC%EC%BD%98)
+👉 [이유식 실리콘 숟가락 (6개)](https://www.coupang.com/np/search?q=%EC%9D%B4%EC%9C%A0%EC%8B%9D+%EC%8B%A4%EB%A6%AC%EC%BD%98+%EC%88%9F%EA%B0%80%EB%9D%BD+6%EA%B0%9C)
+👉 [실리콘 턱받이 (포켓형)](https://www.coupang.com/np/search?q=%EC%8B%A4%EB%A6%AC%EC%BD%98+%ED%84%B1%EB%B0%9B%EC%9D%B4+%ED%8F%AC%EC%BC%93%ED%98%95+%EC%9D%B4%EC%9C%A0%EC%8B%9D)
 
 ---
 
@@ -55,8 +55,8 @@
 | 실리콘 큐브 트레이 | 큐브로 얼려서 필요할 때 해동 |
 | 이유식 보관 스티커 | 날짜/재료 표시 |
 
-👉 [이유식 소분 용기 12개](쿠팡:이유식+소분+용기+냉동+12개)
-👉 [실리콘 큐브 트레이 (이유식)](쿠팡:실리콘+큐브+트레이+이유식+냉동)
+👉 [이유식 소분 용기 12개](https://www.coupang.com/np/search?q=%EC%9D%B4%EC%9C%A0%EC%8B%9D+%EC%86%8C%EB%B6%84+%EC%9A%A9%EA%B8%B0+%EB%83%89%EB%8F%99+12%EA%B0%9C)
+👉 [실리콘 큐브 트레이 (이유식)](https://www.coupang.com/np/search?q=%EC%8B%A4%EB%A6%AC%EC%BD%98+%ED%81%90%EB%B8%8C+%ED%8A%B8%EB%A0%88%EC%9D%B4+%EC%9D%B4%EC%9C%A0%EC%8B%9D+%EB%83%89%EB%8F%99)
 
 > 💡 **큐브 트레이가 편한 이유**: 주말에 한 번에 만들어서 큐브로 냉동 → 평일에 큐브 꺼내서 데우기. 맞벌이 필수.
 
@@ -72,9 +72,9 @@
 | 보온 도시락 | ⭐⭐ | 외출 시 이유식 보온 | 2~3만 |
 | 이유식 스팀기 | ⭐ | 찌기 + 블렌딩 일체형 | 10~20만 |
 
-👉 [범보 의자 (트레이 포함)](쿠팡:범보+의자+트레이+이유식)
-👉 [이유식 보온 도시락](쿠팡:이유식+보온+도시락+외출)
-👉 [이유식 레시피 책](쿠팡:이유식+레시피+책+초보맘)
+👉 [범보 의자 (트레이 포함)](https://www.coupang.com/np/search?q=%EB%B2%94%EB%B3%B4+%EC%9D%98%EC%9E%90+%ED%8A%B8%EB%A0%88%EC%9D%B4+%EC%9D%B4%EC%9C%A0%EC%8B%9D)
+👉 [이유식 보온 도시락](https://www.coupang.com/np/search?q=%EC%9D%B4%EC%9C%A0%EC%8B%9D+%EB%B3%B4%EC%98%A8+%EB%8F%84%EC%8B%9C%EB%9D%BD+%EC%99%B8%EC%B6%9C)
+👉 [이유식 레시피 책](https://www.coupang.com/np/search?q=%EC%9D%B4%EC%9C%A0%EC%8B%9D+%EB%A0%88%EC%8B%9C%ED%94%BC+%EC%B1%85+%EC%B4%88%EB%B3%B4%EB%A7%98)
 
 ---
 
