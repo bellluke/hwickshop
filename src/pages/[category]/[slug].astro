@@ -1,0 +1,197 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/components/layout/BaseLayout.astro';
+import BudgetBox from '@/components/content/BudgetBox.astro';
+import TableOfContents from '@/components/content/TableOfContents';
+import { getCategoryById } from '@/data/categories';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map((article) => ({
+    params: {
+      category: article.data.category,
+      slug: article.id.split('/').pop()!.replace(/\.md$/, ''),
+    },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content, headings } = await article.render();
+const category = getCategoryById(article.data.category);
+
+const tocItems = headings
+  .filter((h) => h.depth <= 3)
+  .map((h) => ({ id: h.slug, text: h.text, depth: h.depth }));
+
+const slug = article.id.split('/').pop()!.replace(/\.md$/, '');
+const articleUrl = new URL(`/${article.data.category}/${slug}/`, Astro.site).href;
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: article.data.title,
+  description: article.data.description,
+  datePublished: article.data.publishedAt.toISOString(),
+  ...(article.data.updatedAt && { dateModified: article.data.updatedAt.toISOString() }),
+  url: articleUrl,
+  publisher: {
+    '@type': 'Organization',
+    name: '휙 hwick.shop',
+    url: 'https://hwick.shop',
+  },
+};
+---
+
+<BaseLayout
+  title={`${article.data.title} | 휙`}
+  description={article.data.description}
+  ogType="article"
+>
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} slot="head" />
+
+  <div class="content-width py-10">
+    {/* Category */}
+    {category && (
+      <a
+        href={category.path}
+        class="text-sm font-medium no-underline transition-opacity duration-150 hover:opacity-70"
+        style={`color: ${category.color}`}
+      >
+        {category.name}
+      </a>
+    )}
+
+    {/* Title */}
+    <h1 class="mt-6 mb-8">{article.data.title}</h1>
+
+    {/* Meta */}
+    <div class="mb-28 flex flex-wrap gap-x-3 text-sm text-[var(--color-text-muted)]">
+      <span>{article.data.publishedAt.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long' })}</span>
+      <span>·</span>
+      <span>{article.data.readingTime}</span>
+      {article.data.linkCount > 0 && (
+        <>
+          <span>·</span>
+          <span>링크 {article.data.linkCount}개</span>
+        </>
+      )}
+    </div>
+
+    <div>
+      {/* Article content */}
+      <div class="prose">
+        <Content />
+      </div>
+
+      {/* Budget box */}
+      {article.data.budget && (
+        <BudgetBox
+          economy={article.data.budget.economy}
+          standard={article.data.budget.standard}
+          generous={article.data.budget.generous}
+        />
+      )}
+
+      {/* Disclaimer */}
+      <div class="mt-12 border-t border-stone-100 pt-6 text-sm leading-relaxed text-[var(--color-text-muted)]">
+        이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+        상품의 가격과 재고는 변동될 수 있으며, 최종 가격은 쿠팡에서 확인하세요.
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style is:global>
+  .prose h2 {
+    margin-top: 3rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .prose h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .prose p {
+    margin-bottom: 1rem;
+  }
+
+  .prose ul, .prose ol {
+    margin-bottom: 1rem;
+    padding-left: 1.25rem;
+  }
+
+  .prose li {
+    margin-bottom: 0.375rem;
+  }
+
+  .prose table {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+
+  .prose th,
+  .prose td {
+    padding: 0.5rem 0.75rem;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+
+  .prose th {
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 1px solid #d6d3d1;
+    font-size: 0.875rem;
+    color: #78716c;
+  }
+
+  .prose td {
+    border-bottom: 1px solid #f5f5f4;
+  }
+
+  .prose blockquote {
+    margin: 1.5rem 0;
+    padding: 0.25rem 0 0.25rem 1.25rem;
+    border-left: 1px solid #d6d3d1;
+  }
+
+  .prose blockquote p {
+    margin-bottom: 0;
+  }
+
+  .prose a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .prose a:hover {
+    text-decoration: underline;
+  }
+
+  .prose strong {
+    font-weight: 600;
+  }
+
+  .prose hr {
+    margin: 2.5rem 0;
+    border: none;
+    text-align: center;
+  }
+
+  .prose hr::after {
+    content: '· · ·';
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    letter-spacing: 0.5em;
+  }
+
+  .prose img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+</style>

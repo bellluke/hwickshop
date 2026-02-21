@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+/* ── Design Tokens ── */
+
+@theme {
+  --color-primary: #F97316;
+  --color-primary-hover: #EA580C;
+  --color-bg: #FFFBF5;
+  --color-surface: #FFFFFF;
+  --color-text: #1C1917;
+  --color-text-sub: #78716C;
+  --color-text-muted: #a8a29e;
+
+  /* Category accent — muted tones, used sparingly (thin borders, subtle text) */
+  --color-cat-pet: #BF923F;
+  --color-cat-sport: #4B9A82;
+  --color-cat-travel: #4D8FAD;
+  --color-cat-home: #7D72A8;
+  --color-cat-baby: #B26471;
+  --color-cat-school: #6669A3;
+  --color-cat-health: #4B9C8F;
+  --color-cat-gift: #AD6D8D;
+  --color-cat-start: #BF923F;
+
+  /* Shadows — 4-level elevation system */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.1);
+
+  /* Font families */
+  --font-sans: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, monospace;
+}
+
+/* ── Base Reset ── */
+
+html {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+}
+
+/* ── Typography ── */
+
+h1 {
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  color: var(--color-text);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  letter-spacing: -0.015em;
+  color: var(--color-text);
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  color: var(--color-text);
+}
+
+@media (max-width: 768px) {
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.0625rem; }
+  h3 { font-size: 1.0625rem; }
+}
+
+/* Prices & numbers */
+.font-price {
+  font-family: var(--font-mono);
+  font-weight: 600;
+}
+
+/* ── Content Width ── */
+
+.content-width {
+  max-width: 680px;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+/* ── Focus & Accessibility ── */
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

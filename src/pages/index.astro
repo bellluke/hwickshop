@@ -1,0 +1,92 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/components/layout/BaseLayout.astro';
+import { categories } from '@/data/categories';
+
+const articles = await getCollection('articles');
+const popularArticles = articles
+  .sort((a, b) => b.data.linkCount - a.data.linkCount)
+  .slice(0, 4);
+
+const now = new Date();
+const month = now.getMonth() + 1;
+const seasonalMessage =
+  month <= 2 ? '신학기 준비 시작하셨나요?' :
+  month === 3 ? '봄맞이 자취 정리 시즌!' :
+  month <= 5 ? '야외 활동 시작하기 좋은 때!' :
+  month <= 8 ? '여름 건강 관리 체크리스트' :
+  month <= 10 ? '가을 신학기 & 운동 시작!' :
+  '연말 선물 준비 시즌!';
+---
+
+<BaseLayout title="휙 — 처음 사는 건 여기서부터">
+  {/* Hero */}
+  <section class="content-width pt-20 pb-16 text-center">
+    <h1 class="text-3xl md:text-4xl tracking-tight">
+      처음 사는 건<br />여기서부터
+    </h1>
+    <p class="mt-3 text-[var(--color-text-sub)]">
+      필요한 것만 골라 알려드립니다.
+    </p>
+  </section>
+
+  {/* Category List */}
+  <section class="content-width pb-14">
+    <div class="grid grid-cols-2 gap-3 sm:grid-cols-3">
+      {categories.map((cat) => {
+        const articleCount = articles.filter((a) => a.data.category === cat.id).length;
+        return (
+          <a
+            href={cat.path}
+            class="flex items-baseline justify-between border border-[var(--color-primary)]/15 px-3 py-2.5 text-sm text-[var(--color-text)] no-underline transition-colors duration-150 hover:border-[var(--color-primary)]"
+          >
+            <span class="font-medium">{cat.name}</span>
+            {articleCount > 0 && (
+              <span class="text-xs text-[var(--color-text-muted)]">{articleCount}</span>
+            )}
+          </a>
+        );
+      })}
+    </div>
+  </section>
+
+  {/* Popular Articles */}
+  {popularArticles.length > 0 && (
+    <section class="content-width pb-14">
+      <h2 class="mb-5">
+        지금 많이 보는 가이드
+      </h2>
+      <div class="space-y-3">
+        {popularArticles.map((article) => {
+          const cat = categories.find((c) => c.id === article.data.category);
+          const slug = article.id.split('/').pop()!.replace(/\.md$/, '');
+          return (
+            <a
+              href={`/${article.data.category}/${slug}/`}
+              class="block border border-stone-200/60 bg-[var(--color-surface)] px-5 py-4 shadow-[var(--shadow-xs)] no-underline transition-colors duration-150 hover:border-[var(--color-primary)]"
+            >
+              {cat && (
+                <span class="text-xs text-[var(--color-text-muted)]">
+                  {cat.name}
+                </span>
+              )}
+              <h3 class="mt-1.5 text-[0.9375rem] font-semibold text-[var(--color-text)]">
+                {article.data.title}
+              </h3>
+              <p class="mt-2 line-clamp-2 text-sm text-[var(--color-text-sub)]">
+                {article.data.description}
+              </p>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  )}
+
+  {/* Season Note */}
+  <section class="content-width pb-20">
+    <p class="bg-[var(--color-primary)]/5 px-5 py-4 text-center text-sm text-[var(--color-text-sub)]">
+      {seasonalMessage}
+    </p>
+  </section>
+</BaseLayout>

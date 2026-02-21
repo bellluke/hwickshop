@@ -1,0 +1,29 @@
+---
+import { categories } from '@/data/categories';
+---
+
+<footer class="mt-16 border-t border-stone-100 py-10">
+  <div class="content-width">
+    <nav class="mb-6" aria-label="카테고리 링크">
+      <ul class="flex flex-wrap gap-x-4 gap-y-1.5">
+        {categories.map((cat) => (
+          <li>
+            <a
+              href={cat.path}
+              class="text-sm text-[var(--color-text-sub)] no-underline transition-colors duration-150 hover:text-[var(--color-text)]"
+            >
+              {cat.name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <div class="mt-8 border-t border-stone-100 pt-6 text-xs leading-relaxed text-[var(--color-text-muted)]">
+      <p>
+        이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+      </p>
+      <p class="mt-2">&copy; {new Date().getFullYear()} 휙 hwick.shop</p>
+    </div>
+  </div>
+</footer>

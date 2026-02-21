@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>썸네일 생성기 - 살까말까</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    padding: 40px;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Pretendard', sans-serif;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 32px;
+  }
+
+  /* 컨트롤 */
+  .controls {
+    margin-bottom: 32px;
+  }
+
+  .control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .control-group label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #6B7280;
+  }
+
+  select {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 16px;
+    border: 2px solid #D1D5DB;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    min-width: 400px;
+  }
+
+  select:focus {
+    outline: none;
+    border-color: #F97316;
+  }
+
+  /* 프리뷰 */
+  .canvas-wrapper {
+    border: 2px dashed #ccc;
+    margin-bottom: 8px;
+    width: 600px;
+    height: 314px;
+    overflow: hidden;
+  }
+
+  .thumbnail-container {
+    width: 1200px;
+    height: 628px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transform-origin: top left;
+  }
+
+  .thumbnail-emojis {
+    font-size: 80px;
+    line-height: 1;
+    margin-bottom: 24px;
+    letter-spacing: 8px;
+  }
+
+  .thumbnail-number {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 900;
+    font-size: 86px;
+    color: white;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -3px;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .thumbnail-sub {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    margin-top: 16px;
+    letter-spacing: -0.5px;
+  }
+
+  .thumbnail-badge {
+    position: absolute;
+    top: 36px;
+    left: 48px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    background: rgba(255, 255, 255, 0.18);
+    padding: 10px 22px;
+    border-radius: 24px;
+  }
+
+  .thumbnail-watermark {
+    position: absolute;
+    bottom: 32px;
+    right: 48px;
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.45);
+    letter-spacing: -1px;
+  }
+
+  /* 스케일된 프리뷰 */
+  .preview-wrapper .thumbnail-container {
+    transform: scale(0.5);
+    transform-origin: top left;
+  }
+
+  .preview-label {
+    font-size: 12px;
+    color: #9CA3AF;
+    margin-bottom: 24px;
+  }
+
+  /* 버튼 */
+  .actions {
+    display: flex;
+    gap: 12px;
+  }
+
+  button {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+
+  button:hover { opacity: 0.85; }
+
+  .btn-png { background: #F97316; color: white; }
+  .btn-jpg { background: #6366F1; color: white; }
+
+  /* 히든 렌더링 영역 */
+  .hidden-render {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+  }
+</style>
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
+</head>
+<body>
+
+  <h1>썸네일 생성기</h1>
+
+  <div class="controls">
+    <div class="control-group">
+      <label>콘텐츠 선택</label>
+      <select id="contentSelect" onchange="updatePreview()"></select>
+    </div>
+  </div>
+
+  <!-- 축소 프리뷰 -->
+  <div class="canvas-wrapper">
+    <div class="preview-wrapper">
+      <div class="thumbnail-container" id="previewArea">
+        <div class="thumbnail-badge" id="previewBadge"></div>
+        <div class="thumbnail-emojis" id="previewEmojis"></div>
+        <div class="thumbnail-number" id="previewNumber"></div>
+        <div class="thumbnail-sub" id="previewSub"></div>
+        <div class="thumbnail-watermark" id="previewLogo"></div>
+      </div>
+    </div>
+  </div>
+  <div class="preview-label">미리보기 (50% 축소) · 원본 1200×628px</div>
+
+  <div class="actions">
+    <button class="btn-png" onclick="capture('png')">PNG 저장</button>
+    <button class="btn-jpg" onclick="capture('jpg')">JPG 저장</button>
+  </div>
+
+  <!-- 캡처용 원본 크기 (숨김) -->
+  <div class="hidden-render">
+    <div class="thumbnail-container" id="captureArea">
+      <div class="thumbnail-badge" id="captureBadge"></div>
+      <div class="thumbnail-emojis" id="captureEmojis"></div>
+      <div class="thumbnail-number" id="captureNumber"></div>
+      <div class="thumbnail-sub" id="captureSub"></div>
+      <div class="thumbnail-watermark" id="captureLogo"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script>
+    const DATA = [
+      {
+        id: "S01",
+        category: "신학기",
+        categoryEmoji: "🎒",
+        emojis: "🎒✏️📐",
+        number: "10만원이면 충분",
+        numberColor: "#FDE68A",
+        sub: "초등 입학 준비, 이것만 사세요",
+        subColor: "rgba(255,255,255,0.9)",
+        color: "#6366F1",
+        colorGradient: "#4F46E5",
+        logo: "살까말까"
+      },
+      {
+        id: "P01",
+        category: "반려동물",
+        categoryEmoji: "🐾",
+        emojis: "🐶🦴🏠",
+        number: "첫 달 15만원",
+        numberColor: "#FFFFFF",
+        sub: "강아지 입양 전 준비물 정리",
+        subColor: "rgba(255,255,255,0.85)",
+        color: "#F59E0B",
+        colorGradient: "#D97706",
+        logo: "살까말까"
+      },
+      {
+        id: "H01",
+        category: "생활/자취",
+        categoryEmoji: "🏠",
+        emojis: "🏠🍳🧹",
+        number: "20만원으로 시작",
+        numberColor: "#FDE68A",
+        sub: "자취 처음이면 이것만 사세요",
+        subColor: "rgba(255,255,255,0.85)",
+        color: "#8B5CF6",
+        colorGradient: "#7C3AED",
+        logo: "살까말까"
+      },
+      {
+        id: "B01",
+        category: "육아",
+        categoryEmoji: "👶",
+        emojis: "👶🍼🧸",
+        number: "진짜 필요한 것만",
+        numberColor: "#FFFFFF",
+        sub: "출산 준비물, 돈 낭비 없이",
+        subColor: "rgba(255,255,255,0.85)",
+        color: "#F43F5E",
+        colorGradient: "#E11D48",
+        logo: "살까말까"
+      },
+      {
+        id: "T01",
+        category: "여행",
+        categoryEmoji: "🚀",
+        emojis: "✈️🧳🌏",
+        number: "8만원이면 끝",
+        numberColor: "#FDE68A",
+        sub: "해외여행 짐싸기 체크리스트",
+        subColor: "rgba(255,255,255,0.85)",
+        color: "#0EA5E9",
+        colorGradient: "#0284C7",
+        logo: "살까말까"
+      }
+    ];
+
+    // 셀렉트 옵션 생성
+    const select = document.getElementById('contentSelect');
+    DATA.forEach((item, i) => {
+      const opt = document.createElement('option');
+      opt.value = i;
+      opt.textContent = `${item.categoryEmoji} [${item.id}] ${item.number} — ${item.sub}`;
+      select.appendChild(opt);
+    });
+
+    function applyToArea(prefix, item) {
+      const area = document.getElementById(prefix + 'Area');
+      area.style.background = `linear-gradient(135deg, ${item.color} 0%, ${item.colorGradient} 100%)`;
+
+      document.getElementById(prefix + 'Badge').textContent = `${item.categoryEmoji} ${item.category}`;
+      document.getElementById(prefix + 'Emojis').textContent = item.emojis;
+      const numberEl = document.getElementById(prefix + 'Number');
+      numberEl.textContent = item.number;
+      numberEl.style.color = item.numberColor;
+
+      const subEl = document.getElementById(prefix + 'Sub');
+      subEl.textContent = item.sub;
+      subEl.style.color = item.subColor;
+      document.getElementById(prefix + 'Logo').textContent = item.logo;
+    }
+
+    function updatePreview() {
+      const item = DATA[document.getElementById('contentSelect').value];
+      applyToArea('preview', item);
+      applyToArea('capture', item);
+    }
+
+    updatePreview();
+
+    async function capture(format) {
+      const el = document.getElementById('captureArea');
+      const canvas = await html2canvas(el, {
+        width: 1200,
+        height: 628,
+        scale: 2,
+        useCORS: true,
+      });
+
+      const item = DATA[document.getElementById('contentSelect').value];
+      const link = document.createElement('a');
+      const filename = `${item.id}_${item.number.replace(/\s+/g, '_')}`;
+
+      if (format === 'jpg') {
+        link.download = `${filename}.jpg`;
+        link.href = canvas.toDataURL('image/jpeg', 0.95);
+      } else {
+        link.download = `${filename}.png`;
+        link.href = canvas.toDataURL('image/png');
+      }
+      link.click();
+    }
+  </script>
+</body>
+</html>

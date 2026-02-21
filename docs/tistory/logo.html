@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Logo Generator</title>
+<style>
+  body {
+    margin: 0;
+    padding: 40px;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Pretendard', sans-serif;
+  }
+
+  .canvas-wrapper {
+    border: 2px dashed #ccc;
+    margin-bottom: 24px;
+  }
+
+  .logo-container {
+    width: 400px;
+    height: 400px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 800;
+    font-size: 84px;
+    color: #F97316;
+    letter-spacing: -3px;
+    line-height: 1;
+  }
+
+  .sub {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #6B7280;
+    margin-top: 20px;
+  }
+
+  .actions {
+    display: flex;
+    gap: 12px;
+  }
+
+  button {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+
+  button:hover {
+    opacity: 0.85;
+  }
+
+  .btn-png {
+    background: #F97316;
+    color: white;
+  }
+
+  .btn-jpg {
+    background: #6366F1;
+    color: white;
+  }
+</style>
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
+</head>
+<body>
+  <div class="canvas-wrapper">
+    <div class="logo-container" id="logoArea">
+      <div class="logo">살까말까</div>
+      <div class="sub">사기 전에 한 번 더</div>
+    </div>
+  </div>
+
+  <div class="actions">
+    <button class="btn-png" onclick="capture('png')">PNG 저장</button>
+    <button class="btn-jpg" onclick="capture('jpg')">JPG 저장</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script>
+    async function capture(format) {
+      const el = document.getElementById('logoArea');
+      const canvas = await html2canvas(el, {
+        width: 400,
+        height: 400,
+        scale: 2,
+        useCORS: true,
+        backgroundColor: '#ffffff',
+      });
+
+      const link = document.createElement('a');
+      if (format === 'jpg') {
+        link.download = 'logo.jpg';
+        link.href = canvas.toDataURL('image/jpeg', 0.95);
+      } else {
+        link.download = 'logo.png';
+        link.href = canvas.toDataURL('image/png');
+      }
+      link.click();
+    }
+  </script>
+</body>
+</html>

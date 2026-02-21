@@ -1,0 +1,67 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/components/layout/BaseLayout.astro';
+import { categories, getCategoryById } from '@/data/categories';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return categories.map((cat) => ({
+    params: { category: cat.id },
+    props: {
+      category: cat,
+      articles: articles
+        .filter((a) => a.data.category === cat.id)
+        .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime()),
+    },
+  }));
+}
+
+const { category, articles } = Astro.props;
+---
+
+<BaseLayout
+  title={`${category.name} — 휙`}
+  description={category.description}
+>
+  <div class="content-width py-10">
+    <div class="mb-10">
+      <h1>{category.name}</h1>
+      <p class="mt-3 text-[var(--color-text-sub)]">{category.description}</p>
+    </div>
+
+    {articles.length > 0 ? (
+      <div class="space-y-3">
+        {articles.map((article) => {
+          const slug = article.id.split('/').pop()!.replace(/\.md$/, '');
+          return (
+            <a
+              href={`/${category.id}/${slug}/`}
+              class="block border border-stone-200/60 bg-[var(--color-surface)] px-5 py-4 shadow-[var(--shadow-xs)] no-underline transition-colors duration-150 hover:border-[var(--color-primary)]"
+            >
+              <h3 class="text-[0.9375rem] font-semibold text-[var(--color-text)]">
+                {article.data.title}
+              </h3>
+              <p class="mt-2 text-sm text-[var(--color-text-sub)]">
+                {article.data.description}
+              </p>
+              <div class="mt-2.5 flex flex-wrap gap-x-3 text-xs text-[var(--color-text-muted)]">
+                <span>
+                  {article.data.articleType === 'checklist' ? '체크리스트' :
+                   article.data.articleType === 'top5' ? 'TOP 5' :
+                   article.data.articleType === 'comparison' ? '비교' :
+                   article.data.articleType === 'starter-kit' ? '스타터킷' : '가이드'}
+                </span>
+                {article.data.linkCount > 0 && (
+                  <span>링크 {article.data.linkCount}개</span>
+                )}
+                <span>{article.data.readingTime}</span>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    ) : (
+      <p class="text-[var(--color-text-sub)]">아직 글이 없습니다. 곧 업데이트됩니다.</p>
+    )}
+  </div>
+</BaseLayout>
