@@ -66,7 +66,7 @@ const structuredData = {
     <h1 class="mt-6 mb-8">{article.data.title}</h1>
 
     {/* Meta */}
-    <div class="mb-28 flex flex-wrap gap-x-3 text-sm text-[var(--color-text-muted)]">
+    <div class="mb-6 flex flex-wrap gap-x-3 text-sm text-[var(--color-text-muted)]">
       <span>{article.data.publishedAt.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long' })}</span>
       <span>·</span>
       <span>{article.data.readingTime}</span>
@@ -77,6 +77,11 @@ const structuredData = {
         </>
       )}
     </div>
+
+    {/* Disclaimer */}
+    <p class="mb-16 text-sm text-[var(--color-text)]">
+      * 이 글은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+    </p>
 
     <div>
       {/* Article content */}
@@ -93,11 +98,6 @@ const structuredData = {
         />
       )}
 
-      {/* Disclaimer */}
-      <div class="mt-12 border-t border-stone-100 pt-6 text-sm leading-relaxed text-[var(--color-text-muted)]">
-        이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
-        상품의 가격과 재고는 변동될 수 있으며, 최종 가격은 쿠팡에서 확인하세요.
-      </div>
     </div>
   </div>
 </BaseLayout>
