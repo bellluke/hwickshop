@@ -33,8 +33,8 @@ seasonal: "2~3월"
 | 색연필 + 사인펜 세트 | 미술 시간 필수, 아이들이 좋아함 | 1~2만 |
 | 물통 (캐릭터) | 매일 쓰는 것, 캐릭터면 더 좋아함 | 1.5~3만 |
 
-👉 [커스텀 이름 스티커 300장](https://www.coupang.com/np/search?q=%EC%B4%88%EB%93%B1+%EC%9E%85%ED%95%99+%EC%9D%B4%EB%A6%84+%EC%8A%A4%ED%8B%B0%EC%BB%A4+%EC%BB%A4%EC%8A%A4%ED%85%80)
-👉 [파버카스텔 색연필 + 사인펜 세트](https://www.coupang.com/np/search?q=%ED%8C%8C%EB%B2%84%EC%B9%B4%EC%8A%A4%ED%85%94+%EC%83%89%EC%97%B0%ED%95%84+%EC%82%AC%EC%9D%B8%ED%8E%9C+%EC%84%B8%ED%8A%B8)
+👉 [커스텀 이름 스티커 300장](https://link.coupang.com/a/dQxs7H)
+👉 [파버카스텔 색연필 + 사인펜 세트](https://link.coupang.com/a/dQxtvV)
 
 ### 5만원대
 | 선물 | 왜 좋은지 | 가격대 |
@@ -43,9 +43,9 @@ seasonal: "2~3월"
 | 학용품 종합 선물세트 | 연필+지우개+필통+색연필 풀세트 | 3~5만 |
 | 어린이 시계 (방수) | 시간 개념 배우기 + 자기 관리 시작 | 3~5만 |
 
-👉 [콕사 초등 책가방](https://www.coupang.com/np/search?q=%EC%BD%95%EC%82%AC+%EC%B4%88%EB%93%B1+%EC%9E%85%ED%95%99+%EC%B1%85%EA%B0%80%EB%B0%A9)
-👉 [초등 입학 학용품 선물세트](https://www.coupang.com/np/search?q=%EC%B4%88%EB%93%B1+%EC%9E%85%ED%95%99+%ED%95%99%EC%9A%A9%ED%92%88+%EC%84%A0%EB%AC%BC%EC%84%B8%ED%8A%B8)
-👉 [키즈 방수 시계](https://www.coupang.com/np/search?q=%ED%82%A4%EC%A6%88+%EB%B0%A9%EC%88%98+%EC%8B%9C%EA%B3%84+%EC%B4%88%EB%93%B1)
+👉 [콕사 초등 책가방](https://link.coupang.com/a/dQxtfL)
+👉 [초등 입학 학용품 선물세트](https://link.coupang.com/a/dQxs99)
+👉 [키즈 방수 시계](https://link.coupang.com/a/dQxtiX)
 
 ### 10만원대
 | 선물 | 왜 좋은지 | 가격대 |
@@ -54,7 +54,7 @@ seasonal: "2~3월"
 | 책가방 + 학용품 풀세트 | 한 번에 다 해결해주는 선물 | 8~12만 |
 | 학습 전집 (그림책) | 읽기 습관 만들기 | 8~15만 |
 
-👉 [키즈 스마트워치 GPS](https://www.coupang.com/np/search?q=%ED%82%A4%EC%A6%88+%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%9B%8C%EC%B9%98+GPS+%EC%A0%84%ED%99%94)
+👉 [키즈 스마트워치 GPS](https://link.coupang.com/a/dQxtmr)
 
 > 💡 **팁**: 초등 입학은 **부모에게 주는 선물**이기도 해요. 책가방처럼 어차피 사야 하는 걸 선물하면 진짜 고마워합니다.
 
@@ -71,8 +71,8 @@ seasonal: "2~3월"
 | 보조배터리 | 2~3만 |
 | 에코백/크로스백 | 1~3만 |
 
-👉 [QCY 블루투스 이어폰](https://www.coupang.com/np/search?q=QCY+%EB%B8%94%EB%A3%A8%ED%88%AC%EC%8A%A4+%EC%9D%B4%EC%96%B4%ED%8F%B0)
-👉 [앤커 보조배터리 10000](https://www.coupang.com/np/search?q=%EC%95%A4%EC%BB%A4+%EB%B3%B4%EC%A1%B0%EB%B0%B0%ED%84%B0%EB%A6%AC+10000)
+👉 [QCY 블루투스 이어폰](https://link.coupang.com/a/dQxtyn)
+👉 [앤커 보조배터리 10000](https://link.coupang.com/a/dQxs1B)
 
 ### 5만원대
 | 선물 | 가격대 |
@@ -81,8 +81,8 @@ seasonal: "2~3월"
 | 카시오 손목시계 | 4~6만 |
 | 백팩 | 5~8만 |
 
-👉 [나이키 키즈 운동화](https://www.coupang.com/np/search?q=%EB%82%98%EC%9D%B4%ED%82%A4+%ED%82%A4%EC%A6%88+%EC%9A%B4%EB%8F%99%ED%99%94+%EC%A4%91%ED%95%99%EC%83%9D)
-👉 [카시오 손목시계 학생](https://www.coupang.com/np/search?q=%EC%B9%B4%EC%8B%9C%EC%98%A4+%EC%86%90%EB%AA%A9%EC%8B%9C%EA%B3%84+%ED%95%99%EC%83%9D)
+👉 [나이키 키즈 운동화](https://link.coupang.com/a/dQxsJQ)
+👉 [카시오 손목시계 학생](https://link.coupang.com/a/dQxtdv)
 
 ### 10만원 이상
 | 선물 | 가격대 |
@@ -106,8 +106,8 @@ seasonal: "2~3월"
 | 독서대 + 북라이트 세트 | 3~4만 |
 | 스타벅스 기프트카드 5만원 | 5만 |
 
-👉 [삼성 갤럭시 버즈 FE](https://www.coupang.com/np/search?q=%EC%82%BC%EC%84%B1+%EA%B0%A4%EB%9F%AD%EC%8B%9C+%EB%B2%84%EC%A6%88+FE)
-👉 [독서대 + LED 북라이트](https://www.coupang.com/np/search?q=%EB%8F%85%EC%84%9C%EB%8C%80+LED+%EB%B6%81%EB%9D%BC%EC%9D%B4%ED%8A%B8+%EC%84%B8%ED%8A%B8)
+👉 [삼성 갤럭시 버즈 FE](https://link.coupang.com/a/dQxuKC)
+👉 [독서대 + LED 북라이트](https://link.coupang.com/a/dQxsNL)
 
 ### 10만원대
 | 선물 | 가격대 |
@@ -116,7 +116,7 @@ seasonal: "2~3월"
 | 아이패드 미니 (중고/리퍼) | 30~40만 |
 | 현금 10만원 + 텀블러 | 12~13만 |
 
-👉 [애플 에어팟 3세대](https://www.coupang.com/np/search?q=%EC%95%A0%ED%94%8C+%EC%97%90%EC%96%B4%ED%8C%9F+3%EC%84%B8%EB%8C%80)
+👉 [애플 에어팟 3세대](https://link.coupang.com/a/dQxsZc)
 
 > 💡 **고등학생 현실**: 공부가 본업이라 학교에서 쓸 수 있는 건 제한적. 현금이나 기프트카드가 가장 환영받습니다.
 
@@ -133,8 +133,8 @@ seasonal: "2~3월"
 | 텀블러 (브랜드) | 3~5만 |
 | USB 허브 (HDMI 포함) | 3~4만 |
 
-👉 [앤커 65W 멀티포트 충전기](https://www.coupang.com/np/search?q=%EC%95%A4%EC%BB%A4+65W+%EB%A9%80%ED%8B%B0%ED%8F%AC%ED%8A%B8+%EC%B6%A9%EC%A0%84%EA%B8%B0)
-👉 [스탠리 텀블러](https://www.coupang.com/np/search?q=%EC%8A%A4%ED%83%A0%EB%A6%AC+%ED%85%80%EB%B8%94%EB%9F%AC+591ml)
+👉 [앤커 65W 멀티포트 충전기](https://link.coupang.com/a/dQxs5z)
+👉 [스탠리 텀블러](https://link.coupang.com/a/dQxsWT)
 
 ### 10만원대
 | 선물 | 가격대 |
@@ -143,7 +143,7 @@ seasonal: "2~3월"
 | 노트북 거치대 + 키보드 + 마우스 세트 | 8~12만 |
 | 백화점 상품권 10만원 | 10만 |
 
-👉 [소니 WH-CH720N 헤드폰](https://www.coupang.com/np/search?q=%EC%86%8C%EB%8B%88+WH-CH720N+%EB%85%B8%EC%9D%B4%EC%A6%88%EC%BA%94%EC%8A%AC%EB%A7%81)
+👉 [소니 WH-CH720N 헤드폰](https://link.coupang.com/a/dQxsUB)
 
 ### 30만원 이상 (특별한 관계)
 | 선물 | 가격대 |

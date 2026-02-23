@@ -48,7 +48,7 @@ publishedAt: 2026-02-01
 **왜 1위**: 유럽 안전 최고 등급. 후방 장착 기간이 길어서 안전. 각도 조절 쉬움.
 **단점**: 비쌈. 무거움(11kg).
 
-👉 [맥시코시 코어 i-Size](https://www.coupang.com/np/search?q=%EB%A7%A5%EC%8B%9C%EC%BD%94%EC%8B%9C+%EC%BD%94%EC%96%B4+i-Size+%EC%B9%B4%EC%8B%9C%ED%8A%B8)
+👉 [맥시코시 코어 i-Size](https://link.coupang.com/a/dQubQC)
 
 ### 2위. 다이치 퍼스트7 플러스
 
@@ -63,7 +63,7 @@ publishedAt: 2026-02-01
 **왜 2위**: 국내 인기 1위. 7세까지 사용 가능 → 장기적으로 가성비. 한국 차량에 최적화.
 **단점**: ECE R129(최신)가 아닌 R44 기준.
 
-👉 [다이치 퍼스트7 플러스](https://www.coupang.com/np/search?q=%EB%8B%A4%EC%9D%B4%EC%B9%98+%ED%8D%BC%EC%8A%A4%ED%8A%B87+%ED%94%8C%EB%9F%AC%EC%8A%A4+%EC%B9%B4%EC%8B%9C%ED%8A%B8)
+👉 [다이치 퍼스트7 플러스](https://link.coupang.com/a/dQua7P)
 
 ### 3위. 싸이벡스 시로나 S2
 
@@ -78,7 +78,7 @@ publishedAt: 2026-02-01
 **왜 3위**: **360도 회전** = 아이 태우고 내리기 편함. 안전성 최상급.
 **단점**: 가격이 높음.
 
-👉 [싸이벡스 시로나 S2](https://www.coupang.com/np/search?q=%EC%8B%B8%EC%9D%B4%EB%B2%A1%EC%8A%A4+%EC%8B%9C%EB%A1%9C%EB%82%98+S2+%EC%B9%B4%EC%8B%9C%ED%8A%B8)
+👉 [싸이벡스 시로나 S2](https://link.coupang.com/a/dQuccr)
 
 ### 4위. 조이 스핀 360 (가성비)
 
@@ -93,7 +93,7 @@ publishedAt: 2026-02-01
 **왜 4위**: 360도 회전이면서 25만원대. **회전 카시트 중 가성비 최고.**
 **단점**: 사용 기간이 4세까지 (7세용은 별도 구매 필요).
 
-👉 [조이 스핀 360](https://www.coupang.com/np/search?q=%EC%A1%B0%EC%9D%B4+%EC%8A%A4%ED%95%80+360+%EC%B9%B4%EC%8B%9C%ED%8A%B8+ISOFIX)
+👉 [조이 스핀 360](https://link.coupang.com/a/dQucse)
 
 ### 5위. 순성 듀클 아이사이즈
 
@@ -108,7 +108,7 @@ publishedAt: 2026-02-01
 **왜 5위**: **12세까지** 사용. 한 번 사면 끝. 국내 브랜드라 AS 편리.
 **단점**: 회전 안 됨. 신생아 때 각도가 살짝 아쉬움.
 
-👉 [순성 듀클 아이사이즈](https://www.coupang.com/np/search?q=%EC%88%9C%EC%84%B1+%EB%93%80%ED%81%B4+%EC%95%84%EC%9D%B4%EC%82%AC%EC%9D%B4%EC%A6%88+%EC%B9%B4%EC%8B%9C%ED%8A%B8)
+👉 [순성 듀클 아이사이즈](https://link.coupang.com/a/dQub3v)
 
 ---
 

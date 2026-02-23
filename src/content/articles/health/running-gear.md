@@ -31,9 +31,9 @@ seasonal: "3~5월, 9~10월"
 
 **입문이면 가민 포러너 55 or 코로스 페이스2.** 페이스, 심박수, 거리, 케이던스 다 기록.
 
-👉 [가민 포러너 55](https://www.coupang.com/np/search?q=%EA%B0%80%EB%AF%BC+%ED%8F%AC%EB%9F%AC%EB%84%88+55+%EB%9F%AC%EB%8B%9D%EC%9B%8C%EC%B9%98)
-👉 [코로스 페이스 2](https://www.coupang.com/np/search?q=%EC%BD%94%EB%A1%9C%EC%8A%A4+%ED%8E%98%EC%9D%B4%EC%8A%A42+%EB%9F%AC%EB%8B%9D%EC%9B%8C%EC%B9%98)
-👉 [애플워치 SE](https://www.coupang.com/np/search?q=%EC%95%A0%ED%94%8C%EC%9B%8C%EC%B9%98+SE+GPS)
+👉 [가민 포러너 55](https://link.coupang.com/a/dQupiO)
+👉 [코로스 페이스 2](https://link.coupang.com/a/dQuqym)
+👉 [애플워치 SE](https://link.coupang.com/a/dQuqkt)
 
 ---
 
@@ -48,8 +48,8 @@ seasonal: "3~5월, 9~10월"
 
 > 💡 **도로 러닝이면 골전도 추천.** 귀를 막지 않아서 차 소리, 자전거 소리 들림 = 안전.
 
-👉 [샥즈 오픈런 골전도](https://www.coupang.com/np/search?q=%EC%83%A5%EC%A6%88+%EC%98%A4%ED%94%88%EB%9F%B0+%EA%B3%A8%EC%A0%84%EB%8F%84+%EC%9D%B4%EC%96%B4%ED%8F%B0)
-👉 [JBL Endurance Race](https://www.coupang.com/np/search?q=JBL+Endurance+Race+%EB%9F%AC%EB%8B%9D+%EC%9D%B4%EC%96%B4%ED%8F%B0)
+👉 [샥즈 오픈런 골전도](https://link.coupang.com/a/dQuqc8)
+👉 [JBL Endurance Race](https://link.coupang.com/a/dQuqDF)
 
 ---
 
@@ -61,8 +61,8 @@ seasonal: "3~5월, 9~10월"
 | 종아리 압박 슬리브 | 장거리 (10km+) | 2~3만 |
 | 인솔 (깔창) | 발 아치 낮은 분 (평발) | 2~5만 |
 
-👉 [러닝 무릎 보호대](https://www.coupang.com/np/search?q=%EB%9F%AC%EB%8B%9D+%EB%AC%B4%EB%A6%8E+%EB%B3%B4%ED%98%B8%EB%8C%80+%EC%8A%A4%ED%8F%AC%EC%B8%A0)
-👉 [기능성 인솔 (아치 서포트)](https://www.coupang.com/np/search?q=%EA%B8%B0%EB%8A%A5%EC%84%B1+%EC%9D%B8%EC%86%94+%EC%95%84%EC%B9%98%EC%84%9C%ED%8F%AC%ED%8A%B8+%EB%9F%AC%EB%8B%9D)
+👉 [러닝 무릎 보호대](https://link.coupang.com/a/dQupwU)
+👉 [기능성 인솔 (아치 서포트)](https://link.coupang.com/a/dQupo4)
 
 ---
 
@@ -74,8 +74,8 @@ seasonal: "3~5월, 9~10월"
 | 러닝 조끼 (하이드레이션) | 물+보급+폰 | 10km 이상 |
 | 암밴드 | 폰만 | 미니멀 |
 
-👉 [러닝 벨트 (스마트폰 수납)](https://www.coupang.com/np/search?q=%EB%9F%AC%EB%8B%9D+%EB%B2%A8%ED%8A%B8+%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0+%EC%88%98%EB%82%A9)
-👉 [러닝 조끼 하이드레이션](https://www.coupang.com/np/search?q=%EB%9F%AC%EB%8B%9D+%EC%A1%B0%EB%81%BC+%ED%95%98%EC%9D%B4%EB%93%9C%EB%A0%88%EC%9D%B4%EC%85%98+%EC%88%98%EB%B6%84)
+👉 [러닝 벨트 (스마트폰 수납)](https://link.coupang.com/a/dQupKS)
+👉 [러닝 조끼 하이드레이션](https://link.coupang.com/a/dQupZo)
 
 ---
 
@@ -87,8 +87,8 @@ seasonal: "3~5월, 9~10월"
 | LED 클립 (옷/신발) | 0.5~1만 |
 | 헤드랜턴 | 1~3만 |
 
-👉 [야간 러닝 반사 조끼](https://www.coupang.com/np/search?q=%EC%95%BC%EA%B0%84+%EB%9F%AC%EB%8B%9D+%EB%B0%98%EC%82%AC+%EC%A1%B0%EB%81%BC+LED)
-👉 [LED 클립 (러닝 안전)](https://www.coupang.com/np/search?q=LED+%ED%81%B4%EB%A6%BD+%EB%9F%AC%EB%8B%9D+%EC%95%88%EC%A0%84+%EC%95%BC%EA%B0%84)
+👉 [야간 러닝 반사 조끼](https://link.coupang.com/a/dQuqqy)
+👉 [LED 클립 (러닝 안전)](https://link.coupang.com/a/dQuqMa)
 
 ---
 
@@ -99,7 +99,7 @@ seasonal: "3~5월, 9~10월"
 - 모자 (챙 넓은 것, 통풍)
 - 선크림 (SPF 50, 방수)
 
-👉 [러닝 캡 (통풍)](https://www.coupang.com/np/search?q=%EB%9F%AC%EB%8B%9D+%EC%BA%A1+%EB%AA%A8%EC%9E%90+%ED%86%B5%ED%92%8D+%EC%86%8D%EA%B1%B4)
+👉 [러닝 캡 (통풍)](https://link.coupang.com/a/dQup61)
 
 ### 겨울
 - 기모 상의 + 바람막이
@@ -107,8 +107,8 @@ seasonal: "3~5월, 9~10월"
 - 넥워머 or 버프
 - 기모 타이츠
 
-👉 [러닝 바람막이 (경량)](https://www.coupang.com/np/search?q=%EB%9F%AC%EB%8B%9D+%EB%B0%94%EB%9E%8C%EB%A7%89%EC%9D%B4+%EA%B2%BD%EB%9F%89+%EB%B0%A9%ED%92%8D)
-👉 [러닝 터치 장갑](https://www.coupang.com/np/search?q=%EB%9F%AC%EB%8B%9D+%EC%9E%A5%EA%B0%91+%ED%84%B0%EC%B9%98%EC%8A%A4%ED%81%AC%EB%A6%B0+%EA%B2%A8%EC%9A%B8)
+👉 [러닝 바람막이 (경량)](https://link.coupang.com/a/dQupDg)
+👉 [러닝 터치 장갑](https://link.coupang.com/a/dQupTi)
 
 ---
 

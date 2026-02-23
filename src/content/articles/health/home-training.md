@@ -31,8 +31,8 @@ seasonal: "1~3월"
 - 두께: **6~8mm** (너무 얇으면 무릎 아프고, 너무 두꺼우면 밸런스 불안정)
 - 소재: TPE (냄새 없음, 미끄럼 방지) > NBR (쿠션 좋지만 미끄러움) > PVC (저렴하지만 냄새)
 
-👉 [TPE 요가매트 6mm](https://www.coupang.com/np/search?q=TPE+%EC%9A%94%EA%B0%80%EB%A7%A4%ED%8A%B8+6mm+%EB%85%BC%EC%8A%AC%EB%A6%BD)
-👉 [NBR 요가매트 10mm (쿠션형)](https://www.coupang.com/np/search?q=NBR+%EC%9A%94%EA%B0%80%EB%A7%A4%ED%8A%B8+10mm)
+👉 [TPE 요가매트 6mm](https://link.coupang.com/a/dQunOj)
+👉 [NBR 요가매트 10mm (쿠션형)](https://link.coupang.com/a/dQunIx)
 
 ### 폼롤러
 
@@ -40,7 +40,7 @@ seasonal: "1~3월"
 
 - 처음이면 **EVA 소재 (중간 강도)** — 딱딱한 건 처음에 너무 아픔
 
-👉 [EVA 폼롤러 (중간 강도)](https://www.coupang.com/np/search?q=EVA+%ED%8F%BC%EB%A1%A4%EB%9F%AC+45cm+%EC%A4%91%EA%B0%84%EA%B0%95%EB%8F%84)
+👉 [EVA 폼롤러 (중간 강도)](https://link.coupang.com/a/dQunCj)
 
 > 이 2개로 유튜브 홈트 영상 따라하면 3개월은 버팁니다.
 
@@ -58,8 +58,8 @@ seasonal: "1~3월"
 
 처음이면 **고정 덤벨 3kg 한 쌍**으로 시작. 가벼워 보이지만 20분 운동하면 충분.
 
-👉 [네오프렌 덤벨 3kg 2개](https://www.coupang.com/np/search?q=%EB%84%A4%EC%98%A4%ED%94%84%EB%A0%8C+%EB%8D%A4%EB%B2%A8+3kg+2%EA%B0%9C)
-👉 [가변 덤벨 24kg](https://www.coupang.com/np/search?q=%EA%B0%80%EB%B3%80+%EB%8D%A4%EB%B2%A8+24kg)
+👉 [네오프렌 덤벨 3kg 2개](https://link.coupang.com/a/dQumOA)
+👉 [가변 덤벨 24kg](https://link.coupang.com/a/dQumGM)
 
 ### 풀업바 (문틀 철봉)
 
@@ -69,13 +69,13 @@ seasonal: "1~3월"
 - 미끄럼 방지 고무 패드 있는 것
 - 체중 120kg 이상 지지
 
-👉 [문틀 풀업바 (공사 불필요)](https://www.coupang.com/np/search?q=%EB%AC%B8%ED%8B%80+%ED%92%80%EC%97%85%EB%B0%94+%EC%B2%A0%EB%B4%89+%EA%B3%B5%EC%82%AC%EB%B6%88%ED%95%84%EC%9A%94)
+👉 [문틀 풀업바 (공사 불필요)](https://link.coupang.com/a/dQumUO)
 
 ### 저항 밴드 세트
 
 관절에 부담 없이 근력 운동. 강도별 3~5개 세트가 일반적.
 
-👉 [저항 밴드 세트 (5단계)](https://www.coupang.com/np/search?q=%EC%A0%80%ED%95%AD%EB%B0%B4%EB%93%9C+%EC%84%B8%ED%8A%B8+5%EB%8B%A8%EA%B3%84)
+👉 [저항 밴드 세트 (5단계)](https://link.coupang.com/a/dQunbn)
 
 ---
 
@@ -89,13 +89,13 @@ seasonal: "1~3월"
 | 복근 롤러 (ab wheel) | 코어 최강 장비 | 1~2만 |
 | 줄넘기 | 유산소, 층간소음 주의 | 1만 |
 
-👉 [접이식 벤치](https://www.coupang.com/np/search?q=%EC%A0%91%EC%9D%B4%EC%8B%9D+%EB%B2%A4%EC%B9%98+%EB%8D%A4%EB%B2%A8+%ED%99%88%ED%8A%B8)
-👉 [케틀벨 12kg](https://www.coupang.com/np/search?q=%EC%BC%80%ED%8B%80%EB%B2%A8+12kg)
-👉 [복근 롤러](https://www.coupang.com/np/search?q=%EB%B3%B5%EA%B7%BC+%EB%A1%A4%EB%9F%AC+ab+wheel)
+👉 [접이식 벤치](https://link.coupang.com/a/dQungM)
+👉 [케틀벨 12kg](https://link.coupang.com/a/dQuntT)
+👉 [복근 롤러](https://link.coupang.com/a/dQum2M)
 
 > 💡 **층간소음 주의**: 점프, 줄넘기는 매트 2겹 + 운동 시간(오전 10시~오후 8시) 지켜주세요. 층간소음 매트도 있어요.
 
-👉 [층간소음 방지 매트 (운동용)](https://www.coupang.com/np/search?q=%EC%B8%B5%EA%B0%84%EC%86%8C%EC%9D%8C+%EB%B0%A9%EC%A7%80+%EB%A7%A4%ED%8A%B8+%EC%9A%B4%EB%8F%99)
+👉 [층간소음 방지 매트 (운동용)](https://link.coupang.com/a/dQunnE)
 
 ---
 

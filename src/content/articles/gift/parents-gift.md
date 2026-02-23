@@ -30,8 +30,8 @@ seasonal: "5월, 9월"
 | 온열 안대 | 눈 피로 해소, 수면 질 향상 | 2~3만 |
 | 무릎 담요 (고급) | 거실 소파, 차 안에서 | 2~3만 |
 
-👉 [핸드 안마 볼 (온열)](https://www.coupang.com/np/search?q=%EC%95%88%EB%A7%88%EB%B3%BC+%ED%95%B8%EB%93%9C+%EC%98%A8%EC%97%B4)
-👉 [온열 안대 (USB 충전)](https://www.coupang.com/np/search?q=%EC%98%A8%EC%97%B4+%EC%95%88%EB%8C%80+USB+%EC%B6%A9%EC%A0%84)
+👉 [핸드 안마 볼 (온열)](https://link.coupang.com/a/dQulRh)
+👉 [온열 안대 (USB 충전)](https://link.coupang.com/a/dQumhV)
 
 ---
 
@@ -44,9 +44,9 @@ seasonal: "5월, 9월"
 | 전동 칫솔 (부모님용) | 잇몸 건강 = 전신 건강 | 3~5만 |
 | 고급 보온병 (500ml) | 외출 시 따뜻한 차 | 3~5만 |
 
-👉 [미니 마사지건 (저소음)](https://www.coupang.com/np/search?q=%EB%AF%B8%EB%8B%88+%EB%A7%88%EC%82%AC%EC%A7%80%EA%B1%B4+%EC%A0%80%EC%86%8C%EC%9D%8C+%EA%B0%80%EC%84%B1%EB%B9%84)
-👉 [발 마사지기 (지압 롤러)](https://www.coupang.com/np/search?q=%EB%B0%9C+%EB%A7%88%EC%82%AC%EC%A7%80%EA%B8%B0+%EC%A7%80%EC%95%95+%EB%A1%A4%EB%9F%AC)
-👉 [필립스 전동 칫솔](https://www.coupang.com/np/search?q=%ED%95%84%EB%A6%BD%EC%8A%A4+%EC%A0%84%EB%8F%99%EC%B9%AB%EC%86%94+%EC%9E%87%EB%AA%B8%EC%BC%80%EC%96%B4)
+👉 [미니 마사지건 (저소음)](https://link.coupang.com/a/dQulEB)
+👉 [발 마사지기 (지압 롤러)](https://link.coupang.com/a/dQulKj)
+👉 [필립스 전동 칫솔](https://link.coupang.com/a/dQumnY)
 
 > 💡 **마사지건은 "저소음" 확인**. 소음 큰 건 안 쓰십니다.
 
@@ -61,8 +61,8 @@ seasonal: "5월, 9월"
 | 혈압계 (자동) | 가정용 필수. 매일 체크 | 5~10만 |
 | 체중계 (체지방 측정) | 건강 관리 동기부여 | 3~5만 |
 
-👉 [안마 쿠션 (온열 등마사지)](https://www.coupang.com/np/search?q=%EC%95%88%EB%A7%88%EC%BF%A0%EC%85%98+%EC%98%A8%EC%97%B4+%EB%93%B1+%ED%97%88%EB%A6%AC+%EB%A7%88%EC%82%AC%EC%A7%80)
-👉 [오므론 자동 혈압계](https://www.coupang.com/np/search?q=%EC%98%A4%EB%AF%80%EB%A1%A0+%EC%9E%90%EB%8F%99+%ED%98%88%EC%95%95%EA%B3%84+%EA%B0%80%EC%A0%95%EC%9A%A9)
+👉 [안마 쿠션 (온열 등마사지)](https://link.coupang.com/a/dQul30)
+👉 [오므론 자동 혈압계](https://link.coupang.com/a/dQumaW)
 
 ---
 
@@ -74,8 +74,8 @@ seasonal: "5월, 9월"
 | 로봇청소기 | 허리 숙여서 청소 안 해도 됨 | 20~30만 |
 | 건강검진 상품권 | 가장 실용적인 건강 선물 | 20~50만 |
 
-👉 [안마 의자 패드 (전신형)](https://www.coupang.com/np/search?q=%EC%95%88%EB%A7%88%EC%9D%98%EC%9E%90%ED%8C%A8%EB%93%9C+%EC%A0%84%EC%8B%A0+%EC%98%A8%EC%97%B4)
-👉 [로봇청소기 (가성비)](https://www.coupang.com/np/search?q=%EB%A1%9C%EB%B4%87%EC%B2%AD%EC%86%8C%EA%B8%B0+%EA%B0%80%EC%84%B1%EB%B9%84+%EC%9E%90%EB%8F%99%EC%B6%A9%EC%A0%84)
+👉 [안마 의자 패드 (전신형)](https://link.coupang.com/a/dQulXN)
+👉 [로봇청소기 (가성비)](https://link.coupang.com/a/dQulxt)
 
 ---
 

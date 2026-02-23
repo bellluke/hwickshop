@@ -36,8 +36,8 @@ publishedAt: 2026-02-01
 | 팸퍼스 | 퓨어 프로텍션 | 400~450원 | 피부 자극 최소, 병원 납품 |
 | 리베로 | 터치 | 380~430원 | 유럽 No.1, 통기성 좋음 |
 
-👉 [하기스 네이처 메이드 S (174매)](https://www.coupang.com/np/search?q=%ED%95%98%EA%B8%B0%EC%8A%A4+%EB%84%A4%EC%9D%B4%EC%B2%98%EB%A9%94%EC%9D%B4%EB%93%9C+S+%EB%8C%80%EC%9A%A9%EB%9F%89)
-👉 [팸퍼스 퓨어 프로텍션 S](https://www.coupang.com/np/search?q=%ED%8C%B8%ED%8D%BC%EC%8A%A4+%ED%93%A8%EC%96%B4+%ED%94%84%EB%A1%9C%ED%85%8D%EC%85%98+S)
+👉 [하기스 네이처 메이드 S (174매)](https://link.coupang.com/a/dQudNp)
+👉 [팸퍼스 퓨어 프로텍션 S](https://link.coupang.com/a/dQudC8)
 
 ### 가성비
 
@@ -47,8 +47,8 @@ publishedAt: 2026-02-01
 | 마미포코 | 팬티 | 200~250원 | 최저가, 기본 기능 충실 |
 | 궁중비책 | 궁 | 280~320원 | 한방 성분, 피부 진정 |
 
-👉 [보솜이 리얼코튼 M (대용량)](https://www.coupang.com/np/search?q=%EB%B3%B4%EC%86%9C%EC%9D%B4+%EB%A6%AC%EC%96%BC%EC%BD%94%ED%8A%BC+M+%EB%8C%80%EC%9A%A9%EB%9F%89)
-👉 [마미포코 팬티 M](https://www.coupang.com/np/search?q=%EB%A7%88%EB%AF%B8%ED%8F%AC%EC%BD%94+%ED%8C%AC%ED%8B%B0+M+%EB%8C%80%EC%9A%A9%EB%9F%89)
+👉 [보솜이 리얼코튼 M (대용량)](https://link.coupang.com/a/dQudbe)
+👉 [마미포코 팬티 M](https://link.coupang.com/a/dQucYV)
 
 ---
 
@@ -106,8 +106,8 @@ publishedAt: 2026-02-01
 | 기저귀 휴지통 (밀폐형) | 냄새 차단 필수 | 2~5만 |
 | 방수 매트 (교체용) | 갈 때 바닥 보호 | 1~2만 |
 
-👉 [아기 물티슈 캡형 100매 × 10](https://www.coupang.com/np/search?q=%EC%95%84%EA%B8%B0+%EB%AC%BC%ED%8B%B0%EC%8A%88+%EC%BA%A1%ED%98%95+100%EB%A7%A4+10%ED%8C%A9)
-👉 [기저귀 크림 (디시틴)](https://www.coupang.com/np/search?q=%EA%B8%B0%EC%A0%80%EA%B7%80+%ED%81%AC%EB%A6%BC+%EB%94%94%EC%8B%9C%ED%8B%B4)
-👉 [기저귀 휴지통 (밀폐 냄새차단)](https://www.coupang.com/np/search?q=%EA%B8%B0%EC%A0%80%EA%B7%80+%ED%9C%B4%EC%A7%80%ED%86%B5+%EB%B0%80%ED%8F%90+%EB%83%84%EC%83%88%EC%B0%A8%EB%8B%A8)
+👉 [아기 물티슈 캡형 100매 × 10](https://link.coupang.com/a/dQudrK)
+👉 [기저귀 크림 (디시틴)](https://link.coupang.com/a/dQucC8)
+👉 [기저귀 휴지통 (밀폐 냄새차단)](https://link.coupang.com/a/dQucNz)
 
 ---

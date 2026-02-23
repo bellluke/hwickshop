@@ -33,9 +33,9 @@ seasonal: "2~4월"
 - [ ] 큰 비닐봉투 — 이불, 옷 압축용
 - [ ] 유성 매직 — 박스마다 내용물 표시
 
-👉 [이사 박스 세트 (대+중+소)](https://www.coupang.com/np/search?q=%EC%9D%B4%EC%82%AC+%EB%B0%95%EC%8A%A4+%EC%84%B8%ED%8A%B8+%EB%8C%80%EC%A4%91%EC%86%8C)
-👉 [에어캡 50m](https://www.coupang.com/np/search?q=%EC%97%90%EC%96%B4%EC%BA%A1+%EB%BD%81%EB%BD%81%EC%9D%B4+50m)
-👉 [이불 압축팩 (대형)](https://www.coupang.com/np/search?q=%EC%9D%B4%EB%B6%88+%EC%95%95%EC%B6%95%ED%8C%A9+%EB%8C%80%ED%98%95)
+👉 [이사 박스 세트 (대+중+소)](https://link.coupang.com/a/dQutD1)
+👉 [에어캡 50m](https://link.coupang.com/a/dQutou)
+👉 [이불 압축팩 (대형)](https://link.coupang.com/a/dQutwr)
 
 ---
 
@@ -51,9 +51,9 @@ seasonal: "2~4월"
 - [ ] 바퀴벌레 훈증 — 짐 넣기 전이 유일한 기회
 - [ ] 환기 (창문 전부 열기)
 
-👉 [바퀴벌레 훈증제 (원룸용)](https://www.coupang.com/np/search?q=%EB%B0%94%ED%80%B4%EB%B2%8C%EB%A0%88+%ED%9B%88%EC%A6%9D%EC%A0%9C+%EC%9B%90%EB%A3%B8)
-👉 [곰팡이 제거제](https://www.coupang.com/np/search?q=%EA%B3%B0%ED%8C%A1%EC%9D%B4+%EC%A0%9C%EA%B1%B0%EC%A0%9C+%EC%9A%95%EC%8B%A4)
-👉 [다용도 세정제](https://www.coupang.com/np/search?q=%EB%8B%A4%EC%9A%A9%EB%8F%84+%EC%84%B8%EC%A0%95%EC%A0%9C+%EA%B0%80%EC%A0%95%EC%9A%A9)
+👉 [바퀴벌레 훈증제 (원룸용)](https://link.coupang.com/a/dQusYx)
+👉 [곰팡이 제거제](https://link.coupang.com/a/dQuszT)
+👉 [다용도 세정제](https://link.coupang.com/a/dQusLQ)
 
 > 💡 **핵심**: 바퀴벌레 훈증은 **빈 집일 때만 효과적**. 짐 풀고 나면 숨을 곳이 생겨서 효과 반감. 이사 당일 짐 넣기 1~2시간 전에 터뜨리세요.
 
@@ -62,7 +62,7 @@ seasonal: "2~4월"
 - [ ] 바닥 보호 시트 — 장판/마루 긁힘 방지
 - [ ] 코너 보호대 — 벽 모서리 (특히 냉장고, 세탁기 경로)
 
-👉 [바닥 보호 시트 (이사용)](https://www.coupang.com/np/search?q=%EB%B0%94%EB%8B%A5+%EB%B3%B4%ED%98%B8+%EC%8B%9C%ED%8A%B8+%EC%9D%B4%EC%82%AC)
+👉 [바닥 보호 시트 (이사용)](https://link.coupang.com/a/dQusRT)
 
 **3단계: 설치**
 - [ ] 커튼/블라인드 — 첫날 밤 프라이버시
@@ -82,8 +82,8 @@ seasonal: "2~4월"
 | 가스레인지 커버 | 기름때 방지 |
 | 냉장고 탈취제 | 이전 세입자 냄새 |
 
-👉 [싱크대 선반 정리대](https://www.coupang.com/np/search?q=%EC%8B%B1%ED%81%AC%EB%8C%80+%EC%84%A0%EB%B0%98+%EC%A0%95%EB%A6%AC%EB%8C%80+%EC%8A%A4%ED%85%8C%EC%9D%B8%EB%A6%AC%EC%8A%A4)
-👉 [배수구 거름망 (스테인리스)](https://www.coupang.com/np/search?q=%EB%B0%B0%EC%88%98%EA%B5%AC+%EA%B1%B0%EB%A6%84%EB%A7%9D+%EC%8A%A4%ED%85%8C%EC%9D%B8%EB%A6%AC%EC%8A%A4)
+👉 [싱크대 선반 정리대](https://link.coupang.com/a/dQutiT)
+👉 [배수구 거름망 (스테인리스)](https://link.coupang.com/a/dQus4I)
 
 ### 욕실
 
@@ -94,8 +94,8 @@ seasonal: "2~4월"
 | 곰팡이 방지 실리콘 | 코킹 갈라진 곳 |
 | 변기 세정제 | 이전 세입자... |
 
-👉 [녹물 제거 샤워기 필터](https://www.coupang.com/np/search?q=%EB%85%B9%EB%AC%BC+%EC%A0%9C%EA%B1%B0+%EC%83%A4%EC%9B%8C%EA%B8%B0+%ED%95%84%ED%84%B0)
-👉 [흡착식 욕실 선반](https://www.coupang.com/np/search?q=%ED%9D%A1%EC%B0%A9%EC%8B%9D+%EC%9A%95%EC%8B%A4+%EC%84%A0%EB%B0%98+%EC%8A%A4%ED%85%8C%EC%9D%B8%EB%A6%AC%EC%8A%A4)
+👉 [녹물 제거 샤워기 필터](https://link.coupang.com/a/dQxpCh)
+👉 [흡착식 욕실 선반](https://link.coupang.com/a/dQuuaf)
 
 ### 보안/안전
 
@@ -106,8 +106,8 @@ seasonal: "2~4월"
 | 소화기 (소형) | 원룸 화재 대비 |
 | 일산화탄소 경보기 | 가스보일러 있는 집 필수 |
 
-👉 [창문 잠금장치 (보조키)](https://www.coupang.com/np/search?q=%EC%B0%BD%EB%AC%B8+%EC%9E%A0%EA%B8%88%EC%9E%A5%EC%B9%98+%EB%B3%B4%EC%A1%B0%ED%82%A4)
-👉 [소형 소화기 (가정용)](https://www.coupang.com/np/search?q=%EC%86%8C%ED%98%95+%EC%86%8C%ED%99%94%EA%B8%B0+%EA%B0%80%EC%A0%95%EC%9A%A9)
+👉 [창문 잠금장치 (보조키)](https://link.coupang.com/a/dQut3F)
+👉 [소형 소화기 (가정용)](https://link.coupang.com/a/dQutaP)
 
 ---
 

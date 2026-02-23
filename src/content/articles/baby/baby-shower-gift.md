@@ -31,9 +31,9 @@ publishedAt: 2026-02-01
 | 고급 핸드크림 세트 | 손 씻는 횟수 폭발 → 손이 거칠어짐 | 2~4만 |
 | 안마 쿠션 | 수유 자세로 어깨/등 통증 | 5~10만 |
 
-👉 [산후조리 미역국 세트](https://www.coupang.com/np/search?q=%EC%82%B0%ED%9B%84%EC%A1%B0%EB%A6%AC+%EB%AF%B8%EC%97%AD%EA%B5%AD+%EC%84%B8%ED%8A%B8+%EC%84%A0%EB%AC%BC)
-👉 [수유복 파자마 (면)](https://www.coupang.com/np/search?q=%EC%88%98%EC%9C%A0%EB%B3%B5+%ED%8C%8C%EC%9E%90%EB%A7%88+%EB%A9%B4+%EC%82%B0%EB%AA%A8)
-👉 [록시땅 핸드크림 세트](https://www.coupang.com/np/search?q=%EB%A1%9D%EC%8B%9C%EB%95%85+%ED%95%B8%EB%93%9C%ED%81%AC%EB%A6%BC+%EC%84%B8%ED%8A%B8+%EC%84%A0%EB%AC%BC)
+👉 [산후조리 미역국 세트](https://link.coupang.com/a/dQt9W1)
+👉 [수유복 파자마 (면)](https://link.coupang.com/a/dQt99s)
+👉 [록시땅 핸드크림 세트](https://link.coupang.com/a/dQxpzB)
 
 > 💡 **선배맘 설문 1위 선물**: "현금(또는 기프트카드)." 2위: "산후조리 음식." 아기 옷은 항상 꼴찌.
 
@@ -49,9 +49,9 @@ publishedAt: 2026-02-01
 | 성장 다이어리 / 포토북 | 특별한 기념 | 2~4만 |
 | 모빌 (침대용) | 신생아 시각 발달 + 잠 유도 | 3~8만 |
 
-👉 [기저귀 케이크 (하기스)](https://www.coupang.com/np/search?q=%EA%B8%B0%EC%A0%80%EA%B7%80+%EC%BC%80%EC%9D%B4%ED%81%AC+%ED%95%98%EA%B8%B0%EC%8A%A4+%EC%B6%9C%EC%82%B0%EC%84%A0%EB%AC%BC)
-👉 [아벤느 아기 바디워시+로션 세트](https://www.coupang.com/np/search?q=%EC%95%84%EB%B2%A4%EB%8A%90+%EC%95%84%EA%B8%B0+%EB%B0%94%EB%94%94%EC%9B%8C%EC%8B%9C+%EB%A1%9C%EC%85%98+%EC%84%B8%ED%8A%B8)
-👉 [아기 침대 모빌](https://www.coupang.com/np/search?q=%EC%95%84%EA%B8%B0+%EC%B9%A8%EB%8C%80+%EB%AA%A8%EB%B9%8C+%EC%98%A4%EB%A5%B4%EA%B3%A8)
+👉 [기저귀 케이크 (하기스)](https://link.coupang.com/a/dQt9tH)
+👉 [아벤느 아기 바디워시+로션 세트](https://link.coupang.com/a/dQuaG0)
+👉 [아기 침대 모빌](https://link.coupang.com/a/dQuawh)
 
 ---
 
@@ -62,7 +62,7 @@ publishedAt: 2026-02-01
 - 핸드크림 세트
 - 물티슈 대량 (장난이 아니라 진짜 실용)
 
-👉 [아기 물티슈 대용량 (20팩)](https://www.coupang.com/np/search?q=%EC%95%84%EA%B8%B0+%EB%AC%BC%ED%8B%B0%EC%8A%88+%EB%8C%80%EC%9A%A9%EB%9F%89+20%ED%8C%A9+%EC%84%A0%EB%AC%BC)
+👉 [아기 물티슈 대용량 (20팩)](https://link.coupang.com/a/dQuak6)
 
 ### 5만원대
 - 기저귀 케이크
@@ -74,7 +74,7 @@ publishedAt: 2026-02-01
 - 기저귀 케이크 + 현금 5만원
 - 바운서 (피셔프라이스 등)
 
-👉 [피셔프라이스 바운서](https://www.coupang.com/np/search?q=%ED%94%BC%EC%85%94%ED%94%84%EB%9D%BC%EC%9D%B4%EC%8A%A4+%EB%B0%94%EC%9A%B4%EC%84%9C+%EC%95%84%EA%B8%B0)
+👉 [피셔프라이스 바운서](https://link.coupang.com/a/dQuaWI)
 
 ---
 

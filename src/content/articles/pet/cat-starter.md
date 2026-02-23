@@ -38,8 +38,8 @@ publishedAt: 2026-02-01
 
 **처음이면 후드형** 추천. 냄새 관리 + 모래 비산 방지 밸런스 좋음.
 
-👉 [후드형 화장실 (대형)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%ED%9B%84%EB%93%9C%ED%98%95+%ED%99%94%EC%9E%A5%EC%8B%A4+%EB%8C%80%ED%98%95)
-👉 [탑엔트리 화장실](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%ED%83%91%EC%97%94%ED%8A%B8%EB%A6%AC+%ED%99%94%EC%9E%A5%EC%8B%A4)
+👉 [후드형 화장실 (대형)](https://link.coupang.com/a/dQuAtG)
+👉 [탑엔트리 화장실](https://link.coupang.com/a/dQuAf5)
 
 **모래 고르기:**
 | 종류 | 응고력 | 냄새 | 먼지 | 가격 |
@@ -50,9 +50,9 @@ publishedAt: 2026-02-01
 
 **처음이면 두부 모래** 추천. 먼지 적고, 변기에 버릴 수 있어서 편리.
 
-👉 [두부 모래 (오리지널)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EB%91%90%EB%B6%80%EB%AA%A8%EB%9E%98+%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90)
-👉 [카사바 모래](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EC%B9%B4%EC%82%AC%EB%B0%94+%EB%AA%A8%EB%9E%98)
-👉 [벤토나이트 모래 (저먼지)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EB%B2%A4%ED%86%A0%EB%82%98%EC%9D%B4%ED%8A%B8+%EB%AA%A8%EB%9E%98+%EC%A0%80%EB%A8%BC%EC%A7%80)
+👉 [두부 모래 (오리지널)](https://link.coupang.com/a/dQuzkW)
+👉 [카사바 모래](https://link.coupang.com/a/dQuz3z)
+👉 [벤토나이트 모래 (저먼지)](https://link.coupang.com/a/dQuzv3)
 
 > 💡 **팁**: 화장실 개수 = **고양이 수 + 1**이 원칙. 1마리면 2개가 이상적이지만, 처음엔 1개로 시작해도 OK.
 
@@ -66,9 +66,9 @@ publishedAt: 2026-02-01
 - 건식 + 습식 병행이 이상적 (수분 보충)
 - 소포장 먼저
 
-👉 [로얄캐닌 키튼](https://www.coupang.com/np/search?q=%EB%A1%9C%EC%96%84%EC%BA%90%EB%8B%8C+%ED%82%A4%ED%8A%BC+%EC%82%AC%EB%A3%8C)
-👉 [오리젠 키튼](https://www.coupang.com/np/search?q=%EC%98%A4%EB%A6%AC%EC%A0%A0+%ED%82%A4%ED%8A%BC+%EC%82%AC%EB%A3%8C)
-👉 [쉬바 키튼 파우치 (습식)](https://www.coupang.com/np/search?q=%EC%89%AC%EB%B0%94+%ED%82%A4%ED%8A%BC+%ED%8C%8C%EC%9A%B0%EC%B9%98+%EC%8A%B5%EC%8B%9D)
+👉 [로얄캐닌 키튼](https://link.coupang.com/a/dQuAJb)
+👉 [오리젠 키튼](https://link.coupang.com/a/dQuAWd)
+👉 [쉬바 키튼 파우치 (습식)](https://link.coupang.com/a/dQuAP0)
 
 ---
 
@@ -79,12 +79,12 @@ publishedAt: 2026-02-01
 - 밥그릇: 도자기 또는 스테인리스 (넓고 얕은 것 — 수염 닿으면 싫어함)
 - 물그릇: 밥그릇과 **다른 위치**에
 
-👉 [고양이 도자기 밥그릇 (넓은형)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EB%8F%84%EC%9E%90%EA%B8%B0+%EB%B0%A5%EA%B7%B8%EB%A6%87+%EB%84%93%EC%9D%80)
-👉 [고양이 급수대 (세라믹)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EA%B8%89%EC%88%98%EB%8C%80+%EC%84%B8%EB%9D%BC%EB%AF%B9)
+👉 [고양이 도자기 밥그릇 (넓은형)](https://link.coupang.com/a/dQuzeX)
+👉 [고양이 급수대 (세라믹)](https://link.coupang.com/a/dQuy4D)
 
 > 💡 **수분 보충 꿀팁**: 고양이는 원래 물을 잘 안 마셔요. **자동 급수기(정수기)**를 놓으면 흐르는 물에 관심을 보여서 음수량이 늘어납니다. 첫날 필수는 아니지만 2주 안에 추천.
 
-👉 [고양이 자동 급수기 (정수 필터)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EC%9E%90%EB%8F%99+%EA%B8%89%EC%88%98%EA%B8%B0+%EC%A0%95%EC%88%98+%ED%95%84%ED%84%B0)
+👉 [고양이 자동 급수기 (정수 필터)](https://link.coupang.com/a/dQuzRc)
 
 ---
 
@@ -96,7 +96,7 @@ publishedAt: 2026-02-01
 - 종이 상자에 구멍 뚫기 (무료!)
 - 고양이 하우스 구매
 
-👉 [고양이 숨숨집](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EC%88%A8%EC%88%A8%EC%A7%91+%ED%95%98%EC%9A%B0%EC%8A%A4)
+👉 [고양이 숨숨집](https://link.coupang.com/a/dQuzL4)
 
 ---
 
@@ -116,8 +116,8 @@ publishedAt: 2026-02-01
 
 **최소 2개** (수평 1개 + 수직 1개). 고양이마다 취향이 다릅니다.
 
-👉 [골판지 스크래쳐 (대형)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EA%B3%A8%ED%8C%90%EC%A7%80+%EC%8A%A4%ED%81%AC%EB%9E%98%EC%B3%90+%EB%8C%80%ED%98%95)
-👉 [사이잘 기둥 스크래쳐](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EC%82%AC%EC%9D%B4%EC%9E%98+%EA%B8%B0%EB%91%A5+%EC%8A%A4%ED%81%AC%EB%9E%98%EC%B3%90)
+👉 [골판지 스크래쳐 (대형)](https://link.coupang.com/a/dQuyX3)
+👉 [사이잘 기둥 스크래쳐](https://link.coupang.com/a/dQuzGH)
 
 ---
 
@@ -137,8 +137,8 @@ publishedAt: 2026-02-01
 | 중형 (4~5단) | 일반 가정, 성묘 |
 | 대형 (천장형) | 활동량 많은 묘종 (벵갈, 아비시니안) |
 
-👉 [캣타워 3단 (원룸용)](https://www.coupang.com/np/search?q=%EC%BA%A3%ED%83%80%EC%9B%8C+3%EB%8B%A8+%EC%86%8C%ED%98%95+%EC%9B%90%EB%A3%B8)
-👉 [캣타워 5단 (중형)](https://www.coupang.com/np/search?q=%EC%BA%A3%ED%83%80%EC%9B%8C+5%EB%8B%A8+%EC%A4%91%ED%98%95)
+👉 [캣타워 3단 (원룸용)](https://link.coupang.com/a/dQuA8M)
+👉 [캣타워 5단 (중형)](https://link.coupang.com/a/dQuBfg)
 
 ---
 
@@ -151,8 +151,8 @@ publishedAt: 2026-02-01
 | 캣닙 장난감 | 기분 전환 | 반응 없는 고양이도 있음 |
 | 레이저 포인터 | 운동량 폭발 | 마무리는 실물 장난감으로 |
 
-👉 [낚시대 장난감 세트 (5개)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EB%82%9A%EC%8B%9C%EB%8C%80+%EC%9E%A5%EB%82%9C%EA%B0%90+%EC%84%B8%ED%8A%B8)
-👉 [캣닙 인형 세트](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EC%BA%A3%EB%8B%99+%EC%9D%B8%ED%98%95+%EC%9E%A5%EB%82%9C%EA%B0%90)
+👉 [낚시대 장난감 세트 (5개)](https://link.coupang.com/a/dQuzac)
+👉 [캣닙 인형 세트](https://link.coupang.com/a/dQuAal)
 
 > 💡 **팁**: 레이저 포인터만 쓰면 "잡을 수 없는 사냥"이 되어 스트레스를 줄 수 있어요. 마지막엔 실제 장난감을 잡게 해주세요.
 
@@ -167,8 +167,8 @@ publishedAt: 2026-02-01
 | 귀 세정제 | 월 1~2회 | |
 | 모래삽 (스쿱) | 매일 | 화장실에 포함된 경우 많음 |
 
-👉 [고양이 발톱깎이 (기요틴형)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EB%B0%9C%ED%86%B1%EA%B9%8E%EC%9D%B4+%EA%B8%B0%EC%9A%94%ED%8B%B4)
-👉 [고양이 빗 세트](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EB%B9%97+%EC%8A%AC%EB%A6%AC%EC%BB%A4+%EC%87%A0%EB%B9%97+%EC%84%B8%ED%8A%B8)
+👉 [고양이 발톱깎이 (기요틴형)](https://link.coupang.com/a/dQuzqK)
+👉 [고양이 빗 세트](https://link.coupang.com/a/dQuzCx)
 
 ---
 
@@ -183,9 +183,9 @@ publishedAt: 2026-02-01
 | 이동장 (별도) | ⭐⭐ | 병원 갈 때 필수 (숨숨집으로 대체 가능) |
 | 고양이 풀 (캣그라스) | ⭐⭐ | 모구 제거 도움 |
 
-👉 [창문 해먹 (흡착식)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EC%B0%BD%EB%AC%B8+%ED%95%B4%EB%A8%B9+%ED%9D%A1%EC%B0%A9)
-👉 [고양이 탈취제 (무향)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%ED%99%94%EC%9E%A5%EC%8B%A4+%ED%83%88%EC%B7%A8%EC%A0%9C+%EB%AC%B4%ED%96%A5)
-👉 [캣그라스 키트](https://www.coupang.com/np/search?q=%EC%BA%A3%EA%B7%B8%EB%9D%BC%EC%8A%A4+%ED%82%A4%ED%8A%B8+%EA%B3%A0%EC%96%91%EC%9D%B4%ED%92%80)
+👉 [창문 해먹 (흡착식)](https://link.coupang.com/a/dQuzXG)
+👉 [고양이 탈취제 (무향)](https://link.coupang.com/a/dQuAm4)
+👉 [캣그라스 키트](https://link.coupang.com/a/dQuA2h)
 
 ---
 

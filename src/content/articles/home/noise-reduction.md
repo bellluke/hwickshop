@@ -41,9 +41,9 @@ budget:
 
 **아이 있는 집은 EVA 퍼즐 매트(2cm 이상)** 필수. 거실 전체 깔면 체감 차이가 큽니다.
 
-👉 [EVA 퍼즐 매트 2cm (거실용)](https://www.coupang.com/np/search?q=EVA+%ED%8D%BC%EC%A6%90+%EB%A7%A4%ED%8A%B8+2cm+%EC%B8%B5%EA%B0%84%EC%86%8C%EC%9D%8C)
-👉 [PE 롤매트 1.5cm (대형)](https://www.coupang.com/np/search?q=PE+%EB%A1%A4%EB%A7%A4%ED%8A%B8+1.5cm+%EC%B8%B5%EA%B0%84%EC%86%8C%EC%9D%8C+%EB%8C%80%ED%98%95)
-👉 [코르크 매트 (타일형)](https://www.coupang.com/np/search?q=%EC%BD%94%EB%A5%B4%ED%81%AC+%EB%A7%A4%ED%8A%B8+%ED%83%80%EC%9D%BC+%EC%B8%B5%EA%B0%84%EC%86%8C%EC%9D%8C)
+👉 [EVA 퍼즐 매트 2cm (거실용)](https://link.coupang.com/a/dQuwhg)
+👉 [PE 롤매트 1.5cm (대형)](https://link.coupang.com/a/dQuwnv)
+👉 [코르크 매트 (타일형)](https://link.coupang.com/a/dQuvZk)
 
 > 💡 **매트 두께**: 1cm 이하는 효과 미미. **최소 1.5cm, 이상적으로 2cm**.
 
@@ -56,7 +56,7 @@ budget:
 - **쿠션 두꺼운 것** (EVA 소재, 3cm 이상)
 - 뒤꿈치 있는 것 (슬리퍼보다 샌들형이 소음 적음)
 
-👉 [쿠션 슬리퍼 (EVA 3cm)](https://www.coupang.com/np/search?q=%EC%B8%B5%EA%B0%84%EC%86%8C%EC%9D%8C+%EC%8A%AC%EB%A6%AC%ED%8D%BC+EVA+%EC%BF%A0%EC%85%98+%EC%8B%A4%EB%82%B4)
+👉 [쿠션 슬리퍼 (EVA 3cm)](https://link.coupang.com/a/dQuvSp)
 
 > 가족 전원이 신어야 효과. 한 사람만 신으면 의미 없음.
 
@@ -70,8 +70,8 @@ budget:
 - 아이 방: 전체 카펫
 - 소재: 울 > 면 > 합성 (두꺼울수록 좋음)
 
-👉 [거실 대형 러그 200×300](https://www.coupang.com/np/search?q=%EA%B1%B0%EC%8B%A4+%EB%8C%80%ED%98%95+%EB%9F%AC%EA%B7%B8+200x300+%EB%91%90%EA%BA%BC%EC%9A%B4)
-👉 [아이방 전체 카펫 (워셔블)](https://www.coupang.com/np/search?q=%EC%95%84%EC%9D%B4%EB%B0%A9+%EC%B9%B4%ED%8E%AB+%EC%9B%8C%EC%85%94%EB%B8%94+%EC%B8%B5%EA%B0%84%EC%86%8C%EC%9D%8C)
+👉 [거실 대형 러그 200×300](https://link.coupang.com/a/dQuvkH)
+👉 [아이방 전체 카펫 (워셔블)](https://link.coupang.com/a/dQuvBt)
 
 ---
 
@@ -83,8 +83,8 @@ budget:
 - 실리콘 캡 씌우기 (내구성 좋음)
 - 의자 아래 소형 러그 깔기
 
-👉 [의자 발 실리콘 캡 (16개)](https://www.coupang.com/np/search?q=%EC%9D%98%EC%9E%90%EB%B0%9C+%EC%8B%A4%EB%A6%AC%EC%BD%98+%EC%BA%A1+%EC%B8%B5%EA%B0%84%EC%86%8C%EC%9D%8C+16%EA%B0%9C)
-👉 [의자 발 펠트 패드 (자접착)](https://www.coupang.com/np/search?q=%EC%9D%98%EC%9E%90%EB%B0%9C+%ED%8E%A0%ED%8A%B8+%ED%8C%A8%EB%93%9C+%EC%9E%90%EC%A0%91%EC%B0%A9)
+👉 [의자 발 실리콘 캡 (16개)](https://link.coupang.com/a/dQuvHj)
+👉 [의자 발 펠트 패드 (자접착)](https://link.coupang.com/a/dQuvM6)
 
 ---
 
@@ -97,8 +97,8 @@ budget:
 | 냉장고 방진 패드 | 모터 진동 차단 | 1만 |
 | 벽면 방음 폼 | 옆집 TV 소리 차단 | 평당 2~3만 |
 
-👉 [세탁기 방진 패드 4개](https://www.coupang.com/np/search?q=%EC%84%B8%ED%83%81%EA%B8%B0+%EB%B0%A9%EC%A7%84+%ED%8C%A8%EB%93%9C+4%EA%B0%9C)
-👉 [문 하단 실리콘 가드](https://www.coupang.com/np/search?q=%EB%AC%B8+%ED%95%98%EB%8B%A8+%EC%8B%A4%EB%A6%AC%EC%BD%98+%EA%B0%80%EB%93%9C+%EC%86%8C%EC%9D%8C)
+👉 [세탁기 방진 패드 4개](https://link.coupang.com/a/dQuvwl)
+👉 [문 하단 실리콘 가드](https://link.coupang.com/a/dQuvqn)
 
 ---
 

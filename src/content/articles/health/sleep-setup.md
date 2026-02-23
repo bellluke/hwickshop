@@ -40,7 +40,7 @@ budget:
 - 커튼 폭: 창문보다 **양쪽 15cm** 넓게
 - 바닥까지 닿는 길이
 
-👉 [암막 커튼 99.9% (그레이)](https://www.coupang.com/np/search?q=%EC%95%94%EB%A7%89%EC%BB%A4%ED%8A%BC+99.9+%EC%B0%A8%EA%B4%91+%EA%B7%B8%EB%A0%88%EC%9D%B4)
+👉 [암막 커튼 99.9% (그레이)](https://link.coupang.com/a/dQussa)
 
 ### 수면 안대
 
@@ -50,7 +50,7 @@ budget:
 - 코 부분 빛 차단 (아치형)
 - 귀에 거는 것 vs 밴드형 — 밴드형이 빠지지 않음
 
-👉 [실크 수면 안대 (아치형)](https://www.coupang.com/np/search?q=%EC%8B%A4%ED%81%AC+%EC%88%98%EB%A9%B4+%EC%95%88%EB%8C%80+%EC%95%84%EC%B9%98%ED%98%95+%EB%B9%9B%EC%B0%A8%EB%8B%A8)
+👉 [실크 수면 안대 (아치형)](https://link.coupang.com/a/dQuseS)
 
 ---
 
@@ -64,7 +64,7 @@ budget:
 | 실리콘 귀마개 | ★★★ | 편안 |
 | 맞춤형 귀마개 | ★★★★ | 최고 (비쌈) |
 
-👉 [수면 귀마개 (소음차단 32dB)](https://www.coupang.com/np/search?q=%EC%88%98%EB%A9%B4+%EA%B7%80%EB%A7%88%EA%B0%9C+%EC%86%8C%EC%9D%8C%EC%B0%A8%EB%8B%A8+32dB)
+👉 [수면 귀마개 (소음차단 32dB)](https://link.coupang.com/a/dQur5V)
 
 ### 백색소음 기계
 
@@ -73,7 +73,7 @@ budget:
 - 팬 소리, 빗소리, 파도소리 등
 - 스마트폰 앱(무료)으로 먼저 테스트 → 효과 있으면 전용 기기
 
-👉 [백색소음 기계 (30가지 소리)](https://www.coupang.com/np/search?q=%EB%B0%B1%EC%83%89%EC%86%8C%EC%9D%8C+%EA%B8%B0%EA%B3%84+%EC%88%98%EB%A9%B4+30%EA%B0%80%EC%A7%80)
+👉 [백색소음 기계 (30가지 소리)](https://link.coupang.com/a/dQurYq)
 
 ---
 
@@ -87,9 +87,9 @@ budget:
 | 겨울에 건조 | 가습기 (습도 40~60% 유지) |
 | 에어컨 바람 직접 맞으면 | 서큘레이터로 간접 순환 |
 
-👉 [냉감 이불 (여름용)](https://www.coupang.com/np/search?q=%EB%83%89%EA%B0%90+%EC%9D%B4%EB%B6%88+%EC%97%AC%EB%A6%84%EC%9A%A9+%EC%8B%9C%EC%9B%90%ED%95%9C)
-👉 [냉감 매트리스 패드](https://www.coupang.com/np/search?q=%EB%83%89%EA%B0%90+%EB%A7%A4%ED%8A%B8%EB%A6%AC%EC%8A%A4+%ED%8C%A8%EB%93%9C+%EC%97%AC%EB%A6%84)
-👉 [가습기 (자연기화식, 저소음)](https://www.coupang.com/np/search?q=%EA%B0%80%EC%8A%B5%EA%B8%B0+%EC%9E%90%EC%97%B0%EA%B8%B0%ED%99%94%EC%8B%9D+%EC%A0%80%EC%86%8C%EC%9D%8C+%EC%B9%A8%EC%8B%A4)
+👉 [냉감 이불 (여름용)](https://link.coupang.com/a/dQuq6g)
+👉 [냉감 매트리스 패드](https://link.coupang.com/a/dQuqZz)
+👉 [가습기 (자연기화식, 저소음)](https://link.coupang.com/a/dQuqRQ)
 
 ---
 
@@ -105,8 +105,8 @@ budget:
 | 옆으로 자는 사람 | 경추 베개 (높은) | 12~15cm |
 | 엎드려 자는 사람 | 낮은 솜 베개 | 6~8cm |
 
-👉 [메모리폼 경추 베개](https://www.coupang.com/np/search?q=%EB%A9%94%EB%AA%A8%EB%A6%AC%ED%8F%BC+%EA%B2%BD%EC%B6%94+%EB%B2%A0%EA%B0%9C+%EC%88%98%EB%A9%B4)
-👉 [라텍스 베개 (천연)](https://www.coupang.com/np/search?q=%EB%9D%BC%ED%85%8D%EC%8A%A4+%EB%B2%A0%EA%B0%9C+%EC%B2%9C%EC%97%B0+%EC%88%98%EB%A9%B4)
+👉 [메모리폼 경추 베개](https://link.coupang.com/a/dQuryY)
+👉 [라텍스 베개 (천연)](https://link.coupang.com/a/dQurcf)
 
 ### 매트리스 토퍼
 
@@ -115,8 +115,8 @@ budget:
 - 메모리폼: 체압 분산, 포근함
 - 라텍스: 탄성, 통기성, 먼지 진드기 방지
 
-👉 [메모리폼 토퍼 7cm](https://www.coupang.com/np/search?q=%EB%A9%94%EB%AA%A8%EB%A6%AC%ED%8F%BC+%ED%86%A0%ED%8D%BC+7cm+%ED%80%B8)
-👉 [라텍스 토퍼 5cm](https://www.coupang.com/np/search?q=%EB%9D%BC%ED%85%8D%EC%8A%A4+%ED%86%A0%ED%8D%BC+5cm+%ED%80%B8)
+👉 [메모리폼 토퍼 7cm](https://link.coupang.com/a/dQurIt)
+👉 [라텍스 토퍼 5cm](https://link.coupang.com/a/dQursC)
 
 ---
 
@@ -129,8 +129,8 @@ budget:
 | 블루라이트 차단 안경 | 자기 전 스마트폰 볼 때 | 1~2만 |
 | 발열 패드 (겨울) | 발이 따뜻하면 잠이 빨리 옴 | 3~5만 |
 
-👉 [아로마 디퓨저 (라벤더 세트)](https://www.coupang.com/np/search?q=%EC%95%84%EB%A1%9C%EB%A7%88+%EB%94%94%ED%93%A8%EC%A0%80+%EB%9D%BC%EB%B2%A4%EB%8D%94+%EC%88%98%EB%A9%B4)
-👉 [무드등 (따뜻한 색 LED)](https://www.coupang.com/np/search?q=%EB%AC%B4%EB%93%9C%EB%93%B1+%EB%94%B0%EB%9C%BB%ED%95%9C%EC%83%89+LED+%EC%88%98%EB%A9%B4)
+👉 [아로마 디퓨저 (라벤더 세트)](https://link.coupang.com/a/dQuslm)
+👉 [무드등 (따뜻한 색 LED)](https://link.coupang.com/a/dQurQS)
 
 ---
 
