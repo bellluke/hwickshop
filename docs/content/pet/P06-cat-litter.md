@@ -31,21 +31,21 @@
 - 변기에 버릴 수 있어 편리
 - 단점: 비쌈
 
-👉 [카사바 모래 (무향)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EC%B9%B4%EC%82%AC%EB%B0%94+%EB%AA%A8%EB%9E%98+%EB%AC%B4%ED%96%A5)
+👉 [카사바 모래 (무향)](https://link.coupang.com/a/dQuyHp)
 
 **2위. 두부 모래 (활성탄)** — 가성비 탈취
 - 활성탄 첨가 제품이 일반 두부 모래보다 탈취력 2배
 - 변기 처리 가능
 - 가격 합리적
 
-👉 [두부 모래 활성탄 (탈취)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EB%91%90%EB%B6%80%EB%AA%A8%EB%9E%98+%ED%99%9C%EC%84%B1%ED%83%84+%ED%83%88%EC%B7%A8)
+👉 [두부 모래 활성탄 (탈취)](https://link.coupang.com/a/dQuxT5)
 
 **3위. 벤토나이트 (탈취형)** — 응고력+탈취
 - 응고력은 벤토나이트가 최강
 - 탈취 성분 추가된 제품 선택
 - 먼지가 단점 → 저먼지 제품으로
 
-👉 [벤토나이트 모래 (저먼지+탈취)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EB%B2%A4%ED%86%A0%EB%82%98%EC%9D%B4%ED%8A%B8+%EB%AA%A8%EB%9E%98+%EC%A0%80%EB%A8%BC%EC%A7%80+%ED%83%88%EC%B7%A8)
+👉 [벤토나이트 모래 (저먼지+탈취)](https://link.coupang.com/a/dQuyei)
 
 ---
 
@@ -55,7 +55,7 @@
 
 아침, 저녁 2회 퍼내기. 1회만 하면 암모니아 축적 → 냄새 폭발.
 
-👉 [고양이 모래삽 (촘촘한 구멍)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EB%AA%A8%EB%9E%98%EC%82%BD+%EC%8A%A4%EC%BF%B1+%EC%8A%A4%ED%85%8C%EC%9D%B8%EB%A6%AC%EC%8A%A4)
+👉 [고양이 모래삽 (촘촘한 구멍)](https://link.coupang.com/a/dQuxZO)
 
 ### 2. 모래 전체 교체 — 2~4주 1회
 
@@ -73,8 +73,8 @@
 | 화장실 주변 탈취 스프레이 | 주변 공기 | ★★★ |
 | 화장실 안 탈취 비즈 | 모래에 섞기 | ★★★★ |
 
-👉 [고양이 모래 탈취 파우더](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EB%AA%A8%EB%9E%98+%ED%83%88%EC%B7%A8+%ED%8C%8C%EC%9A%B0%EB%8D%94)
-👉 [고양이 화장실 탈취 스프레이](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%ED%99%94%EC%9E%A5%EC%8B%A4+%ED%83%88%EC%B7%A8+%EC%8A%A4%ED%94%84%EB%A0%88%EC%9D%B4)
+👉 [고양이 모래 탈취 파우더](https://link.coupang.com/a/dQux5v)
+👉 [고양이 화장실 탈취 스프레이](https://link.coupang.com/a/dQuyS9)
 
 ### 5. 화장실 위치
 
@@ -93,7 +93,7 @@
 | 탑엔트리 | ★★★★★ (냄새+모래 비산 최소) | 3~6만 |
 | 자동 화장실 | ★★★★★ (자동 퍼내기) | 30~60만 |
 
-👉 [탑엔트리 화장실 (대형)](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%ED%83%91%EC%97%94%ED%8A%B8%EB%A6%AC+%ED%99%94%EC%9E%A5%EC%8B%A4+%EB%8C%80%ED%98%95)
+👉 [탑엔트리 화장실 (대형)](https://link.coupang.com/a/dQuyMC)
 
 > 💡 **자동 화장실**은 비싸지만, 퍼내기를 자동으로 해줘서 냄새 축적이 없음. 맞벌이 집사에게 최고.
 
@@ -107,7 +107,7 @@
 - 고단백 그레인프리 사료 → 냄새 적음
 - 유산균 포함 사료 → 소화 개선 → 냄새 감소
 
-👉 [유산균 포함 고양이 사료](https://www.coupang.com/np/search?q=%EA%B3%A0%EC%96%91%EC%9D%B4+%EC%82%AC%EB%A3%8C+%EC%9C%A0%EC%82%B0%EA%B7%A0+%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC)
+👉 [유산균 포함 고양이 사료](https://link.coupang.com/a/dQuyj8)
 
 ---
 

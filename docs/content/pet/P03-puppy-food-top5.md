@@ -26,7 +26,7 @@
 **장점**: 원료 퀄리티 최상급. "사료계의 명품"이라는 평가.
 **단점**: 비쌈. 그리고 고단백이라 활동량 적은 노견에겐 부담.
 
-👉 [오리젠 스몰 브리드](https://www.coupang.com/np/search?q=%EC%98%A4%EB%A6%AC%EC%A0%A0+%EC%8A%A4%EB%AA%B0%EB%B8%8C%EB%A6%AC%EB%93%9C+%EA%B0%95%EC%95%84%EC%A7%80+%EC%82%AC%EB%A3%8C)
+👉 [오리젠 스몰 브리드](https://link.coupang.com/a/dQuBK1)
 
 ### 2위. 뉴트리나 건강백서 소형견
 
@@ -40,7 +40,7 @@
 **장점**: 가격 대비 성분 우수. 한국에서 가장 많이 팔리는 사료 중 하나.
 **단점**: 그레인프리 아님 (곡물 포함). 곡물 알레르기 있으면 패스.
 
-👉 [뉴트리나 건강백서 소형견](https://www.coupang.com/np/search?q=%EB%89%B4%ED%8A%B8%EB%A6%AC%EB%82%98+%EA%B1%B4%EA%B0%95%EB%B0%B1%EC%84%9C+%EC%86%8C%ED%98%95%EA%B2%AC+%EC%82%AC%EB%A3%8C)
+👉 [뉴트리나 건강백서 소형견](https://link.coupang.com/a/dQuBr6)
 
 ### 3위. 로얄캐닌 미니 어덜트
 
@@ -54,7 +54,7 @@
 **장점**: 소화 잘 되고, 대변 상태 좋다는 후기 많음. 동물병원에서 가장 많이 추천.
 **단점**: 원료 퀄리티는 오리젠/아카나보다 아래.
 
-👉 [로얄캐닌 미니 어덜트](https://www.coupang.com/np/search?q=%EB%A1%9C%EC%96%84%EC%BA%90%EB%8B%8C+%EB%AF%B8%EB%8B%88+%EC%96%B4%EB%8D%9C%ED%8A%B8+%EC%82%AC%EB%A3%8C)
+👉 [로얄캐닌 미니 어덜트](https://link.coupang.com/a/dQuBxS)
 
 ---
 
@@ -72,7 +72,7 @@
 **장점**: 닭고기 알레르기 있는 강아지에게 최적. 피부/눈물 자국 개선 후기 많음.
 **단점**: 오리젠보다 저렴하지만 여전히 고가.
 
-👉 [아카나 프리런 덕](https://www.coupang.com/np/search?q=%EC%95%84%EC%B9%B4%EB%82%98+%ED%94%84%EB%A6%AC%EB%9F%B0+%EB%8D%95+%EA%B0%95%EC%95%84%EC%A7%80+%EC%82%AC%EB%A3%8C)
+👉 [아카나 프리런 덕](https://link.coupang.com/a/dQuBEE)
 
 ### 5위. 네츄럴코어 에코6 오가닉
 
@@ -86,7 +86,7 @@
 **장점**: 국내 유기농 사료 중 가장 인지도 높음. 성분 깔끔.
 **단점**: 기호성(맛)이 까다로운 강아지한테 안 맞는 경우 있음.
 
-👉 [네츄럴코어 에코6 오가닉](https://www.coupang.com/np/search?q=%EB%84%A4%EC%B8%84%EB%9F%B4%EC%BD%94%EC%96%B4+%EC%97%90%EC%BD%946+%EC%98%A4%EA%B0%80%EB%8B%89+%EC%82%AC%EB%A3%8C)
+👉 [네츄럴코어 에코6 오가닉](https://link.coupang.com/a/dQuBlz)
 
 ---
 

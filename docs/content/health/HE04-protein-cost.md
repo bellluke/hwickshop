@@ -48,31 +48,31 @@
 - 추천 맛: 초코 스무디, 밀크티, 바닐라
 - 할인 시 1kg 15,000원까지 내려감
 
-👉 [마이프로틴 임팩트 웨이 1kg](https://www.coupang.com/np/search?q=%EB%A7%88%EC%9D%B4%ED%94%84%EB%A1%9C%ED%8B%B4+%EC%9E%84%ED%8C%A9%ED%8A%B8%EC%9B%A8%EC%9D%B4+1kg)
+👉 [마이프로틴 임팩트 웨이 1kg](https://link.coupang.com/a/dQuoxA)
 
 ### 2위. 옵티멈뉴트리션 골드스탠다드
 
 **보충제의 교과서.** 맛, 용해도, 단백질 함량 밸런스 좋음. 헬스장에서 가장 많이 보이는 통.
 
-👉 [옵티멈 골드스탠다드 WPC 2.27kg](https://www.coupang.com/np/search?q=%EC%98%B5%ED%8B%B0%EB%A9%88+%EA%B3%A8%EB%93%9C%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C+WPC+2.27kg)
+👉 [옵티멈 골드스탠다드 WPC 2.27kg](https://link.coupang.com/a/dQuo5P)
 
 ### 3위. 머슬팜 컴뱃
 
 가격 대비 단백질 25g으로 높은 편. 단맛 적어서 깔끔한 맛 선호하면 추천.
 
-👉 [머슬팜 컴뱃 WPC 1.8kg](https://www.coupang.com/np/search?q=%EB%A8%B8%EC%8A%AC%ED%8C%9C+%EC%BB%B4%EB%B1%83+WPC+1.8kg)
+👉 [머슬팜 컴뱃 WPC 1.8kg](https://link.coupang.com/a/dQuoEy)
 
 ### 4위. 칼로바이 퍼펙트파워 (국내 브랜드)
 
 국내 생산, 한국인 입맛 맞춤. 인공감미료 적음. 곡물맛 추천.
 
-👉 [칼로바이 퍼펙트파워 WPC](https://www.coupang.com/np/search?q=%EC%B9%BC%EB%A1%9C%EB%B0%94%EC%9D%B4+%ED%8D%BC%ED%8E%99%ED%8A%B8%ED%8C%8C%EC%9B%8C+WPC)
+👉 [칼로바이 퍼펙트파워 WPC](https://link.coupang.com/a/dQupcX)
 
 ### 5위. 신타6 엣지 (WPI, 유당불내증)
 
 유당 분리 제거. 우유 먹으면 배 아픈 사람도 OK. WPI라 흡수 빠름.
 
-👉 [신타6 엣지 WPI](https://www.coupang.com/np/search?q=%EC%8B%A0%ED%83%806+%EC%97%A3%EC%A7%80+WPI)
+👉 [신타6 엣지 WPI](https://link.coupang.com/a/dQuoKg)
 
 ---
 
@@ -100,7 +100,7 @@
 3. **바나나 + 보충제 + 우유** — 쉐이크처럼
 4. **오트밀에 섞기** — 아침 식사 대용
 
-👉 [단백질 셰이커 (600ml)](https://www.coupang.com/np/search?q=%EB%8B%A8%EB%B0%B1%EC%A7%88+%EC%85%B0%EC%9D%B4%EC%BB%A4+600ml+BPA%ED%94%84%EB%A6%AC)
+👉 [단백질 셰이커 (600ml)](https://link.coupang.com/a/dQuorH)
 
 ---
 

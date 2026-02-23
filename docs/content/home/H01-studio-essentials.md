@@ -21,8 +21,8 @@
 | 이불 세트 (이불+패드+베개) | 사계절용 1세트 | 계절별로 사면 돈 낭비 |
 | 매트리스 토퍼 | 메모리폼 5~7cm | 원룸 바닥 직접 자면 허리 나감 |
 
-👉 [자취 원룸 침구 세트 (사계절)](https://www.coupang.com/np/search?q=%EC%9E%90%EC%B7%A8+%EC%9B%90%EB%A3%B8+%EC%B9%A8%EA%B5%AC%EC%84%B8%ED%8A%B8+%EC%82%AC%EA%B3%84%EC%A0%88)
-👉 [메모리폼 토퍼 싱글 7cm](https://www.coupang.com/np/search?q=%EB%A9%94%EB%AA%A8%EB%A6%AC%ED%8F%BC+%ED%86%A0%ED%8D%BC+%EC%8B%B1%EA%B8%80+7cm)
+👉 [자취 원룸 침구 세트 (사계절)](https://link.coupang.com/a/dQuxe0)
+👉 [메모리폼 토퍼 싱글 7cm](https://link.coupang.com/a/dQuwFH)
 
 ### 욕실
 
@@ -31,7 +31,7 @@
 - [ ] 욕실 매트 (미끄럼 방지)
 - [ ] 휴지 — 이사 당일 깜빡하는 1위
 
-👉 [녹물 제거 샤워기 필터](https://www.coupang.com/np/search?q=%EB%85%B9%EB%AC%BC+%EC%A0%9C%EA%B1%B0+%EC%83%A4%EC%9B%8C%EA%B8%B0+%ED%95%84%ED%84%B0)
+👉 [녹물 제거 샤워기 필터](https://link.coupang.com/a/dQxpCh)
 
 ### 청소 (이전 세입자 흔적 제거)
 
@@ -40,8 +40,8 @@
 - [ ] 곰팡이 제거제 — 화장실 + 창틀
 - [ ] 다용도 세정제
 
-👉 [곰팡이 제거제](https://www.coupang.com/np/search?q=%EA%B3%B0%ED%8C%A1%EC%9D%B4+%EC%A0%9C%EA%B1%B0%EC%A0%9C+%ED%99%94%EC%9E%A5%EC%8B%A4)
-👉 [밀대걸레 세트](https://www.coupang.com/np/search?q=%EB%B0%80%EB%8C%80%EA%B1%B8%EB%A0%88+%EC%84%B8%ED%8A%B8+%EC%9B%90%EB%A3%B8)
+👉 [곰팡이 제거제](https://link.coupang.com/a/dQuwtb)
+👉 [밀대걸레 세트](https://link.coupang.com/a/dQuwUq)
 
 ---
 
@@ -59,9 +59,9 @@
 | 전자레인지 | 자취생 생명줄 | 5~8만 (중고 OK) |
 | 전기포트 | 라면 + 커피 + 차 | 1~2만 |
 
-👉 [쿠쿠 3인용 전기밥솥](https://www.coupang.com/np/search?q=%EC%BF%A0%EC%BF%A0+3%EC%9D%B8%EC%9A%A9+%EC%A0%84%EA%B8%B0%EB%B0%A5%EC%86%A5)
-👉 [테팔 냄비+프라이팬 세트](https://www.coupang.com/np/search?q=%ED%85%8C%ED%8C%94+%EB%83%84%EB%B9%84+%ED%94%84%EB%9D%BC%EC%9D%B4%ED%8C%AC+%EC%84%B8%ED%8A%B8)
-👉 [전기포트 1L (스테인리스)](https://www.coupang.com/np/search?q=%EC%A0%84%EA%B8%B0%ED%8F%AC%ED%8A%B8+1L+%EC%8A%A4%ED%85%8C%EC%9D%B8%EB%A6%AC%EC%8A%A4)
+👉 [쿠쿠 3인용 전기밥솥](https://link.coupang.com/a/dQuxy4)
+👉 [테팔 냄비+프라이팬 세트](https://link.coupang.com/a/dQuxF1)
+👉 [전기포트 1L (스테인리스)](https://link.coupang.com/a/dQuxlS)
 
 > 💡 **팁**: 냄비 + 프라이팬은 세트가 낱개보다 30% 저렴. 그리고 코팅 프라이팬은 소모품이에요 — 비싼 거 살 필요 없음.
 
@@ -74,9 +74,9 @@
 - [ ] 빨래 세제 + 섬유유연제
 - [ ] 행거 (옷장 없는 원룸이면 필수)
 
-👉 [USB 멀티탭 6구](https://www.coupang.com/np/search?q=USB+%EB%A9%80%ED%8B%B0%ED%83%AD+6%EA%B5%AC+%EA%B0%9C%EB%B3%84%EC%8A%A4%EC%9C%84%EC%B9%98)
-👉 [접이식 빨래 건조대](https://www.coupang.com/np/search?q=%EC%A0%91%EC%9D%B4%EC%8B%9D+%EB%B9%A8%EB%9E%98+%EA%B1%B4%EC%A1%B0%EB%8C%80)
-👉 [스탠드 행거 (이동식)](https://www.coupang.com/np/search?q=%EC%8A%A4%ED%83%A0%EB%93%9C+%ED%96%89%EA%B1%B0+%EC%9D%B4%EB%8F%99%EC%8B%9D+%EC%9B%90%EB%A3%B8)
+👉 [USB 멀티탭 6구](https://link.coupang.com/a/dQuxMV)
+👉 [접이식 빨래 건조대](https://link.coupang.com/a/dQuxst)
+👉 [스탠드 행거 (이동식)](https://link.coupang.com/a/dQuw2n)
 
 ---
 
@@ -91,8 +91,8 @@
 | 제습기 | ⭐ | 여름/장마 전에 구매 | 10~20만 |
 | 커피 드리퍼 | ⭐ | 인스턴트 졸업하고 싶으면 | 1~2만 |
 
-👉 [가성비 무선 청소기](https://www.coupang.com/np/search?q=%EB%AC%B4%EC%84%A0%EC%B2%AD%EC%86%8C%EA%B8%B0+%EA%B0%80%EC%84%B1%EB%B9%84+%EC%9B%90%EB%A3%B8)
-👉 [에어프라이어 3.5L](https://www.coupang.com/np/search?q=%EC%97%90%EC%96%B4%ED%94%84%EB%9D%BC%EC%9D%B4%EC%96%B4+3.5L+1%EC%9D%B8%EA%B0%80%EA%B5%AC)
+👉 [가성비 무선 청소기](https://link.coupang.com/a/dQuwMZ)
+👉 [에어프라이어 3.5L](https://link.coupang.com/a/dQuw8I)
 
 ---
 

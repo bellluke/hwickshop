@@ -44,9 +44,9 @@
 | 레노버 IdeaPad Pro 5 | 130만 | 1.89kg | 10h | 코딩/영상편집 |
 | 맥북 에어 M3 | 150만 | 1.51kg | 18h | 애플 유저, 배터리 괴물 |
 
-👉 [레노버 IdeaPad Slim 3](https://www.coupang.com/np/search?q=%EB%A0%88%EB%85%B8%EB%B2%84+IdeaPad+Slim3+16GB)
-👉 [삼성 갤럭시북4](https://www.coupang.com/np/search?q=%EC%82%BC%EC%84%B1+%EA%B0%A4%EB%9F%AD%EC%8B%9C%EB%B6%814+15%EC%9D%B8%EC%B9%98)
-👉 [맥북 에어 M3](https://www.coupang.com/np/search?q=%EB%A7%A5%EB%B6%81+%EC%97%90%EC%96%B4+M3+15%EC%9D%B8%EC%B9%98)
+👉 [레노버 IdeaPad Slim 3](https://link.coupang.com/a/dQxuk2)
+👉 [삼성 갤럭시북4](https://link.coupang.com/a/dQxuHO)
+👉 [맥북 에어 M3](https://link.coupang.com/a/dQxuo0)
 
 > 💡 **선배 팁**: "입학 전에 사지 마세요. 3월에 삼성/LG 학생 할인 + 대학 생협 할인이 있습니다. 10~20% 저렴하게 살 수 있어요."
 
@@ -60,8 +60,8 @@
 | 노스페이스 보레알리스 | 28L | 15인치 | 9만원대 |
 | 무인양품 리사이클 백팩 | 25L | 15.6인치 | 4만원대 |
 
-👉 [쌤소나이트 레드 백팩](https://www.coupang.com/np/search?q=%EC%8C%A4%EC%86%8C%EB%82%98%EC%9D%B4%ED%8A%B8+%EB%A0%88%EB%93%9C+%EB%B0%B1%ED%8C%A9+%EB%85%B8%ED%8A%B8%EB%B6%81)
-👉 [무인양품 백팩](https://www.coupang.com/np/search?q=%EB%AC%B4%EC%9D%B8%EC%96%91%ED%92%88+%EB%A6%AC%EC%82%AC%EC%9D%B4%ED%81%B4+%EB%B0%B1%ED%8C%A9)
+👉 [쌤소나이트 레드 백팩](https://link.coupang.com/a/dQxuTh)
+👉 [무인양품 백팩](https://link.coupang.com/a/dQxuFl)
 
 ---
 
@@ -75,10 +75,10 @@
 | 노트북 거치대 (접이식) | 목 건강 + 키보드 각도 | 2~3만 |
 | USB 허브 | 발표 시 HDMI 연결 필수 | 2~4만 |
 
-👉 [앤커 멀티포트 충전기 65W](https://www.coupang.com/np/search?q=%EC%95%A4%EC%BB%A4+%EB%A9%80%ED%8B%B0%ED%8F%AC%ED%8A%B8+%EC%B6%A9%EC%A0%84%EA%B8%B0+65W)
-👉 [삼성 갤럭시 버즈 FE](https://www.coupang.com/np/search?q=%EC%82%BC%EC%84%B1+%EA%B0%A4%EB%9F%AD%EC%8B%9C+%EB%B2%84%EC%A6%88+FE)
-👉 [노트북 거치대 접이식](https://www.coupang.com/np/search?q=%EB%85%B8%ED%8A%B8%EB%B6%81+%EA%B1%B0%EC%B9%98%EB%8C%80+%EC%A0%91%EC%9D%B4%EC%8B%9D+%EC%95%8C%EB%A3%A8%EB%AF%B8%EB%8A%84)
-👉 [USB-C 허브 HDMI](https://www.coupang.com/np/search?q=USB-C+%ED%97%88%EB%B8%8C+HDMI+%EB%A9%80%ED%8B%B0%ED%8F%AC%ED%8A%B8)
+👉 [앤커 멀티포트 충전기 65W](https://link.coupang.com/a/dQxuWn)
+👉 [삼성 갤럭시 버즈 FE](https://link.coupang.com/a/dQxuKC)
+👉 [노트북 거치대 접이식](https://link.coupang.com/a/dQxue9)
+👉 [USB-C 허브 HDMI](https://link.coupang.com/a/dQxu22)
 
 ---
 
@@ -94,8 +94,8 @@
 | 스테이플러 (소형) | 1개 | 레포트 제출용 |
 | USB 메모리 32GB | 1개 | 발표, 과제 제출 백업 |
 
-👉 [대학생 학용품 세트](https://www.coupang.com/np/search?q=%EB%8C%80%ED%95%99%EC%83%9D+%ED%95%99%EC%9A%A9%ED%92%88+%EB%B3%BC%ED%8E%9C+%ED%98%95%EA%B4%91%ED%8E%9C+%EC%84%B8%ED%8A%B8)
-👉 [USB 메모리 32GB](https://www.coupang.com/np/search?q=USB+%EB%A9%94%EB%AA%A8%EB%A6%AC+32GB+%EC%82%BC%EC%84%B1)
+👉 [대학생 학용품 세트](https://link.coupang.com/a/dQxuhA)
+👉 [USB 메모리 32GB](https://link.coupang.com/a/dQxu5E)
 
 ---
 
@@ -108,8 +108,8 @@
 - [ ] 베개 (기숙사 베개는 믿지 마세요)
 - [ ] 매트리스 토퍼 (기숙사 매트리스는 딱딱함)
 
-👉 [기숙사 싱글 침구 세트](https://www.coupang.com/np/search?q=%EA%B8%B0%EC%88%99%EC%82%AC+%EC%8B%B1%EA%B8%80+%EC%B9%A8%EA%B5%AC+%EC%84%B8%ED%8A%B8)
-👉 [메모리폼 토퍼 싱글](https://www.coupang.com/np/search?q=%EB%A9%94%EB%AA%A8%EB%A6%AC%ED%8F%BC+%ED%86%A0%ED%8D%BC+%EC%8B%B1%EA%B8%80)
+👉 [기숙사 싱글 침구 세트](https://link.coupang.com/a/dQxub0)
+👉 [메모리폼 토퍼 싱글](https://link.coupang.com/a/dQxur7)
 
 ### 생활용품
 - [ ] 수건 3~4장
@@ -120,16 +120,16 @@
 - [ ] 멀티탭 (콘센트 부족)
 - [ ] 옷걸이 20개 + 압축봉
 
-👉 [샤워 바구니 (물빠짐)](https://www.coupang.com/np/search?q=%EC%83%A4%EC%9B%8C+%EB%B0%94%EA%B5%AC%EB%8B%88+%EB%AC%BC%EB%B9%A0%EC%A7%90+%EC%9A%95%EC%8B%A4)
-👉 [USB 탁상 선풍기](https://www.coupang.com/np/search?q=USB+%ED%83%81%EC%83%81+%EC%84%A0%ED%92%8D%EA%B8%B0+%EC%A0%80%EC%86%8C%EC%9D%8C)
+👉 [샤워 바구니 (물빠짐)](https://link.coupang.com/a/dQxuOe)
+👉 [USB 탁상 선풍기](https://link.coupang.com/a/dQxu8R)
 
 ### 공부 환경
 - [ ] 독서대 (책상 위 공간 절약)
 - [ ] LED 데스크 램프 (룸메이트 방해 안 되는 것)
 - [ ] 귀마개 (룸메이트 코골이 대비... 진짜임)
 
-👉 [LED 데스크 램프 (밝기 조절)](https://www.coupang.com/np/search?q=LED+%EB%8D%B0%EC%8A%A4%ED%81%AC+%EB%9E%A8%ED%94%84+%EB%B0%9D%EA%B8%B0%EC%A1%B0%EC%A0%88)
-👉 [수면 귀마개](https://www.coupang.com/np/search?q=%EC%88%98%EB%A9%B4+%EA%B7%80%EB%A7%88%EA%B0%9C+%EC%86%8C%EC%9D%8C%EC%B0%A8%EB%8B%A8)
+👉 [LED 데스크 램프 (밝기 조절)](https://link.coupang.com/a/dQxuZw)
+👉 [수면 귀마개](https://link.coupang.com/a/dQxuQR)
 
 > 💡 **기숙사 선배 팁**: "첫날 짐 풀면서 깨달음 — 옷걸이를 안 가져왔다. 그리고 귀마개는 인생템."
 

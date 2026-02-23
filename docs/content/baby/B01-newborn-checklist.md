@@ -29,10 +29,10 @@
 
 > 💡 **팁**: 분유는 **소캔 1개만** 사세요. 아기마다 맞는 분유가 다르고, 병원에서 먹이던 것과 같은 브랜드로 시작하세요.
 
-👉 [더블하트 젖병 세트 (160ml × 4)](https://www.coupang.com/np/search?q=%EB%8D%94%EB%B8%94%ED%95%98%ED%8A%B8+%EC%A0%96%EB%B3%91+%EC%84%B8%ED%8A%B8+160ml)
-👉 [젖병 소독기 (UV)](https://www.coupang.com/np/search?q=%EC%A0%96%EB%B3%91+%EC%86%8C%EB%8F%85%EA%B8%B0+UV+%EA%B1%B4%EC%A1%B0)
-👉 [수유쿠션](https://www.coupang.com/np/search?q=%EC%88%98%EC%9C%A0%EC%BF%A0%EC%85%98+C%ED%98%95)
-👉 [유축기 (전동 싱글)](https://www.coupang.com/np/search?q=%EC%A0%84%EB%8F%99+%EC%9C%A0%EC%B6%95%EA%B8%B0+%EC%8B%B1%EA%B8%80)
+👉 [더블하트 젖병 세트 (160ml × 4)](https://link.coupang.com/a/dQud8V)
+👉 [젖병 소독기 (UV)](https://link.coupang.com/a/dQuhtg)
+👉 [수유쿠션](https://link.coupang.com/a/dQuex4)
+👉 [유축기 (전동 싱글)](https://link.coupang.com/a/dQugXU)
 
 ---
 
@@ -44,9 +44,9 @@
 - S 사이즈 — 2~3팩 미리 사도 OK
 - 물티슈 — 대량 구매 (어차피 몇 년간 씀)
 
-👉 [하기스 네이처 메이드 NB](https://www.coupang.com/np/search?q=%ED%95%98%EA%B8%B0%EC%8A%A4+%EB%84%A4%EC%9D%B4%EC%B2%98%EB%A9%94%EC%9D%B4%EB%93%9C+NB+%EC%8B%A0%EC%83%9D%EC%95%84)
-👉 [하기스 네이처 메이드 S](https://www.coupang.com/np/search?q=%ED%95%98%EA%B8%B0%EC%8A%A4+%EB%84%A4%EC%9D%B4%EC%B2%98%EB%A9%94%EC%9D%B4%EB%93%9C+S)
-👉 [물티슈 (캡형 대용량)](https://www.coupang.com/np/search?q=%EC%95%84%EA%B8%B0+%EB%AC%BC%ED%8B%B0%EC%8A%88+%EC%BA%A1%ED%98%95+%EB%8C%80%EC%9A%A9%EB%9F%89)
+👉 [하기스 네이처 메이드 NB](https://link.coupang.com/a/dQuhHk)
+👉 [하기스 네이처 메이드 S](https://link.coupang.com/a/dQuhSU)
+👉 [물티슈 (캡형 대용량)](https://link.coupang.com/a/dQughG)
 
 > 💡 **현실**: NB 사이즈는 **2~3주면 졸업**합니다. 많이 사지 마세요.
 
@@ -63,8 +63,8 @@
 | 턱받이 | 5~10개 | 침, 토 대비 |
 | 속싸개 (스와들) | 2~3개 | 모로반사 방지, 수면 필수템 |
 
-👉 [신생아 배냇저고리 5벌 세트](https://www.coupang.com/np/search?q=%EC%8B%A0%EC%83%9D%EC%95%84+%EB%B0%B0%EB%83%87%EC%A0%80%EA%B3%A0%EB%A6%AC+5%EB%B2%8C+%EC%84%B8%ED%8A%B8)
-👉 [속싸개 스와들 (면)](https://www.coupang.com/np/search?q=%EC%8B%A0%EC%83%9D%EC%95%84+%EC%86%8D%EC%8B%B8%EA%B0%9C+%EC%8A%A4%EC%99%80%EB%93%A4+%EB%A9%B4)
+👉 [신생아 배냇저고리 5벌 세트](https://link.coupang.com/a/dQueSt)
+👉 [속싸개 스와들 (면)](https://link.coupang.com/a/dQue5F)
 
 ---
 
@@ -77,8 +77,8 @@
 | 이불 (계절용) | 얇은 것 (과열 위험) |
 | 베개 | **6개월 전에는 베개 X** (SIDS 위험) |
 
-👉 [범퍼 침대 (신생아)](https://www.coupang.com/np/search?q=%EB%B2%94%ED%8D%BC%EC%B9%A8%EB%8C%80+%EC%8B%A0%EC%83%9D%EC%95%84+%EC%95%84%EA%B8%B0%EC%B9%A8%EB%8C%80)
-👉 [방수 시트 (아기용)](https://www.coupang.com/np/search?q=%EC%95%84%EA%B8%B0+%EB%B0%A9%EC%88%98%EC%8B%9C%ED%8A%B8+%EB%A9%B4)
+👉 [범퍼 침대 (신생아)](https://link.coupang.com/a/dQuelT)
+👉 [방수 시트 (아기용)](https://link.coupang.com/a/dQugwM)
 
 > ⚠️ **안전 주의**: 신생아 침대에 이불, 베개, 인형 넣지 마세요. 질식 위험. 속싸개만 사용.
 
@@ -95,10 +95,10 @@
 | 면봉 (유아용) | 배꼽 소독용 |
 | 보습제 | 목욕 후 바로 |
 
-👉 [접이식 아기 욕조](https://www.coupang.com/np/search?q=%EC%A0%91%EC%9D%B4%EC%8B%9D+%EC%95%84%EA%B8%B0+%EC%9A%95%EC%A1%B0)
-👉 [목욕 온도계 (디지털)](https://www.coupang.com/np/search?q=%EC%95%84%EA%B8%B0+%EB%AA%A9%EC%9A%95+%EC%98%A8%EB%8F%84%EA%B3%84+%EB%94%94%EC%A7%80%ED%84%B8)
-👉 [아기 바디워시 (신생아용)](https://www.coupang.com/np/search?q=%EC%8B%A0%EC%83%9D%EC%95%84+%EB%B0%94%EB%94%94%EC%9B%8C%EC%8B%9C+%EC%A0%80%EC%9E%90%EA%B7%B9)
-👉 [아기 보습제 (세라마이드)](https://www.coupang.com/np/search?q=%EC%95%84%EA%B8%B0+%EB%B3%B4%EC%8A%B5%EC%A0%9C+%EC%84%B8%EB%9D%BC%EB%A7%88%EC%9D%B4%EB%93%9C)
+👉 [접이식 아기 욕조](https://link.coupang.com/a/dQuheb)
+👉 [목욕 온도계 (디지털)](https://link.coupang.com/a/dQuftU)
+👉 [아기 바디워시 (신생아용)](https://link.coupang.com/a/dQueJ0)
+👉 [아기 보습제 (세라마이드)](https://link.coupang.com/a/dQugIL)
 
 ---
 
@@ -111,8 +111,8 @@
 | 기저귀 가방 | 외출 시 짐 정리 |
 | 아기띠 (신생아 인서트) | 2~3개월부터 |
 
-👉 [신생아 카시트](https://www.coupang.com/np/search?q=%EC%8B%A0%EC%83%9D%EC%95%84+%EC%B9%B4%EC%8B%9C%ED%8A%B8+ISOFIX)
-👉 [기저귀 가방 (백팩형)](https://www.coupang.com/np/search?q=%EA%B8%B0%EC%A0%80%EA%B7%80+%EA%B0%80%EB%B0%A9+%EB%B0%B1%ED%8C%A9)
+👉 [신생아 카시트](https://link.coupang.com/a/dQuffK)
+👉 [기저귀 가방 (백팩형)](https://link.coupang.com/a/dQudXE)
 
 > 💡 **카시트는 퇴원 전에 사세요.** 병원에서 퇴원할 때 차에 카시트 없으면 데려올 수 없어요 (법적 의무 + 병원 확인).
 

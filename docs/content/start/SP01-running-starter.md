@@ -33,10 +33,10 @@
 | 호카 클리프턴 | 구름 위 달리는 느낌, 가벼움 | 15~17만 |
 | 미즈노 웨이브 라이더 | 가성비 좋은 올라운더 | 12~15만 |
 
-👉 [아식스 젤 카야노](https://www.coupang.com/np/search?q=%EC%95%84%EC%8B%9D%EC%8A%A4+%EC%A0%A4+%EC%B9%B4%EC%95%BC%EB%85%B8+%EB%9F%AC%EB%8B%9D%ED%99%94)
-👉 [뉴발란스 1080](https://www.coupang.com/np/search?q=%EB%89%B4%EB%B0%9C%EB%9E%80%EC%8A%A4+1080+%EB%9F%AC%EB%8B%9D%ED%99%94)
-👉 [호카 클리프턴](https://www.coupang.com/np/search?q=%ED%98%B8%EC%B9%B4+%ED%81%B4%EB%A6%AC%ED%94%84%ED%84%B4+%EB%9F%AC%EB%8B%9D%ED%99%94)
-👉 [나이키 페가수스](https://www.coupang.com/np/search?q=%EB%82%98%EC%9D%B4%ED%82%A4+%ED%8E%98%EA%B0%80%EC%88%98%EC%8A%A4+%EB%9F%AC%EB%8B%9D%ED%99%94)
+👉 [아식스 젤 카야노](https://link.coupang.com/a/dQxyCf)
+👉 [뉴발란스 1080](https://link.coupang.com/a/dQxylF)
+👉 [호카 클리프턴](https://link.coupang.com/a/dQxyFD)
+👉 [나이키 페가수스](https://link.coupang.com/a/dQxx61)
 
 > 💡 **핵심**: 매장에서 신어보고, 쿠팡에서 가격 비교 후 구매. 같은 모델이 온라인이 2~5만원 저렴합니다.
 
@@ -51,7 +51,7 @@
 - 속건 소재 (땀 배출)
 - 이음매 없는 발가락 부분 (물집 방지)
 
-👉 [러닝 양말 5켤레 세트](https://www.coupang.com/np/search?q=%EB%9F%AC%EB%8B%9D+%EC%96%91%EB%A7%90+%EC%BF%A0%EC%85%98+%EC%86%8D%EA%B1%B4+%EC%84%B8%ED%8A%B8)
+👉 [러닝 양말 5켤레 세트](https://link.coupang.com/a/dQxyvJ)
 
 ### 러닝 반바지 + 상의
 
@@ -62,8 +62,8 @@
 | 주머니 (지퍼) | 핸드폰, 열쇠 |
 | 반사 포인트 | 야간 안전 |
 
-👉 [러닝 반바지 (이너 일체형)](https://www.coupang.com/np/search?q=%EB%9F%AC%EB%8B%9D+%EB%B0%98%EB%B0%94%EC%A7%80+%EC%9D%B4%EB%84%88+%EC%9D%BC%EC%B2%B4%ED%98%95)
-👉 [속건 러닝 티셔츠](https://www.coupang.com/np/search?q=%EC%86%8D%EA%B1%B4+%EB%9F%AC%EB%8B%9D+%ED%8B%B0%EC%85%94%EC%B8%A0)
+👉 [러닝 반바지 (이너 일체형)](https://link.coupang.com/a/dQxyop)
+👉 [속건 러닝 티셔츠](https://link.coupang.com/a/dQxyyS)
 
 ### 러닝 앱 (무료)
 
@@ -88,8 +88,8 @@
 | 러닝 선글라스 | ⭐⭐ | 3~10만 |
 | 반사 조끼 (야간) | ⭐⭐ | 1~2만 |
 
-👉 [가민 러닝 워치 (입문)](https://www.coupang.com/np/search?q=%EA%B0%80%EB%AF%BC+%EB%9F%AC%EB%8B%9D+%EC%9B%8C%EC%B9%98+%EC%9E%85%EB%AC%B8+GPS)
-👉 [러닝 벨트 (스마트폰 수납)](https://www.coupang.com/np/search?q=%EB%9F%AC%EB%8B%9D+%EB%B2%A8%ED%8A%B8+%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0+%ED%97%88%EB%A6%AC)
+👉 [가민 러닝 워치 (입문)](https://link.coupang.com/a/dQxx2R)
+👉 [러닝 벨트 (스마트폰 수납)](https://link.coupang.com/a/dQxyrL)
 
 ---
 

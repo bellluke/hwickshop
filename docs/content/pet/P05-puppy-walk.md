@@ -25,9 +25,9 @@
 - **리드줄 길이**: 1.2~1.5m 고정형 (자동 리드줄은 훈련 후에)
 - 야간 산책 → 반사 스트립 있는 것
 
-👉 [Y자 하네스 + 리드줄 세트 (소형견)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+Y%EC%9E%90+%ED%95%98%EB%84%A4%EC%8A%A4+%EB%A6%AC%EB%93%9C%EC%A4%84+%EC%86%8C%ED%98%95%EA%B2%AC)
-👉 [H형 하네스 + 리드줄 (중형견)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+H%ED%98%95+%ED%95%98%EB%84%A4%EC%8A%A4+%EB%A6%AC%EB%93%9C%EC%A4%84+%EC%A4%91%ED%98%95%EA%B2%AC)
-👉 [야간 LED 리드줄](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+LED+%EB%A6%AC%EB%93%9C%EC%A4%84+%EC%95%BC%EA%B0%84+%EB%B0%98%EC%82%AC)
+👉 [Y자 하네스 + 리드줄 세트 (소형견)](https://link.coupang.com/a/dQxrDm)
+👉 [H형 하네스 + 리드줄 (중형견)](https://link.coupang.com/a/dQxryy)
+👉 [야간 LED 리드줄](https://link.coupang.com/a/dQxrAJ)
 
 > 💡 **목줄 vs 하네스**: 소형견은 **무조건 하네스**. 기관허탈증(기관지 눌려서 기침하는 병) 위험이 있어요. 특히 말티즈, 포메, 치와와.
 
@@ -40,7 +40,7 @@
 - 디스펜서: 리드줄에 클립으로 달 수 있는 것
 - 봉투: 생분해성이면 환경에도 좋음
 
-👉 [배변봉투 디스펜서 + 리필 300매](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EB%B0%B0%EB%B3%80%EB%B4%89%ED%88%AC+%EB%94%94%EC%8A%A4%ED%8E%9C%EC%84%9C+%EB%A6%AC%ED%95%84)
+👉 [배변봉투 디스펜서 + 리필 300매](https://link.coupang.com/a/dQxqYj)
 
 ---
 
@@ -51,8 +51,8 @@
 - 허리에 차는 간식 파우치 — 양손 자유
 - 간식은 소형 + 저칼로리
 
-👉 [산책용 간식 파우치 (허리형)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EC%82%B0%EC%B1%85+%EA%B0%84%EC%8B%9D+%ED%8C%8C%EC%9A%B0%EC%B9%98+%ED%97%88%EB%A6%AC)
-👉 [훈련용 소형 간식](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%ED%9B%88%EB%A0%A8%EC%9A%A9+%EA%B0%84%EC%8B%9D+%EC%86%8C%ED%98%95+%EC%A0%80%EC%B9%BC%EB%A1%9C%EB%A6%AC)
+👉 [산책용 간식 파우치 (허리형)](https://link.coupang.com/a/dQxq4v)
+👉 [훈련용 소형 간식](https://link.coupang.com/a/dQxruu)
 
 ---
 
@@ -62,7 +62,7 @@
 
 - 원터치 물병 (그릇 일체형) — 한 손으로 줄 수 있는 것
 
-👉 [강아지 산책 물병 (원터치)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EC%82%B0%EC%B1%85+%EB%AC%BC%EB%B3%91+%EC%9B%90%ED%84%B0%EC%B9%98+%ED%9C%B4%EB%8C%80%EC%9A%A9)
+👉 [강아지 산책 물병 (원터치)](https://link.coupang.com/a/dQxq7v)
 
 ---
 
@@ -77,9 +77,9 @@
 | 드라이빙 하네스 | ⭐ | 차 타고 공원 갈 때 |
 | 진드기 방지 목줄 | ⭐⭐⭐ | 풀밭 산책하면 필수 (봄~가을) |
 
-👉 [강아지 산책 크로스백](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EC%82%B0%EC%B1%85+%EA%B0%80%EB%B0%A9+%ED%81%AC%EB%A1%9C%EC%8A%A4%EB%B0%B1)
-👉 [파우 클리너 (발 워셔)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%ED%8C%8C%EC%9A%B0+%ED%81%B4%EB%A6%AC%EB%84%88+%EB%B0%9C+%EC%9B%8C%EC%85%94)
-👉 [진드기 방지 목줄](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EC%A7%84%EB%93%9C%EA%B8%B0+%EB%B0%A9%EC%A7%80+%EB%AA%A9%EC%A4%84)
+👉 [강아지 산책 크로스백](https://link.coupang.com/a/dQxq1d)
+👉 [파우 클리너 (발 워셔)](https://link.coupang.com/a/dQxrqn)
+👉 [진드기 방지 목줄](https://link.coupang.com/a/dQxrjB)
 
 ---
 
@@ -90,8 +90,8 @@
 - [ ] 발바닥 보호 왁스 — 아스팔트 화상 방지
 - [ ] 이른 아침/저녁 산책 (낮 X)
 
-👉 [강아지 쿨링 조끼](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EC%BF%A8%EB%A7%81+%EC%A1%B0%EB%81%BC+%EC%97%AC%EB%A6%84)
-👉 [발바닥 보호 왁스](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EB%B0%9C%EB%B0%94%EB%8B%A5+%EB%B3%B4%ED%98%B8+%EC%99%81%EC%8A%A4)
+👉 [강아지 쿨링 조끼](https://link.coupang.com/a/dQxrma)
+👉 [발바닥 보호 왁스](https://link.coupang.com/a/dQxqU9)
 
 > ⚠️ **아스팔트 테스트**: 손등을 5초 대보세요. 뜨거우면 산책 금지. 강아지 발바닥 화상 위험.
 
@@ -100,7 +100,7 @@
 - [ ] 부츠/신발 — 제설제(염화칼슘)로부터 발 보호
 - [ ] 짧게 산책 (15~20분)
 
-👉 [강아지 겨울 패딩 (소형견)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EA%B2%A8%EC%9A%B8+%ED%8C%A8%EB%94%A9+%EC%86%8C%ED%98%95%EA%B2%AC)
+👉 [강아지 겨울 패딩 (소형견)](https://link.coupang.com/a/dQxqRW)
 
 ---
 

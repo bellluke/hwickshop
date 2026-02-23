@@ -47,7 +47,7 @@
 | 하복 체육복 (반팔 + 반바지) | 1벌 | 4~6만 |
 | 체육복 여분 상의 | 1~2장 | 2~3만 |
 
-👉 [중학생 체육복 이너](https://www.coupang.com/np/search?q=%EC%A4%91%ED%95%99%EC%83%9D+%EC%B2%B4%EC%9C%A1%EB%B3%B5+%EB%B0%98%ED%8C%94+%EC%9D%B4%EB%84%88) — 체육복 안에 입는 기능성 이너
+👉 [중학생 체육복 이너](https://link.coupang.com/a/dQxtTS) — 체육복 안에 입는 기능성 이너
 
 ---
 
@@ -58,8 +58,8 @@
 | 실내화 | 흰색, 학교 규정 확인 | 2~3만 |
 | 운동화 | 체육 시간용, 쿠션 좋은 것 | 5~8만 |
 
-👉 [중학생 실내화 (화이트)](https://www.coupang.com/np/search?q=%EC%A4%91%ED%95%99%EC%83%9D+%EC%8B%A4%EB%82%B4%ED%99%94+%ED%9D%B0%EC%83%89)
-👉 [나이키 레볼루션 (학생 운동화)](https://www.coupang.com/np/search?q=%EB%82%98%EC%9D%B4%ED%82%A4+%EB%A0%88%EB%B3%BC%EB%A3%A8%EC%85%98+%ED%95%99%EC%83%9D+%EC%9A%B4%EB%8F%99%ED%99%94)
+👉 [중학생 실내화 (화이트)](https://link.coupang.com/a/dQxtQM)
+👉 [나이키 레볼루션 (학생 운동화)](https://link.coupang.com/a/dQxtB1)
 
 ---
 
@@ -79,8 +79,8 @@
 | JanSport 라이트팩 | 26L | 가벼움, 색상 다양 | 5만원대 |
 | 쌤소나이트 레드 | 28L | 노트북 수납, 등판 쿠션 | 10만원대 |
 
-👉 [노스페이스 빅샷 백팩](https://www.coupang.com/np/search?q=%EB%85%B8%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4+%EB%B9%85%EC%83%B7+%EB%B0%B1%ED%8C%A9+%ED%95%99%EC%83%9D)
-👉 [JanSport 라이트팩](https://www.coupang.com/np/search?q=%EC%9E%94%EC%8A%A4%ED%8F%AC%EC%B8%A0+%EB%9D%BC%EC%9D%B4%ED%8A%B8%ED%8C%A9+%EB%B0%B1%ED%8C%A9)
+👉 [노스페이스 빅샷 백팩](https://link.coupang.com/a/dQxtEF)
+👉 [JanSport 라이트팩](https://link.coupang.com/a/dQxtND)
 
 ---
 
@@ -99,8 +99,8 @@
 | A4 클리어파일 | 3개 | 프린트물 정리용 |
 | 바인더/파일 | 1~2개 | 과목별 정리 |
 
-👉 [중학생 학용품 세트](https://www.coupang.com/np/search?q=%EC%A4%91%ED%95%99%EC%83%9D+%ED%95%99%EC%9A%A9%ED%92%88+%EC%84%B8%ED%8A%B8+%EC%83%A4%ED%94%84+%EB%B3%BC%ED%8E%9C)
-👉 [A4 클리어파일 10매](https://www.coupang.com/np/search?q=A4+%ED%81%B4%EB%A6%AC%EC%96%B4%ED%8C%8C%EC%9D%BC+%ED%88%AC%EB%AA%85)
+👉 [중학생 학용품 세트](https://link.coupang.com/a/dQxtWH)
+👉 [A4 클리어파일 10매](https://link.coupang.com/a/dQxt8T)
 
 ---
 
@@ -111,7 +111,7 @@
 - **다이얼 자물쇠** 추천 (열쇠는 잃어버림)
 - 비밀번호 3자리 또는 4자리
 
-👉 [다이얼 자물쇠 (사물함용)](https://www.coupang.com/np/search?q=%EB%8B%A4%EC%9D%B4%EC%96%BC+%EC%9E%90%EB%AC%BC%EC%87%A0+%EC%82%AC%EB%AC%BC%ED%95%A8)
+👉 [다이얼 자물쇠 (사물함용)](https://link.coupang.com/a/dQxtIc)
 
 ---
 
@@ -122,8 +122,8 @@
 | 교통카드 | 청소년 카드 (만 13~18세 할인). 캐시비 또는 티머니 |
 | 급식카드 | 학교에서 배부하는 곳 많음 — 확인 후 구매 |
 
-👉 [티머니 청소년 교통카드](https://www.coupang.com/np/search?q=%ED%8B%B0%EB%A8%B8%EB%8B%88+%EC%B2%AD%EC%86%8C%EB%85%84+%EA%B5%90%ED%86%B5%EC%B9%B4%EB%93%9C)
-👉 [카드지갑 (학생용)](https://www.coupang.com/np/search?q=%ED%95%99%EC%83%9D+%EC%B9%B4%EB%93%9C%EC%A7%80%EA%B0%91+%EB%AA%A9%EA%B1%B8%EC%9D%B4)
+👉 [티머니 청소년 교통카드](https://link.coupang.com/a/dQxtZo)
+👉 [카드지갑 (학생용)](https://link.coupang.com/a/dQxt2S)
 
 ---
 
@@ -137,8 +137,8 @@
 | 블루투스 이어폰 | ⭐⭐ | 등하교 시 음악 (수업 중 금지) |
 | 독서대 | ⭐⭐ | 집에서 공부할 때 |
 
-👉 [보조배터리 10000mAh 소형](https://www.coupang.com/np/search?q=%EB%B3%B4%EC%A1%B0%EB%B0%B0%ED%84%B0%EB%A6%AC+10000+%EC%86%8C%ED%98%95+%EA%B2%BD%EB%9F%89)
-👉 [3단 자동 우산](https://www.coupang.com/np/search?q=3%EB%8B%A8+%EC%9E%90%EB%8F%99+%EC%9A%B0%EC%82%B0+%EA%B2%BD%EB%9F%89)
+👉 [보조배터리 10000mAh 소형](https://link.coupang.com/a/dQxtKW)
+👉 [3단 자동 우산](https://link.coupang.com/a/dQxt5A)
 
 ---
 

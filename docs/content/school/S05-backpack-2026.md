@@ -37,7 +37,7 @@
 
 **단점**: 디자인이 심플해서 아이가 "캐릭터 가방 사달라"고 할 수 있음.
 
-👉 [캐리 세이프백 클래식](https://www.coupang.com/np/search?q=%EC%BA%90%EB%A6%AC+%EC%84%B8%EC%9D%B4%ED%94%84%EB%B0%B1+%EC%B4%88%EB%93%B1+%EC%B1%85%EA%B0%80%EB%B0%A9)
+👉 [캐리 세이프백 클래식](https://link.coupang.com/a/dQxrIG)
 
 ---
 
@@ -57,7 +57,7 @@
 
 **단점**: 힙 벨트 없음. 체구 작은 1학년은 가슴 벨트만으로 충분하지만.
 
-👉 [잇츠마인 에어라이트](https://www.coupang.com/np/search?q=%EC%9E%87%EC%B8%A0%EB%A7%88%EC%9D%B8+%EC%97%90%EC%96%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8+%EC%B4%88%EB%93%B1+%EC%B1%85%EA%B0%80%EB%B0%A9)
+👉 [잇츠마인 에어라이트](https://link.coupang.com/a/dQxrFl)
 
 ---
 
@@ -77,7 +77,7 @@
 
 **단점**: 딱히 없음. 무난한 게 장점이자 단점.
 
-👉 [콕사 뉴코지](https://www.coupang.com/np/search?q=%EC%BD%95%EC%82%AC+%EB%89%B4%EC%BD%94%EC%A7%80+%EC%B4%88%EB%93%B1+%EC%B1%85%EA%B0%80%EB%B0%A9)
+👉 [콕사 뉴코지](https://link.coupang.com/a/dQxsDp)
 
 ---
 
@@ -97,7 +97,7 @@
 
 **단점**: 방수가 약함. 비 오는 날 비닐 커버 필요.
 
-👉 [휠라 키즈 어반 백팩](https://www.coupang.com/np/search?q=%ED%9C%A0%EB%9D%BC+%ED%82%A4%EC%A6%88+%EC%96%B4%EB%B0%98+%EB%B0%B1%ED%8C%A9+%EC%B4%88%EB%93%B1)
+👉 [휠라 키즈 어반 백팩](https://link.coupang.com/a/dQxrTz)
 
 ---
 
@@ -117,7 +117,7 @@
 
 **단점**: 가격이 높음. 1~2학년 쓰고 바꿀 거면 가성비가 아쉬움.
 
-👉 [쿠론 키즈 에르고 라이트](https://www.coupang.com/np/search?q=%EC%BF%A0%EB%A1%A0+%ED%82%A4%EC%A6%88+%EC%97%90%EB%A5%B4%EA%B3%A0+%EB%9D%BC%EC%9D%B4%ED%8A%B8+%EC%B1%85%EA%B0%80%EB%B0%A9)
+👉 [쿠론 키즈 에르고 라이트](https://link.coupang.com/a/dQxrPV)
 
 ---
 

@@ -34,8 +34,8 @@
 | 이어폰 | 비행기, 이동 중 |
 | 카메라 (선택) | 스마트폰으로 충분하면 패스 |
 
-👉 [보조배터리 20000mAh (PD 고속충전)](https://www.coupang.com/np/search?q=%EB%B3%B4%EC%A1%B0%EB%B0%B0%ED%84%B0%EB%A6%AC+20000+PD+%EA%B3%A0%EC%86%8D%EC%B6%A9%EC%A0%84)
-👉 [해외여행 멀티 어댑터 (올인원)](https://www.coupang.com/np/search?q=%ED%95%B4%EC%99%B8%EC%97%AC%ED%96%89+%EB%A9%80%ED%8B%B0+%EC%96%B4%EB%8C%91%ED%84%B0+%EC%98%AC%EC%9D%B8%EC%9B%90)
+👉 [보조배터리 20000mAh (PD 고속충전)](https://link.coupang.com/a/dQxxFf)
+👉 [해외여행 멀티 어댑터 (올인원)](https://link.coupang.com/a/dQxxSZ)
 
 > 💡 **멀티 어댑터 하나면** 미국, 유럽, 영국, 호주 전부 커버. 나라별로 따로 살 필요 없어요.
 
@@ -49,8 +49,8 @@
 - [ ] 겉옷 1벌 (기내 + 아침저녁 온도차)
 - [ ] 편한 운동화 (많이 걸으니까)
 
-👉 [압축팩 (여행용 의류)](https://www.coupang.com/np/search?q=%EC%97%AC%ED%96%89+%EC%95%95%EC%B6%95%ED%8C%A9+%EC%9D%98%EB%A5%98+%EC%84%B8%ED%8A%B8)
-👉 [트래블 파우치 세트](https://www.coupang.com/np/search?q=%ED%8A%B8%EB%9E%98%EB%B8%94+%ED%8C%8C%EC%9A%B0%EC%B9%98+%EC%84%B8%ED%8A%B8+%EC%97%AC%ED%96%89)
+👉 [압축팩 (여행용 의류)](https://link.coupang.com/a/dQxxLm)
+👉 [트래블 파우치 세트](https://link.coupang.com/a/dQxxPo)
 
 ### 세면도구
 
@@ -60,7 +60,7 @@
 - [ ] 면도기
 - [ ] 소분 용기 세트 (100ml 이하, 기내 반입용)
 
-👉 [여행용 소분 용기 세트 (기내 반입)](https://www.coupang.com/np/search?q=%EC%97%AC%ED%96%89+%EC%86%8C%EB%B6%84+%EC%9A%A9%EA%B8%B0+%EC%84%B8%ED%8A%B8+%EA%B8%B0%EB%82%B4%EB%B0%98%EC%9E%85)
+👉 [여행용 소분 용기 세트 (기내 반입)](https://link.coupang.com/a/dQxxId)
 
 ---
 
@@ -76,9 +76,9 @@
 | 물티슈 | ⭐⭐ | 어디서든 유용 |
 | 자물쇠 (TSA) | ⭐⭐ | 캐리어 잠금 |
 
-👉 [메모리폼 넥 필로우](https://www.coupang.com/np/search?q=%EB%A9%94%EB%AA%A8%EB%A6%AC%ED%8F%BC+%EB%84%A5%ED%95%84%EB%A1%9C%EC%9A%B0+%EC%97%AC%ED%96%89)
-👉 [TSA 자물쇠](https://www.coupang.com/np/search?q=TSA+%EC%9E%90%EB%AC%BC%EC%87%A0+%EC%BA%90%EB%A6%AC%EC%96%B4)
-👉 [방수 파우치 (스마트폰)](https://www.coupang.com/np/search?q=%EB%B0%A9%EC%88%98+%ED%8C%8C%EC%9A%B0%EC%B9%98+%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0+%EC%97%AC%ED%96%89)
+👉 [메모리폼 넥 필로우](https://link.coupang.com/a/dQxxwi)
+👉 [TSA 자물쇠](https://link.coupang.com/a/dQxxZ9)
+👉 [방수 파우치 (스마트폰)](https://link.coupang.com/a/dQxxzL)
 
 ---
 
@@ -90,7 +90,7 @@
 - [ ] 선크림 SPF 50+ — 자외선 강함
 - [ ] 얇은 긴팔 — 사원 방문 시 노출 제한
 
-👉 [벌레 퇴치 스프레이 (피부용)](https://www.coupang.com/np/search?q=%EB%B2%8C%EB%A0%88+%ED%87%B4%EC%B9%98+%EC%8A%A4%ED%94%84%EB%A0%88%EC%9D%B4+%EC%97%AC%ED%96%89)
+👉 [벌레 퇴치 스프레이 (피부용)](https://link.coupang.com/a/dQxxCY)
 
 ### 유럽 (프랑스, 이탈리아, 스페인 등)
 - [ ] 소매치기 방지 가방 (크로스백, RFID 차단)
@@ -98,7 +98,7 @@
 - [ ] 편한 운동화 (돌길 많음)
 - [ ] C타입 어댑터 (유럽 공통)
 
-👉 [RFID 차단 크로스백](https://www.coupang.com/np/search?q=RFID+%EC%B0%A8%EB%8B%A8+%ED%81%AC%EB%A1%9C%EC%8A%A4%EB%B0%B1+%EC%97%AC%ED%96%89+%EC%86%8C%EB%A7%A4%EC%B9%98%EA%B8%B0%EB%B0%A9%EC%A7%80)
+👉 [RFID 차단 크로스백](https://link.coupang.com/a/dQxxWL)
 
 ### 일본
 - [ ] 교통카드 (Suica/ICOCA) — 현지 편의점에서도 구매 가능

@@ -26,9 +26,9 @@
 - 기존 사료와 동일 브랜드
 - 소포장 먼저 (입맛 확인 후 대용량)
 
-👉 [로얄캐닌 미니 퍼피](https://www.coupang.com/np/search?q=%EB%A1%9C%EC%96%84%EC%BA%90%EB%8B%8C+%EB%AF%B8%EB%8B%88+%ED%8D%BC%ED%94%BC+%EC%82%AC%EB%A3%8C)
-👉 [뉴트리나 건강백서 퍼피](https://www.coupang.com/np/search?q=%EB%89%B4%ED%8A%B8%EB%A6%AC%EB%82%98+%EA%B1%B4%EA%B0%95%EB%B0%B1%EC%84%9C+%ED%8D%BC%ED%94%BC)
-👉 [오리젠 퍼피](https://www.coupang.com/np/search?q=%EC%98%A4%EB%A6%AC%EC%A0%A0+%ED%8D%BC%ED%94%BC+%EC%82%AC%EB%A3%8C)
+👉 [로얄캐닌 미니 퍼피](https://link.coupang.com/a/dQxqLT)
+👉 [뉴트리나 건강백서 퍼피](https://link.coupang.com/a/dQxqIb)
+👉 [오리젠 퍼피](https://link.coupang.com/a/dQxqPd)
 
 ---
 
@@ -40,7 +40,7 @@
 | 도자기 그릇 | ✅ OK | 무거워서 안 뒤집히지만 깨질 수 있음 |
 | 플라스틱 그릇 | ❌ 비추 | 스크래치에 세균 번식, 턱 여드름 원인 |
 
-👉 [스테인리스 이중 밥그릇 세트](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EC%8A%A4%ED%85%8C%EC%9D%B8%EB%A6%AC%EC%8A%A4+%EB%B0%A5%EA%B7%B8%EB%A6%87+%EC%9D%B4%EC%A4%91)
+👉 [스테인리스 이중 밥그릇 세트](https://link.coupang.com/a/dQxqjn)
 
 ---
 
@@ -52,8 +52,8 @@
 - 처음에 넓게 깔고 점점 줄여나가기
 - 100매 이상 구매 (하루 3~5장 사용)
 
-👉 [배변패드 대형 100매](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EB%B0%B0%EB%B3%80%ED%8C%A8%EB%93%9C+%EB%8C%80%ED%98%95+100%EB%A7%A4)
-👉 [탄소 배변패드 (탈취)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%ED%83%84%EC%86%8C+%EB%B0%B0%EB%B3%80%ED%8C%A8%EB%93%9C+%ED%83%88%EC%B7%A8)
+👉 [배변패드 대형 100매](https://link.coupang.com/a/dQxpWW)
+👉 [탄소 배변패드 (탈취)](https://link.coupang.com/a/dQxqzt)
 
 > 💡 **팁**: 탄소 배변패드가 냄새 흡수력이 일반보다 훨씬 좋아요. 원룸이면 무조건 탄소.
 
@@ -69,8 +69,8 @@
 - 소형견: 중형 켄넬 / 중형견: 대형 켄넬
 - 문 열어둔 상태로 자유롭게 드나들게
 
-👉 [강아지 켄넬 중형](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EC%BC%84%EB%84%AC+%EC%9D%B4%EB%8F%99%EC%9E%A5+%EC%A4%91%ED%98%95)
-👉 [접이식 소프트 켄넬](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EC%86%8C%ED%94%84%ED%8A%B8+%EC%BC%84%EB%84%AC+%EC%A0%91%EC%9D%B4%EC%8B%9D)
+👉 [강아지 켄넬 중형](https://link.coupang.com/a/dQxquj)
+👉 [접이식 소프트 켄넬](https://link.coupang.com/a/dQxqhc)
 
 ---
 
@@ -86,8 +86,8 @@
 - 첫 리드줄은 **1.2~1.5m 고정 길이** (자동 리드줄은 훈련 후에)
 - 하네스는 Y자형이 어깨에 무리 없음
 
-👉 [Y자형 하네스 + 리드줄 세트 (소형견)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+Y%EC%9E%90+%ED%95%98%EB%84%A4%EC%8A%A4+%EB%A6%AC%EB%93%9C%EC%A4%84+%EC%84%B8%ED%8A%B8+%EC%86%8C%ED%98%95)
-👉 [강아지 목줄 + 리드줄 세트 (중형견)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EB%AA%A9%EC%A4%84+%EB%A6%AC%EB%93%9C%EC%A4%84+%EC%84%B8%ED%8A%B8+%EC%A4%91%ED%98%95)
+👉 [Y자형 하네스 + 리드줄 세트 (소형견)](https://link.coupang.com/a/dQxqFx)
+👉 [강아지 목줄 + 리드줄 세트 (중형견)](https://link.coupang.com/a/dQxpOp)
 
 ---
 
@@ -101,8 +101,8 @@
 - 퍼피용 (자극 적은 것)
 - 칼로리 낮은 것 (하루에 수십 개 줌)
 
-👉 [퍼피 훈련용 간식 (소형)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%ED%8D%BC%ED%94%BC+%ED%9B%88%EB%A0%A8%EC%9A%A9+%EA%B0%84%EC%8B%9D)
-👉 [동결건조 닭가슴살 간식](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EB%8F%99%EA%B2%B0%EA%B1%B4%EC%A1%B0+%EB%8B%AD%EA%B0%80%EC%8A%B4%EC%82%B4+%EA%B0%84%EC%8B%9D)
+👉 [퍼피 훈련용 간식 (소형)](https://link.coupang.com/a/dQxqC8)
+👉 [동결건조 닭가슴살 간식](https://link.coupang.com/a/dQxpL4)
 
 ---
 
@@ -117,9 +117,9 @@
 | 노즈워크 장난감 | 분리불안 완화 + 두뇌 자극 | 간식 숨기는 타입 |
 | 인형/봉제 | 안정감, 물고 다니기 | 소형견용 작은 사이즈 |
 
-👉 [콩 장난감 (이갈이용)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EC%BD%A9+%EC%9E%A5%EB%82%9C%EA%B0%90+%EC%9D%B4%EA%B0%88%EC%9D%B4)
-👉 [노즈워크 매트](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EB%85%B8%EC%A6%88%EC%9B%8C%ED%81%AC+%EB%A7%A4%ED%8A%B8)
-👉 [강아지 봉제 인형 (소형견)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EB%B4%89%EC%A0%9C+%EC%9D%B8%ED%98%95+%EC%9E%A5%EB%82%9C%EA%B0%90+%EC%86%8C%ED%98%95)
+👉 [콩 장난감 (이갈이용)](https://link.coupang.com/a/dQxqwV)
+👉 [노즈워크 매트](https://link.coupang.com/a/dQxpIZ)
+👉 [강아지 봉제 인형 (소형견)](https://link.coupang.com/a/dQxp4A)
 
 ---
 
@@ -133,10 +133,10 @@
 | 구강 관리 (치약+칫솔) | 습관 들이기 |
 | 빗 (슬리커 브러시) | 매일 빗질 |
 
-👉 [강아지 샴푸 (저자극 퍼피용)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EC%83%B4%ED%91%B8+%EC%A0%80%EC%9E%90%EA%B7%B9+%ED%8D%BC%ED%94%BC)
-👉 [강아지 귀 세정제](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EA%B7%80+%EC%84%B8%EC%A0%95%EC%A0%9C)
-👉 [강아지 발톱깎이 (LED)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EB%B0%9C%ED%86%B1%EA%B9%8E%EC%9D%B4+LED)
-👉 [슬리커 브러시](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EC%8A%AC%EB%A6%AC%EC%BB%A4+%EB%B8%8C%EB%9F%AC%EC%8B%9C)
+👉 [강아지 샴푸 (저자극 퍼피용)](https://link.coupang.com/a/dQxqfi)
+👉 [강아지 귀 세정제](https://link.coupang.com/a/dQxpF6)
+👉 [강아지 발톱깎이 (LED)](https://link.coupang.com/a/dQxpR2)
+👉 [슬리커 브러시](https://link.coupang.com/a/dQxql0)
 
 ---
 
@@ -146,7 +146,7 @@
 
 특히 첫 주는 집 전체를 돌아다니게 하면 안 돼요. 작은 공간에서 시작해서 점점 넓혀가는 게 훈련의 기본.
 
-👉 [강아지 울타리 (6칸 조립식)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EC%9A%B8%ED%83%80%EB%A6%AC+%ED%8E%9C%EC%8A%A4+%EC%A1%B0%EB%A6%BD%EC%8B%9D)
+👉 [강아지 울타리 (6칸 조립식)](https://link.coupang.com/a/dQxqoO)
 
 ---
 
@@ -157,7 +157,7 @@
 - 빨래 가능한 커버
 - 사이즈: 성견 기준으로
 
-👉 [강아지 방석 (세탁 가능)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EB%B0%A9%EC%84%9D+%EC%BF%A0%EC%85%98+%EC%84%B8%ED%83%81%EA%B0%80%EB%8A%A5)
+👉 [강아지 방석 (세탁 가능)](https://link.coupang.com/a/dQxpUs)
 
 ---
 
@@ -172,8 +172,8 @@
 | 공기청정기 | ⭐⭐ | 털 날림 + 냄새 (동거인 있으면 필수) |
 | 배변 탈취제 | ⭐⭐⭐ | 원룸이면 2주 안에 삼 |
 
-👉 [강아지 자동 급수기](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EC%9E%90%EB%8F%99+%EA%B8%89%EC%88%98%EA%B8%B0)
-👉 [배변 탈취제 (강아지 전용)](https://www.coupang.com/np/search?q=%EA%B0%95%EC%95%84%EC%A7%80+%EB%B0%B0%EB%B3%80+%ED%83%88%EC%B7%A8%EC%A0%9C)
+👉 [강아지 자동 급수기](https://link.coupang.com/a/dQxqrn)
+👉 [배변 탈취제 (강아지 전용)](https://link.coupang.com/a/dQxp05)
 
 ---
 

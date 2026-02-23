@@ -43,7 +43,7 @@
 **왜 1위**: 소형+경량 카테고리 최강. 45dB 저소음. 프로 운동선수도 사용하는 브랜드.
 **단점**: 헤드가 2개뿐. 가격이 10만원 근접.
 
-👉 [하이퍼아이스 하이퍼볼트 GO 2](https://www.coupang.com/np/search?q=%ED%95%98%EC%9D%B4%ED%8D%BC%EC%95%84%EC%9D%B4%EC%8A%A4+%ED%95%98%EC%9D%B4%ED%8D%BC%EB%B3%BC%ED%8A%B8+GO2)
+👉 [하이퍼아이스 하이퍼볼트 GO 2](https://link.coupang.com/a/dQuomi)
 
 ### 2위. 브랜드X FX-300 (가성비 왕)
 
@@ -59,7 +59,7 @@
 **왜 2위**: **3만원대에 이 스펙.** 가성비 끝판왕. 헤드 6개, 배터리 4시간.
 **단점**: 브랜드 인지도 낮음. 마감이 프리미엄은 아님.
 
-👉 [브랜드X FX-300 마사지건](https://www.coupang.com/np/search?q=%EB%A7%88%EC%82%AC%EC%A7%80%EA%B1%B4+%EA%B0%80%EC%84%B1%EB%B9%84+FX-300)
+👉 [브랜드X FX-300 마사지건](https://link.coupang.com/a/dQunUj)
 
 ### 3위. 세라건 미니
 
@@ -75,7 +75,7 @@
 **왜 3위**: 마사지건의 원조. 빌드 퀄리티 최상. 삼각형 디자인 = 어디서든 세워놓기 가능.
 **단점**: 비쌈.
 
-👉 [세라건 미니](https://www.coupang.com/np/search?q=%EC%84%B8%EB%9D%BC%EA%B1%B4+%EB%AF%B8%EB%8B%88+%EB%A7%88%EC%82%AC%EC%A7%80%EA%B1%B4)
+👉 [세라건 미니](https://link.coupang.com/a/dQun86)
 
 ### 4위. 무도스 M1 미니
 
@@ -91,7 +91,7 @@
 **왜 4위**: **460g 초경량.** 여성, 출장용으로 최적. 42dB 초저소음.
 **단점**: 파워가 약한 편. 대근육(허벅지, 등) 시원하게 풀기엔 부족.
 
-👉 [무도스 M1 미니](https://www.coupang.com/np/search?q=%EB%AC%B4%EB%8F%84%EC%8A%A4+M1+%EB%AF%B8%EB%8B%88+%EB%A7%88%EC%82%AC%EC%A7%80%EA%B1%B4)
+👉 [무도스 M1 미니](https://link.coupang.com/a/dQun1Q)
 
 ### 5위. 코지 CG-500
 
@@ -107,7 +107,7 @@
 **왜 5위**: 30단계 속도 조절 + 8개 헤드 = 전문가급 스펙. 배터리 6시간 최장.
 **단점**: 900g으로 무거움. 한 손으로 오래 쓰면 팔 아픔.
 
-👉 [코지 CG-500 마사지건](https://www.coupang.com/np/search?q=%EC%BD%94%EC%A7%80+CG-500+%EB%A7%88%EC%82%AC%EC%A7%80%EA%B1%B4)
+👉 [코지 CG-500 마사지건](https://link.coupang.com/a/dQuofC)
 
 ---
 
