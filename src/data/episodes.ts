@@ -4,7 +4,7 @@
 export type Tier = 'must' | 'soon' | 'later';
 export const TIER_LABEL: Record<Tier, string> = { must: '오늘 꼭', soon: '이번 주', later: '천천히' };
 
-export interface Product { name: string; url: string }
+export interface Product { name: string; url: string; image?: string; price?: number; rating?: number; reviews?: number; rocket?: boolean }
 export interface Item {
   id: string; name: string; icon: string; tier: Tier; scene: string;
   why: string; crit: string[]; products: Product[];
@@ -42,9 +42,9 @@ export const episodes: Episode[] = [
       {
         key: 'night', color: 'cobalt', title: '오늘 밤,\n어디서 자지?', balloon: '바닥은 차갑고 딱딱해…', sfx: 'ZZZ', hero: 'stack',
         levels: [
-          { k: '아끼기', s: '당일 필수', say: '침구 + 씻고 닦을 것. 오늘 밤은 이걸로 끝.', set: ['bedding', 'shower', 'cleaning', 'plug'] },
-          { k: '기본', s: '+건조대·행거', say: '이번 주 안에 빨래 말릴 곳, 옷 걸 곳까지.', set: ['bedding', 'shower', 'cleaning', 'plug', 'rack', 'hanger'] },
-          { k: '넉넉히', s: '+청소기', say: '밀대로 버티기 싫으면 청소기까지 한 번에.', set: ['bedding', 'shower', 'cleaning', 'plug', 'rack', 'hanger', 'vacuum'] },
+          { k: '아끼기', s: '당일 필수', say: '침구 + 씻고 닦을 것. 오늘 밤은 이걸로 끝.', set: ['bedding', 'topper', 'shower', 'cleaning', 'plug'] },
+          { k: '기본', s: '+건조대·행거', say: '이번 주 안에 빨래 말릴 곳, 옷 걸 곳까지.', set: ['bedding', 'topper', 'shower', 'cleaning', 'plug', 'rack', 'hanger'] },
+          { k: '넉넉히', s: '+청소기', say: '밀대로 버티기 싫으면 청소기까지 한 번에.', set: ['bedding', 'topper', 'shower', 'cleaning', 'plug', 'rack', 'hanger', 'vacuum'] },
         ],
       },
       {
@@ -57,7 +57,8 @@ export const episodes: Episode[] = [
       },
     ],
     items: [
-      { id: 'bedding', name: '침구 (이불·토퍼)', icon: 'bedding', tier: 'must', scene: 'night', why: '계절마다 사면 수납이 문제예요. 사계절 이불 한 세트에 토퍼면 첫날 밤 해결.', crit: ['이불은 사계절용 한 세트', '토퍼는 5~7cm 메모리폼', '바닥이나 딱딱한 매트리스면 토퍼는 필수'], products: [{ name: '자취 원룸 침구 세트 사계절', url: L('dQuxe0') }, { name: '메모리폼 토퍼 싱글 7cm', url: L('dQuwFH') }] },
+      { id: 'bedding', name: '이불·베개 세트', icon: 'bedding', tier: 'must', scene: 'night', why: '계절마다 사면 수납이 문제예요. 사계절 이불 한 세트로 시작해요.', crit: ['사계절용 한 세트', '집 세탁기로 빨 수 있는지'], products: [] },
+      { id: 'topper', name: '토퍼', icon: 'topper', tier: 'must', scene: 'night', why: '바닥이나 딱딱한 매트리스에서 자야 한다면 토퍼가 첫날 밤을 살려요.', crit: ['5~7cm 메모리폼', '커버를 벗겨 빨 수 있는지'], products: [] },
       { id: 'shower', name: '샤워기 필터', icon: 'shower', tier: 'must', scene: 'night', why: '원룸 수질은 믿기 어려워요. 녹물 나오는 곳도 있어요.', crit: ['수건 3~4장, 미끄럼 방지 매트도 같이', '휴지는 이사 당일 제일 많이 빠뜨리는 것'], products: [{ name: '녹물 제거 샤워기 필터', url: L('dQxpCh') }] },
       { id: 'cleaning', name: '청소 도구', icon: 'mop', tier: 'must', scene: 'night', why: '전 세입자 흔적부터 지우고 들어가요. 청소기는 나중에 사도 돼요.', crit: ['밀대걸레로 시작', '곰팡이 제거제는 화장실·창틀용', '종량제 봉투는 우리 구·시 것으로'], products: [{ name: '밀대걸레 세트', url: L('dQuwUq') }, { name: '곰팡이 제거제', url: L('dQuwtb') }] },
       { id: 'plug', name: '멀티탭', icon: 'plug', tier: 'must', scene: 'night', why: '원룸 콘센트는 보통 2~3개뿐이에요.', crit: ['개별 스위치 있는 6구 하나면 충분'], products: [{ name: 'USB 멀티탭 6구 개별스위치', url: L('dQuxMV') }] },
@@ -140,3 +141,10 @@ export const upcoming = [
 ];
 
 export const getEpisode = (slug: string) => episodes.find((e) => e.slug === slug);
+
+// 실상품으로 교체 (products.ts)
+import { PRODUCTS } from './products';
+for (const ep of episodes) for (const it of ep.items) {
+  const list = PRODUCTS[ep.slug]?.[it.id];
+  if (list?.length) it.products = list;
+}

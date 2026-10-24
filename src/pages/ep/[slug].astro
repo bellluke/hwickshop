@@ -157,7 +157,7 @@ const ld = {
 <script>
   import { episodes, TIER_LABEL } from '../../data/episodes';
   import { svg } from '../../lib/icons';
-  import { renderArt, renderBudget, renderShop, renderTiers, pkey } from '../../lib/render';
+  import { renderArt, renderBudget, renderShop, renderTiers, pkey, thumb } from '../../lib/render';
 
   const app = document.getElementById('app')!;
   const ep = episodes.find((e) => e.slug === app.dataset.slug)!;
@@ -204,7 +204,7 @@ const ld = {
     });
     $('#mylist').innerHTML = keys.length ? keys.map((k) => {
       const [id, i] = k.split(':'); const it = itemOf(id); const p = it.products[+i];
-      return `<li>${svg(it.icon)}<span>${p.name}<small>${it.name} · ${TIER_LABEL[it.tier]}</small></span><a class="li-go" href="${p.url}" target="_blank" rel="sponsored noopener">쿠팡 ↗</a></li>`;
+      return `<li>${thumb(p, it.icon)}<span>${p.name}<small>${it.name} · ${TIER_LABEL[it.tier]}</small></span><a class="li-go" href="${p.url}" target="_blank" rel="sponsored noopener">쿠팡 ↗</a></li>`;
     }).join('') : '<li class="empty">아직 비어 있어요. 장면에서 담기를 누르면 여기 모여요.</li>';
     const musts = ep.items.filter((i) => i.tier === 'must');
     const have = musts.filter((it) => it.products.some((_, i) => picked.has(pkey(it.id, i))));
@@ -267,7 +267,7 @@ const ld = {
     const it = itemOf(sheetId);
     $('#shProducts').innerHTML = it.products.length ? it.products.map((p, i) => {
       const on = picked.has(pkey(it.id, i));
-      return `<div><span>${p.name}</span><button type="button" data-pick="${it.id}" data-i="${i}" aria-pressed="${on}">${on ? '담음' : '담기'}</button><a href="${p.url}" target="_blank" rel="sponsored noopener">쿠팡 ↗</a></div>`;
+      return `<div>${thumb(p, it.icon)}<span>${p.name}${p.price ? `<br><small style="font-weight:700;color:var(--mute)">${p.price.toLocaleString('ko-KR')}원 · ★ ${p.rating} · 리뷰 ${p.reviews?.toLocaleString('ko-KR')}</small>` : ''}</span><button type="button" data-pick="${it.id}" data-i="${i}" aria-pressed="${on}">${on ? '담음' : '담기'}</button><a href="${p.url}" target="_blank" rel="sponsored noopener">쿠팡 ↗</a></div>`;
     }).join('') : '<p class="noprod" style="color:var(--mute)">살아보고 필요하면 사요. 상품은 아직 안 골랐어요.</p>';
   }
   const closeSheet = () => { $('#scrim').hidden = true; lastFocus?.focus(); };

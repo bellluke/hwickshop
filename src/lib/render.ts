@@ -1,7 +1,13 @@
 // 회차 페이지의 바뀌는 부분(그림·상품 컷·단계 묶음)을 그리는 함수.
 // 서버(첫 화면)와 브라우저(버튼을 누를 때)가 같은 함수를 쓴다.
 import { svg } from './icons';
-import { TIER_LABEL, type Episode, type Item, type Scene, type Tier } from '../data/episodes';
+import { TIER_LABEL, type Episode, type Item, type Product, type Scene, type Tier } from '../data/episodes';
+import { PRODUCTS_AS_OF } from '../data/products';
+
+const won = (n: number) => n.toLocaleString('ko-KR') + '원';
+const asOf = PRODUCTS_AS_OF.slice(5).replace('-', '/');
+export const thumb = (p: Product, fallback: string, cls = '') =>
+  p.image ? `<img class="${cls}" src="${p.image}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">` : svg(fallback, cls);
 
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]!));
 export const pkey = (itemId: string, i: number) => `${itemId}:${i}`;
@@ -36,8 +42,10 @@ export function renderBudget(scene: Scene, lv: number): string {
 function productCard(it: Item, i: number, picked: Set<string>): string {
   const p = it.products[i];
   const on = picked.has(pkey(it.id, i));
-  return `<div class="pcard${on ? ' sel' : ''}"><div class="pic halftone"><span class="rank">${i === 0 ? '휙 추천' : '후보 ' + (i + 1)}</span>${svg(it.icon)}</div>
-  <div class="meta"><b>${esc(p.name)}</b><span>가격·후기는 쿠팡에서 확인</span></div>
+  const facts = p.reviews ? `<span class="stars">★ ${p.rating} · 리뷰 ${p.reviews.toLocaleString('ko-KR')}</span>` : '<span>가격·후기는 쿠팡에서 확인</span>';
+  const price = p.price ? `<span class="price">${won(p.price)}${p.rocket ? '<i class="rocket">로켓</i>' : ''}</span>` : '';
+  return `<div class="pcard${on ? ' sel' : ''}"><div class="pic${p.image ? ' photo' : ' halftone'}"><span class="rank">${p.reviews ? '쿠팡 랭킹 ' + (i + 1) + '위' : '후보 ' + (i + 1)}</span>${thumb(p, it.icon)}</div>
+  <div class="meta"><b>${esc(p.name)}</b>${facts}${price}</div>
   <div class="pacts"><button type="button" class="pk" data-pick="${it.id}" data-i="${i}" aria-pressed="${on}">${on ? '담음' : '담기'}</button><a class="go" href="${p.url}" target="_blank" rel="sponsored noopener">쿠팡 ↗</a></div></div>`;
 }
 
@@ -46,7 +54,7 @@ export function renderShop(ep: Episode, scene: Scene, lv: number, picked: Set<st
   const items = level.set.map((id) => ep.items.find((i) => i.id === id)!).filter(Boolean);
   const blocks = items.map((it) => `<div class="iblk"><div class="ih">${svg(it.icon)}<button type="button" data-info="${it.id}"><b>${esc(it.name)}</b><small>${esc(it.crit[0] ?? it.why)}</small></button><span class="tstamp ${it.tier}">${TIER_LABEL[it.tier]}</span></div>
     ${it.products.length ? `<div class="rail">${it.products.map((_, i) => productCard(it, i, picked)).join('')}</div>` : '<p class="noprod">살아보고 필요하면 사요. 상품은 아직 안 골랐어요.</p>'}</div>`).join('');
-  return `<div class="shop-h"><strong>쿠팡에서 이걸 사면 돼</strong><span class="tape">${esc(level.k)} · ${items.length}품목</span></div>${blocks}
+  return `<div class="shop-h"><strong>쿠팡에서 이걸 사면 돼</strong><span class="tape">${esc(level.k)} · ${items.length}품목</span></div><p class="basis">쿠팡 랭킹순 상위 · 리뷰 100개 이상 · ${asOf} 기준 가격 (바뀔 수 있어요)</p>${blocks}
   <div class="shop-acts"><button class="btn" type="button" data-addset="${scene.key}">휙 추천으로 다 담기</button></div>
   <p class="disc"><span>이 페이지는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</span></p>`;
 }
