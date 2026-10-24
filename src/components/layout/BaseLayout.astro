@@ -1,4 +1,5 @@
 ---
+import Analytics from '@/components/Analytics.astro';
 import Header from './Header.astro';
 import Footer from './Footer.astro';
 import '@/styles/global.css';
@@ -67,6 +68,7 @@ const canonicalUrl = canonicalPath
     />
 
     <slot name="head" />
+    <Analytics />
   </head>
   <body class="flex min-h-dvh flex-col">
     <Header />

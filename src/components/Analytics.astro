@@ -1,0 +1,24 @@
+---
+// GA·검색 등록 태그. src/data/site.ts에 값을 넣으면 켜진다.
+import { GA_ID, GOOGLE_SITE_VERIFICATION, NAVER_SITE_VERIFICATION } from '@/data/site';
+---
+{GOOGLE_SITE_VERIFICATION && <meta name="google-site-verification" content={GOOGLE_SITE_VERIFICATION} />}
+{NAVER_SITE_VERIFICATION && <meta name="naver-site-verification" content={NAVER_SITE_VERIFICATION} />}
+{GA_ID && (
+  <>
+    <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>
+    <script is:inline define:vars={{ GA_ID }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      window.gtag = gtag;
+      gtag('js', new Date());
+      gtag('config', GA_ID);
+      // 쿠팡으로 나가는 클릭 = 핵심 지표
+      document.addEventListener('click', function (e) {
+        var a = e.target.closest && e.target.closest('a[href*="link.coupang.com"]');
+        if (!a) return;
+        gtag('event', 'coupang_click', { link_url: a.href, page_path: location.pathname, transport_type: 'beacon' });
+      }, true);
+    </script>
+  </>
+)}

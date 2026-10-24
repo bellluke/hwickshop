@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:BH;src:url(../shorts/fonts/BlackHanSans.ttf)}
+@font-face{font-family:GA;src:url(../shorts/fonts/GothicA1-Black.ttf);font-weight:900}
+@font-face{font-family:GA;src:url(../shorts/fonts/GothicA1-Bold.ttf);font-weight:700}
+:root{--ink:#15120E;--paper:#FBFAF4;--yolk:#FFD21F;--chili:#FF4A26;--cobalt:#2234C8;--deep:#18248F;--pink:#FF86BE;--sky:#8EC2FF}
+*{margin:0;box-sizing:border-box}
+body{background:#777;display:flex;flex-wrap:wrap;gap:40px;padding:20px;width:2700px}
+.ik{stroke:var(--ink);stroke-width:4;stroke-linejoin:miter;stroke-linecap:square}
+.L{width:800px;height:800px;position:relative;overflow:hidden}
+.glyph{position:absolute;font:420px/1 BH;letter-spacing:-8px}
+/* A: cobalt sporty */
+#la{background:var(--ink)}
+#la .ht{position:absolute;inset:0;background-image:radial-gradient(rgba(255,210,31,.22) 2.2px,transparent 2.8px);background-size:16px 16px;-webkit-mask-image:linear-gradient(115deg,#000 0%,transparent 55%)}
+#la .glyph{left:205px;top:175px;color:var(--yolk);transform:skewX(-12deg);text-shadow:18px 18px 0 var(--chili)}
+#la .st{position:absolute;height:34px;border-radius:0 17px 17px 0;background:var(--chili)}
+/* B: chili print-offset */
+#lb{background:var(--chili)}
+#lb .glyph{left:190px;top:170px;color:var(--paper);-webkit-text-stroke:16px var(--ink);paint-order:stroke;transform:skewX(-10deg);text-shadow:24px 22px 0 var(--cobalt)}
+#lb .st{position:absolute;height:26px;background:var(--ink)}
+/* C: bag */
+#lc{background:var(--ink)}
+#lc .bag{position:absolute;left:150px;top:230px;width:500px;height:430px;background:var(--yolk);border:20px solid var(--paper);border-radius:18px 18px 40px 40px;box-shadow:22px 22px 0 var(--chili)}
+#lc .h{position:absolute;left:265px;top:110px;width:270px;height:220px;border:22px solid var(--paper);border-bottom:none;border-radius:140px 140px 0 0}
+#lc .glyph{left:205px;top:290px;font-size:330px;color:var(--ink);transform:skewX(-10deg)}
+#lc .st{position:absolute;height:24px;border-radius:12px;background:var(--chili)}
+/* BANNER */
+#banner{width:2560px;height:1440px;position:relative;overflow:hidden;background:var(--ink)}
+#banner .speed{position:absolute;left:-300px;right:-300px;top:-200px;bottom:-200px;
+ background:repeating-linear-gradient(0deg,transparent 0 46px,rgba(255,210,31,.10) 46px 52px);
+ -webkit-mask-image:linear-gradient(90deg,#000 0%,transparent 40%,transparent 60%,#000 100%)}
+#banner .ht{position:absolute;inset:0;background-image:radial-gradient(rgba(255,134,190,.16) 2.4px,transparent 3px);background-size:18px 18px;-webkit-mask-image:radial-gradient(ellipse at 50% 50%,transparent 30%,#000 75%)}
+#banner .item{position:absolute;width:220px;height:220px;border-radius:50%;background:var(--paper);border:10px solid var(--ink);box-shadow:12px 12px 0 var(--yolk);display:grid;place-items:center}
+#banner .item svg{width:150px;height:150px}
+#banner .trail{position:absolute;height:16px;border-radius:8px;background:var(--yolk);opacity:.9}
+#banner .safe{position:absolute;left:507px;top:509px;width:1546px;height:423px;display:flex;align-items:center;gap:52px;padding:0 30px}
+#banner .mark{flex:none;width:280px;height:280px;border-radius:50%;overflow:hidden;border:10px solid var(--paper);box-shadow:12px 12px 0 var(--yolk)}
+#banner .mark>div{transform:scale(.3375);transform-origin:0 0}
+#banner .t1{font:136px/1 BH;color:var(--paper);letter-spacing:-3px;white-space:nowrap;text-shadow:9px 9px 0 var(--chili)}
+#banner .t1 em{font-style:normal;color:var(--yolk)}
+#banner .t2{margin-top:26px;font:700 40px/1.3 GA;color:var(--paper);white-space:nowrap}
+#banner .t2 b{font-weight:900;background:var(--yolk);color:var(--ink);padding:4px 14px}
+#banner .tag{flex:none;background:var(--pink);color:var(--ink);border:9px solid var(--paper);box-shadow:10px 10px 0 var(--yolk);padding:20px 26px;font:54px/1.05 BH;text-align:center;transform:rotate(5deg)}
+#banner .tag small{display:block;font:700 28px/1.3 GA;margin-top:8px}
+</style></head><body>
+<div class="L" id="la"><div class="ht"></div>
+ <div class="st" style="left:0;top:330px;width:230px"></div><div class="st" style="left:0;top:400px;width:170px"></div><div class="st" style="left:0;top:470px;width:210px"></div>
+ <div class="glyph">휙</div></div>
+<div class="L" id="lb">
+ <div class="st" style="left:0;top:340px;width:200px"></div><div class="st" style="left:0;top:405px;width:150px"></div><div class="st" style="left:0;top:470px;width:185px"></div>
+ <div class="glyph">휙</div></div>
+<div class="L" id="lc"><div class="h"></div><div class="bag"></div>
+ <div class="st" style="left:40px;top:380px;width:120px"></div><div class="st" style="left:70px;top:440px;width:90px"></div><div class="st" style="left:30px;top:500px;width:130px"></div>
+ <div class="glyph">휙</div></div>
+
+<div id="banner"><div class="speed"></div><div class="ht"></div><div id="items"></div>
+ <div class="safe">
+  <div class="mark"><div id="markslot"></div></div>
+  <div class="tx"><div class="t1">처음 사는 거, <em>휙.</em></div>
+   <div class="t2"><b>쿠팡 랭킹·리뷰 숫자</b>로 고른 첫 쇼핑 리스트</div></div>
+  <div class="tag">매일<br>쇼츠<small>hwick.shop</small></div>
+ </div>
+</div>
+<script>
+const IC=__ICONS__;
+// 바깥(데스크톱·TV에서만 보이는 곳)으로 날아가는 첫 쇼핑 물건들
+const P=[['kennel',150,140,-6],['bedding',640,90,5],['ricecooker',1180,150,-4],['harness',1720,80,6],['food',2200,170,-5],
+         ['backpack',260,1080,4],['shoe',820,1150,-6],['cat',1380,1090,5],['kettle',1900,1160,-4],['toys',2330,1010,6]];
+let h='';for(const [n,x,y,r] of P){h+=`<div class="trail" style="left:${x-210}px;top:${y+70}px;width:170px"></div><div class="trail" style="left:${x-150}px;top:${y+130}px;width:110px"></div><div class="item" style="left:${x}px;top:${y}px;transform:rotate(${r}deg)">${IC[n]}</div>`}
+document.getElementById('items').innerHTML=h;
+const pick=new URLSearchParams(location.search).get('logo')||'la';
+const c=document.getElementById(pick).cloneNode(true);c.style.position='relative';
+document.getElementById('markslot').appendChild(c);
+</script>
+</body></html>

@@ -1,8 +1,8 @@
 // 쿠팡 파트너스에서 가져온 실상품 (품목 검색어 → 쿠팡 랭킹순 상위, 리뷰 100개 이상, 품절 제외 3개).
 // 가격·평점·리뷰 수는 아래 날짜 기준. 다시 뽑을 때는 이 파일만 바꾸면 된다.
-import type { Product } from './episodes';
-
-export const PRODUCTS_AS_OF = '2026-10-24';
+import type { Product } from './types';
+export { PRODUCTS_AS_OF } from './types';
+import { PRODUCTS_2 } from './products-2';
 
 export const PRODUCTS: Record<string, Record<string, Product[]>> = {
  "first-room": {
@@ -793,3 +793,5 @@ export const PRODUCTS: Record<string, Record<string, Product[]>> = {
   ]
  }
 };
+
+Object.assign(PRODUCTS, PRODUCTS_2);

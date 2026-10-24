@@ -1,31 +1,15 @@
 // 휙 회차 데이터. 회차 하나 = 처음 맞는 상황 하나.
 // 상품과 링크는 기존 글(쿠팡 파트너스 링크)에서 옮겨 왔다. 링크를 바꾸면 여기만 고치면 된다.
 
-export type Tier = 'must' | 'soon' | 'later';
-export const TIER_LABEL: Record<Tier, string> = { must: '오늘 꼭', soon: '이번 주', later: '천천히' };
-
-export interface Product { name: string; url: string; image?: string; price?: number; rating?: number; reviews?: number; rocket?: boolean }
-export interface Item {
-  id: string; name: string; icon: string; tier: Tier; scene: string;
-  why: string; crit: string[]; products: Product[];
-}
-export interface Level { k: string; s: string; say: string; set: string[]; res?: string }
-export interface Scene {
-  key: string; color: 'cobalt' | 'chili'; title: string; balloon?: string; sfx?: string;
-  hero: 'stack' | 'equation'; levels: Level[];
-}
-export interface Episode {
-  slug: string; no: string; title: string; cat: string; color: 'yolk' | 'pink' | 'sky';
-  hook: string; h1: string; sub: string; balloon: string; mascot?: string; coverIcon: string;
-  legacy?: { href: string; title: string };
-  choice: { q: string; eyebrow: string; options: { scene: string; big: string; sub: string }[] };
-  scenes: Scene[]; items: Item[]; skip: { name: string; why: string }[];
-  published: string;
-}
+export * from './types';
+import type { Episode } from './types';
 
 const L = (code: string) => `https://link.coupang.com/a/${code}`;
+import { firstCat } from './ep/first-cat';
+import { firstRun } from './ep/first-run';
+import { fortySupplements } from './ep/forty-supplements';
 
-export const episodes: Episode[] = [
+const ALL: Episode[] = [
   {
     slug: 'first-room', no: '01', title: '첫 자취', cat: '집', color: 'yolk', coverIcon: 'topper',
     hook: '방에 아무것도 없다', h1: '독립 첫날.', sub: '방에 아무것도 없다.', balloon: '…뭐부터 사지?',
@@ -130,21 +114,27 @@ export const episodes: Episode[] = [
       { name: '자동 급식기', why: '퍼피는 먹는 양을 조절해 줘야 해요' },
     ],
   },
+  firstCat, firstRun, fortySupplements,
 ];
 
-// 준비 중인 회차 (목차·홈 예고용)
+// 공개일 게이트: 오늘(KST)보다 공개일이 늦은 회차는 빌드에서 뺀다 (소재 선공개 방지).
+// 미리보기는 HWICK_PREVIEW=1 npm run dev
+const todayKST = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+const preview = typeof process !== 'undefined' && process.env?.HWICK_PREVIEW === '1';
+export const episodes: Episode[] = ALL.filter((e) => preview || e.published <= todayKST)
+  .sort((a, b) => b.published.localeCompare(a.published) || a.no.localeCompare(b.no));
+
+// 준비 중인 회차 (목차·홈 예고용) — 공개 전 회차 제목은 여기 넣지 않는다
 export const upcoming = [
   { no: '02', title: '이사', cat: '집', icon: 'box', hook: '짐은 많고 박스는 없다', color: 'sky' },
   { no: '04', title: '수능 응원', cat: '시즌', icon: 'book', hook: 'D-day 전에 챙길 것', color: 'yolk' },
-  { no: '05', title: '첫 고양이', cat: '반려', icon: 'cat', hook: '숨을 곳부터', color: 'pink' },
-  { no: '06', title: '러닝 입문', cat: '운동', icon: 'shoe', hook: '운동화 하나면 될까?', color: 'chili' },
 ];
 
 export const getEpisode = (slug: string) => episodes.find((e) => e.slug === slug);
 
 // 실상품으로 교체 (products.ts)
 import { PRODUCTS } from './products';
-for (const ep of episodes) for (const it of ep.items) {
+for (const ep of ALL) for (const it of ep.items) {
   const list = PRODUCTS[ep.slug]?.[it.id];
   if (list?.length) it.products = list;
 }

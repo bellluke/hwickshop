@@ -1,6 +1,6 @@
 ---
 import ComicLayout from '@/layouts/ComicLayout.astro';
-import { episodes, TIER_LABEL, type Tier } from '@/data/episodes';
+import { episodes, tierLabel, type Tier } from '@/data/episodes';
 import { svg, IC } from '@/lib/icons';
 import { renderArt, renderBudget, renderShop, renderTiers, ROOM_SLOTS } from '@/lib/render';
 
@@ -10,11 +10,12 @@ export function getStaticPaths() {
 const { ep } = Astro.props;
 const DEFAULT_LV = 1;
 const empty = new Set<string>();
+const tl = (t: Tier) => tierLabel(ep, t);
 const count = (t: Tier) => ep.items.filter((i) => i.tier === t).length;
 const musts = ep.items.filter((i) => i.tier === 'must').slice(0, ROOM_SLOTS.length);
 const others = episodes.filter((e) => e.slug !== ep.slug);
 const title = `${ep.title} 준비물 — 뭐 사야 해? | 휙`;
-const description = `${ep.title}, ${ep.hook}. 오늘 꼭 ${count('must')}개, 이번 주 ${count('soon')}개. 품목마다 쿠팡 상품까지 골라뒀어요.`;
+const description = `${ep.title}, ${ep.hook}. ${tl('must')} ${count('must')}개, ${tl('soon')} ${count('soon')}개. 품목마다 쿠팡 랭킹 1·2·3위를 붙였어요.`;
 const ld = {
   '@context': 'https://schema.org', '@type': 'ItemList', name: `${ep.title} 준비물`,
   itemListElement: ep.items.filter((i) => i.products.length).map((it, n) => ({ '@type': 'ListItem', position: n + 1, name: it.name })),
@@ -24,7 +25,7 @@ const ld = {
 <ComicLayout title={title} description={description} htmlClass="ep">
   <script type="application/ld+json" set:html={JSON.stringify(ld)} slot="head" />
   <header class="topbar">
-    <a class="logo" href="/">휙<small>HWICK</small></a>
+    <a class="logo" href="/">휙</a>
     <nav class="ticks" id="ticks" aria-label="장면 이동"></nav>
     <a class="toplink" href="/#toc">목차</a>
   </header>
@@ -58,11 +59,12 @@ const ld = {
         </div>
         <p class="lead pop" style="--d:.2s">필요한 건 생각보다 적어.</p>
         <div class="stats pop" style="--d:.26s" aria-label="준비물 수">
-          {(['must', 'soon', 'later'] as Tier[]).map((t) => <div><strong data-n={count(t)}>{count(t)}</strong><span>{TIER_LABEL[t]}</span></div>)}
+          {(['must', 'soon', 'later'] as Tier[]).map((t) => <div><strong data-n={count(t)}>{count(t)}</strong><span>{tl(t)}</span></div>)}
         </div>
         <div class="how pop" style="--d:.28s" aria-label="휙 이용 순서">
           <div><b>1</b>휙 보고</div><div><b>2</b>골라 담고</div><div class="cp"><b>3</b>쿠팡에서 산다</div>
         </div>
+        {ep.notice && <p class="notice pop" style="--d:.29s">{ep.notice}</p>}
         <p class="disc pop" style="--d:.3s"><span>휙은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</span></p>
         <div class="row pop" style="--d:.3s">
           <button class="btn" id="refill" type="button">휙! 다시 채우기</button>
@@ -109,7 +111,7 @@ const ld = {
         <span class="eyebrow pop"><b>EP.{ep.no}</b> 마지막 컷</span>
         <h2 class="pop" style="--d:.05s">준비 끝?<br /><span style="font-size:.5em">이제 쿠팡에서 휙.</span></h2>
         <div class="pop" style="--d:.1s;display:flex;flex-direction:column;gap:8px">
-          <div class="meter"><strong id="mustHave">0</strong><span>/ {count('must')}</span><span style="font-size:18px;margin-left:6px">오늘 꼭 필요한 것</span></div>
+          <div class="meter"><strong id="mustHave">0</strong><span>/ {count('must')}</span><span style="font-size:18px;margin-left:6px">{tl('must')}</span></div>
           <div class="bar" aria-hidden="true"><i id="mustBar" style="width:0"></i></div>
           <p class="missing" id="missing"></p>
         </div>
@@ -149,18 +151,20 @@ const ld = {
       <ol id="shCrit"></ol>
       <p class="lbl">쿠팡에서 보기</p>
       <div class="plist" id="shProducts"></div>
+      {ep.notice && <p class="notice">{ep.notice}</p>}
       <p class="disc"><span>휙은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</span></p>
     </div>
   </div>
+  <script type="application/json" id="ep-data" set:html={JSON.stringify(ep)} />
 </ComicLayout>
 
 <script>
-  import { episodes, TIER_LABEL } from '../../data/episodes';
+  import { tierLabel, type Episode } from '../../data/types';
   import { svg } from '../../lib/icons';
   import { renderArt, renderBudget, renderShop, renderTiers, pkey, thumb } from '../../lib/render';
 
   const app = document.getElementById('app')!;
-  const ep = episodes.find((e) => e.slug === app.dataset.slug)!;
+  const ep: Episode = JSON.parse(document.getElementById('ep-data')!.textContent!);
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const $ = <T extends Element = HTMLElement>(s: string, r: ParentNode = document) => r.querySelector(s) as T;
   const $$ = (s: string, r: ParentNode = document) => [...r.querySelectorAll<HTMLElement>(s)];
@@ -204,7 +208,7 @@ const ld = {
     });
     $('#mylist').innerHTML = keys.length ? keys.map((k) => {
       const [id, i] = k.split(':'); const it = itemOf(id); const p = it.products[+i];
-      return `<li>${thumb(p, it.icon)}<span>${p.name}<small>${it.name} · ${TIER_LABEL[it.tier]}</small></span><a class="li-go" href="${p.url}" target="_blank" rel="sponsored noopener">쿠팡 ↗</a></li>`;
+      return `<li>${thumb(p, it.icon)}<span>${p.name}<small>${it.name} · ${tierLabel(ep, it.tier)}</small></span><a class="li-go" href="${p.url}" target="_blank" rel="sponsored noopener">쿠팡 ↗</a></li>`;
     }).join('') : '<li class="empty">아직 비어 있어요. 장면에서 담기를 누르면 여기 모여요.</li>';
     const musts = ep.items.filter((i) => i.tier === 'must');
     const have = musts.filter((it) => it.products.some((_, i) => picked.has(pkey(it.id, i))));
@@ -213,7 +217,7 @@ const ld = {
     const miss = musts.filter((it) => !have.includes(it));
     $('#missing').innerHTML = miss.length
       ? '아직 빠진 것: ' + miss.map((it) => `<button type="button" data-info="${it.id}">${it.name}</button>`).join(', ')
-      : '오늘 꼭 필요한 건 다 담았어요. 이제 쿠팡에서 사면 끝.';
+      : `${tierLabel(ep, 'must')} 품목은 다 담았어요. 가격은 쿠팡에서 한 번 더 확인해요.`;
   }
   function toggle(k: string, force?: boolean) {
     const on = force ?? !picked.has(k);
@@ -256,7 +260,7 @@ const ld = {
   let lastFocus: HTMLElement | null = null;
   function openSheet(id: string) {
     const it = itemOf(id); sheetId = id; lastFocus = document.activeElement as HTMLElement;
-    $('#shPic').innerHTML = svg(it.icon); $('#shTier').textContent = TIER_LABEL[it.tier]; $('#shName').textContent = it.name;
+    $('#shPic').innerHTML = svg(it.icon); $('#shTier').textContent = tierLabel(ep, it.tier); $('#shName').textContent = it.name;
     $('#shWhy').textContent = it.why;
     $('#shCritLbl').hidden = !it.crit.length;
     $('#shCrit').innerHTML = it.crit.map((c) => `<li>${c}</li>`).join('');
