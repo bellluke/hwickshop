@@ -1,92 +1,264 @@
 ---
 import { getCollection } from 'astro:content';
-import BaseLayout from '@/components/layout/BaseLayout.astro';
+import ComicLayout from '@/layouts/ComicLayout.astro';
+import { episodes, upcoming } from '@/data/episodes';
 import { categories } from '@/data/categories';
+import { svg } from '@/lib/icons';
 
-const articles = await getCollection('articles');
-const popularArticles = articles
-  .sort((a, b) => b.data.linkCount - a.data.linkCount)
-  .slice(0, 4);
-
-const now = new Date();
-const month = now.getMonth() + 1;
-const seasonalMessage =
-  month <= 2 ? '신학기 준비 시작하셨나요?' :
-  month === 3 ? '봄맞이 자취 정리 시즌!' :
-  month <= 5 ? '야외 활동 시작하기 좋은 때!' :
-  month <= 8 ? '여름 건강 관리 체크리스트' :
-  month <= 10 ? '가을 신학기 & 운동 시작!' :
-  '연말 선물 준비 시즌!';
+const articles = (await getCollection('articles')).map((a) => ({
+  title: a.data.title.replace(/\s*\(20\d\d\)\s*$/, ''),
+  cat: a.data.category,
+  href: `/${a.data.category}/${a.id.split('/').pop()!.replace(/\.md$/, '')}/`,
+}));
+const CAT_ICON: Record<string, string> = { start: 'shoe', pet: 'puppy', home: 'box', baby: 'bottle', school: 'backpack', health: 'shoe', gift: 'treats' };
+const big = episodes[0];
+const rest = episodes.slice(1);
+const searchIndex = [
+  ...episodes.map((e) => ({ t: `EP.${e.no} ${e.title}`, s: `회차 · ${e.hook}`, k: `${e.title} ${e.hook} ${e.cat}`, href: `/ep/${e.slug}/`, icon: e.coverIcon, tag: '회차' })),
+  ...episodes.flatMap((e) => e.items.map((it) => ({ t: it.name, s: `EP.${e.no} ${e.title}`, k: `${it.name} ${it.products.map((p) => p.name).join(' ')}`, href: `/ep/${e.slug}/#${it.scene}`, icon: it.icon, tag: it.products.length ? `후보 ${it.products.length}` : '나중에' }))),
+  ...articles.map((a) => ({ t: a.title, s: `글 · ${categories.find((c) => c.id === a.cat)?.name ?? ''}`, k: a.title, href: a.href, icon: CAT_ICON[a.cat] ?? 'box', tag: '글' })),
+];
+const asks = [
+  { b: '오늘 밤 잘 데가 없어', s: '첫 자취 · 잠 장면부터', href: '/ep/first-room/#night' },
+  { b: '강아지 데리러 가는 날이 코앞', s: '첫 강아지 · 오늘 꼭 필요한 5개', href: '/ep/first-puppy/' },
+  { b: '예산이 빠듯해', s: '회차마다 "아끼기"만 골라 보기', href: '/ep/first-room/' },
+  { b: '선물을 골라야 해', s: '집들이·부모님·기념일 선물 글', href: '/gift/housewarming/' },
+];
 ---
 
-<BaseLayout title="휙 — 처음 사는 건 여기서부터">
-  {/* Hero */}
-  <section class="content-width pt-20 pb-16 text-center">
-    <h1 class="text-3xl md:text-4xl tracking-tight">
-      처음 사는 건<br />여기서부터
-    </h1>
-    <p class="mt-3 text-[var(--color-text-sub)]">
-      필요한 것만 골라 알려드립니다.
-    </p>
-  </section>
+<ComicLayout title="휙 — 처음 사는 사람의 쇼핑 만화">
+  <header class="topbar sticky wrap" style="max-width:480px;margin:0 auto">
+    <a class="logo" href="/">휙<small>HWICK</small></a>
+    <span style="flex:1"></span>
+    <button class="toplink" type="button" data-tab="find" style="background:none">찾기</button>
+  </header>
 
-  {/* Category List */}
-  <section class="content-width pb-14">
-    <div class="grid grid-cols-2 gap-3 sm:grid-cols-3">
-      {categories.map((cat) => {
-        const articleCount = articles.filter((a) => a.data.category === cat.id).length;
-        return (
-          <a
-            href={cat.path}
-            class="flex items-baseline justify-between border border-[var(--color-primary)]/15 px-3 py-2.5 text-sm text-[var(--color-text)] no-underline transition-colors duration-150 hover:border-[var(--color-primary)]"
-          >
-            <span class="font-medium">{cat.name}</span>
-            {articleCount > 0 && (
-              <span class="text-xs text-[var(--color-text-muted)]">{articleCount}</span>
-            )}
-          </a>
-        );
-      })}
-    </div>
-  </section>
+  <div class="app home">
+    <main class="view" id="v-home">
+      <section class="cover wrap">
+        <span class="kicker"><b>휙</b> 처음 사는 사람의 쇼핑 만화</span>
+        <h1 class="q">처음<br /><span class="slot" id="slot">자취</span><br />시작해?</h1>
+        <p>상황을 고르면, 컷 몇 장 넘기는 동안 살 것이 정해져요. 고른 건 쿠팡에서 바로.</p>
+        <form class="searchbar" id="homeSearch" role="search">
+          <input id="q-home" type="search" placeholder="자취, 강아지, 냄비…" aria-label="상황이나 물건 찾기" />
+          <button type="submit">휙 찾기</button>
+        </form>
+        <div class="quick" aria-label="많이 찾는 말">
+          <button type="button" data-q="자취">#자취</button><button type="button" data-q="강아지">#강아지</button><button type="button" data-q="사료">#사료</button><button type="button" data-q="토퍼">#토퍼</button>
+        </div>
+      </section>
 
-  {/* Popular Articles */}
-  {popularArticles.length > 0 && (
-    <section class="content-width pb-14">
-      <h2 class="mb-5">
-        지금 많이 보는 가이드
-      </h2>
-      <div class="space-y-3">
-        {popularArticles.map((article) => {
-          const cat = categories.find((c) => c.id === article.data.category);
-          const slug = article.id.split('/').pop()!.replace(/\.md$/, '');
-          return (
-            <a
-              href={`/${article.data.category}/${slug}/`}
-              class="block border border-stone-200/60 bg-[var(--color-surface)] px-5 py-4 shadow-[var(--shadow-xs)] no-underline transition-colors duration-150 hover:border-[var(--color-primary)]"
-            >
-              {cat && (
-                <span class="text-xs text-[var(--color-text-muted)]">
-                  {cat.name}
-                </span>
-              )}
-              <h3 class="mt-1.5 text-[0.9375rem] font-semibold text-[var(--color-text)]">
-                {article.data.title}
-              </h3>
-              <p class="mt-2 line-clamp-2 text-sm text-[var(--color-text-sub)]">
-                {article.data.description}
-              </p>
-            </a>
+      <section class="sec wrap">
+        <div class="sec-h"><h2>이번 호 연재</h2><button class="linkbtn" type="button" data-tab="toc">목차 전체 →</button></div>
+        <div class="cuts">
+          <a class={`cut big c-${big.color}`} href={`/ep/${big.slug}/`}><span class="epn">EP.{big.no}</span><span class="st live">공개</span><Fragment set:html={svg(big.coverIcon)} /><div class="capt"><h3>{big.title}</h3><span class="hook">{big.hook} · {big.items.length}개</span></div></a>
+          {rest.map((e) => <a class={`cut tall c-${e.color}`} href={`/ep/${e.slug}/`}><span class="epn">EP.{e.no}</span><span class="st live">공개</span><Fragment set:html={svg(e.coverIcon)} /><div class="capt"><h3>{e.title}</h3><span class="hook">{e.hook}</span></div></a>)}
+          {upcoming.map((u) => <div class={`cut half soon c-${u.color}`}><span class="epn">EP.{u.no}</span><span class="st">준비 중</span><Fragment set:html={svg(u.icon)} /><div class="capt"><h3>{u.title}</h3><span class="hook">{u.hook}</span></div></div>)}
+        </div>
+      </section>
+
+      <section class="sec wrap">
+        <div class="sec-h"><h2>급할 땐 여기부터</h2><small>상황 말고 사정으로 찾기</small></div>
+        <div class="asks">
+          {asks.map((a) => <a class="ask" href={a.href}><span><b>{a.b}</b><small>{a.s}</small></span><span class="arr">→</span></a>)}
+        </div>
+      </section>
+
+      <footer class="foot wrap">
+        <p class="disc"><span>휙은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</span></p>
+        <p class="note">상품은 쿠팡 검색 결과로 연결돼요. 가격과 후기는 쿠팡에서 확인하세요.</p>
+      </footer>
+    </main>
+
+    <main class="view" id="v-toc" hidden>
+      <section class="sec wrap">
+        <div class="sec-h"><h2 style="font-size:44px">목차</h2><small>회차 = 처음 맞는 상황</small></div>
+        <div class="cat-h">만화로 보기</div>
+        <div class="toc">
+          {episodes.map((e) => <a class="row" href={`/ep/${e.slug}/`}><div class={`sw c-${e.color}`}><Fragment set:html={svg(e.coverIcon)} /></div><div class="tx"><small>EP.{e.no} · {e.cat}</small><b>{e.title}</b><span>{e.hook} · 준비물 {e.items.length}개</span></div><div class="go live">보기 →</div></a>)}
+          {upcoming.map((u) => <div class="row"><div class={`sw c-${u.color}`}><Fragment set:html={svg(u.icon)} /></div><div class="tx"><small>EP.{u.no} · {u.cat}</small><b>{u.title}</b><span>{u.hook}</span></div><div class="go soon">준비 중</div></div>)}
+        </div>
+        {categories.map((c) => {
+          const list = articles.filter((a) => a.cat === c.id);
+          return list.length > 0 && (
+            <>
+              <div class="cat-h">{c.name} · 글로 보기</div>
+              <ul class="arts">{list.map((a) => <li><a href={a.href}>{a.title}</a></li>)}</ul>
+            </>
           );
         })}
-      </div>
-    </section>
-  )}
+      </section>
+    </main>
 
-  {/* Season Note */}
-  <section class="content-width pb-20">
-    <p class="bg-[var(--color-primary)]/5 px-5 py-4 text-center text-sm text-[var(--color-text-sub)]">
-      {seasonalMessage}
-    </p>
-  </section>
-</BaseLayout>
+    <main class="view" id="v-find" hidden>
+      <section class="sec wrap">
+        <div class="sec-h"><h2 style="font-size:44px">찾기</h2><small>상황도, 물건도</small></div>
+        <form class="searchbar" id="findForm" role="search">
+          <input id="q-find" type="search" placeholder="예: 냄비, 배변패드, 이사" aria-label="상황이나 물건 찾기" />
+          <button type="submit">찾기</button>
+        </form>
+        <div class="quick"><button type="button" data-q="냄비">#냄비</button><button type="button" data-q="배변">#배변</button><button type="button" data-q="이사">#이사</button><button type="button" data-q="러닝">#러닝</button></div>
+        <div class="res" id="res" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <main class="view" id="v-mine" hidden>
+      <section class="sec wrap">
+        <div class="sec-h"><h2 style="font-size:44px">내 목록</h2><small>회차마다 담은 것</small></div>
+        <div id="mine" style="display:flex;flex-direction:column;gap:16px"></div>
+        <p class="disc"><span>휙은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</span></p>
+      </section>
+    </main>
+  </div>
+
+  <nav class="tabs" aria-label="휙 메뉴">
+    <button type="button" data-tab="home" aria-current="page"><span class="gl">휙</span>홈</button>
+    <button type="button" data-tab="toc"><span class="gl">≡</span>목차</button>
+    <button type="button" data-tab="find"><span class="gl">?</span>찾기</button>
+    <button type="button" data-tab="mine"><span class="gl">✓</span><span>내 목록<span class="n" id="mineN" hidden>0</span></span></button>
+  </nav>
+
+  <script id="search-data" type="application/json" set:html={JSON.stringify(searchIndex)} />
+</ComicLayout>
+
+<style is:global>
+  .home .cover{background:var(--yolk);position:relative;overflow:hidden;padding-block:22px 26px;display:flex;flex-direction:column;gap:16px;border-bottom:4px solid var(--ink)}
+  .home .cover::before{content:"";position:absolute;inset:-60%;background:repeating-conic-gradient(from 0deg,transparent 0 4deg,rgba(21,18,14,.13) 4deg 5.2deg);-webkit-mask-image:radial-gradient(circle at 70% 40%,transparent 14%,#000 44%);mask-image:radial-gradient(circle at 70% 40%,transparent 14%,#000 44%);animation:spin 70s linear infinite;pointer-events:none}
+  .home .cover > *{position:relative}
+  .kicker{display:flex;gap:8px;align-items:center;font-weight:900;font-size:12px;letter-spacing:.12em}
+  .kicker b{background:var(--ink);color:var(--yolk);padding:3px 7px}
+  .q{font-size:clamp(54px,16vw,78px);line-height:.98}
+  .q .slot{display:inline-block;background:var(--ink);color:var(--yolk);padding:0 .12em .04em;transform:rotate(-2deg)}
+  .q .slot.out{animation:whipOut .18s ease-in forwards}
+  .q .slot.in{animation:whipIn .34s cubic-bezier(.2,1.3,.4,1)}
+  .home .cover p{margin:0;font-weight:900;font-size:16px;line-height:1.5;max-width:30ch}
+  .searchbar{display:flex;border:3px solid var(--ink);background:var(--paper);box-shadow:5px 5px 0 var(--ink)}
+  .searchbar input{flex:1;min-width:0;border:0;background:transparent;padding:0 12px;min-height:52px;font-weight:700;font-size:16px}
+  .searchbar input:focus{outline:none}
+  .searchbar button{border:0;border-left:3px solid var(--ink);background:var(--ink);color:var(--yolk);font-weight:900;padding:0 16px}
+  .quick{display:flex;gap:8px;flex-wrap:wrap}
+  .quick button{border:2px solid var(--ink);background:var(--paper);font-weight:900;font-size:13px;padding:6px 10px;min-height:36px}
+  .sec{padding-block:26px 6px;display:flex;flex-direction:column;gap:14px}
+  .sec-h{display:flex;justify-content:space-between;align-items:flex-end;gap:10px}
+  .sec-h h2{font-size:30px}
+  .sec-h small{font-weight:900;font-size:12px;color:var(--mute)}
+  .linkbtn{border:0;background:none;font-weight:900;font-size:13px;text-decoration:underline;text-underline-offset:3px;padding:6px 0}
+  .cuts{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:92px;gap:12px}
+  .cut{position:relative;border:3px solid var(--ink);box-shadow:5px 5px 0 var(--ink);overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;padding:10px;text-decoration:none;color:var(--ink)}
+  .cut:nth-child(odd){transform:rotate(-.8deg)}.cut:nth-child(even){transform:rotate(.7deg)}
+  .cut .epn{font-weight:900;font-size:11px;background:var(--ink);color:var(--paper);padding:2px 6px;align-self:flex-start;position:relative;z-index:1}
+  .cut h3{font-size:26px}
+  .cut .hook{font-size:12px;font-weight:900}
+  .cut .st{position:absolute;right:8px;top:8px;font-size:10px;font-weight:900;padding:2px 6px;border:2px solid var(--ink);background:var(--paper);color:var(--ink);z-index:1}
+  .cut .st.live{background:var(--chili);color:var(--paper)}
+  .cut svg{position:absolute;right:-4%;top:14%;width:58%;height:auto;aspect-ratio:1}
+  .cut .capt{position:relative;z-index:1;align-self:flex-start;background:var(--paper);color:var(--ink);border:2.5px solid var(--ink);padding:5px 8px 6px;max-width:100%;display:flex;flex-direction:column;gap:3px}
+  .cut.big{grid-column:span 4;grid-row:span 3}.cut.big h3{font-size:42px}.cut.big svg{width:62%;top:6%}
+  .cut.tall{grid-column:span 2;grid-row:span 3}.cut.tall svg{width:110%;right:-20%}
+  .cut.half{grid-column:span 3;grid-row:span 2}
+  .cut.soon::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(-45deg,transparent 0 10px,rgba(251,250,244,.35) 10px 12px);pointer-events:none}
+  .c-yolk{background:var(--yolk)}.c-pink{background:var(--pink)}.c-sky{background:var(--sky)}.c-chili{background:var(--chili)}.c-cobalt{background:var(--cobalt)}
+  .asks{display:flex;flex-direction:column;border:3px solid var(--ink);box-shadow:5px 5px 0 var(--ink)}
+  .ask{display:grid;grid-template-columns:1fr auto;align-items:center;gap:10px;padding:14px;border-top:3px solid var(--ink);background:var(--paper);text-decoration:none;color:var(--ink);min-height:64px}
+  .ask:first-child{border-top:0;background:var(--yolk)}
+  .ask b{font-family:var(--display);font-weight:400;font-size:21px;display:block;line-height:1.15}
+  .ask small{font-size:12px;font-weight:700;color:var(--mute)}
+  .ask .arr{font-family:var(--display);font-size:26px}
+  .foot{padding-block:24px 120px;display:flex;flex-direction:column;gap:10px}
+  .toc{display:flex;flex-direction:column;gap:12px}
+  .row{display:grid;grid-template-columns:72px 1fr auto;align-items:stretch;border:3px solid var(--ink);box-shadow:4px 4px 0 var(--ink);background:var(--paper);min-height:84px;text-decoration:none;color:var(--ink)}
+  .row .sw{position:relative;border-right:3px solid var(--ink);overflow:hidden}
+  .row .sw svg{position:absolute;inset:6%;width:88%;height:88%}
+  .row .tx{padding:10px 12px;display:flex;flex-direction:column;justify-content:center;gap:3px;min-width:0}
+  .row .tx small{font-size:11px;font-weight:900;color:var(--mute)}
+  .row .tx b{font-family:var(--display);font-weight:400;font-size:22px;line-height:1.1}
+  .row .tx span{font-size:12px;font-weight:700}
+  .row .go{display:grid;place-items:center;padding:0 14px;font-weight:900;font-size:13px;border-left:3px solid var(--ink)}
+  .row .go.live{background:var(--chili);color:var(--paper)}
+  .row .go.soon{color:var(--mute)}
+  .cat-h{font-family:var(--display);font-size:18px;display:flex;align-items:center;gap:8px;margin-top:10px}
+  .cat-h::after{content:"";flex:1;border-top:3px solid var(--ink)}
+  .arts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;border:3px solid var(--ink)}
+  .arts li{border-top:2px dashed var(--line)}.arts li:first-child{border-top:0}
+  .arts a{display:block;padding:12px;font-weight:900;font-size:14px;line-height:1.4;text-decoration:none}
+  .res{display:flex;flex-direction:column;gap:8px}
+  .hit{display:grid;grid-template-columns:48px 1fr auto;gap:10px;align-items:center;border:3px solid var(--ink);padding:8px 10px;background:var(--paper);text-decoration:none;color:var(--ink)}
+  .hit svg{width:48px;height:48px}
+  .hit b{font-weight:900;font-size:15px;display:block}
+  .hit small{font-size:12px;font-weight:700;color:var(--mute)}
+  .hit em{font-style:normal;font-size:11px;font-weight:900;border:2px solid var(--ink);padding:2px 6px;white-space:nowrap}
+  .empty-box{border:3px dashed var(--ink);padding:18px;font-weight:700;line-height:1.6}
+  .mine-ep{border:3px solid var(--ink);box-shadow:5px 5px 0 var(--ink);background:var(--paper)}
+  .mine-ep h3{font-size:20px;padding:10px 12px;border-bottom:3px solid var(--ink);display:flex;justify-content:space-between;align-items:center}
+  .mine-ep ul{list-style:none;margin:0;padding:0}
+  .mine-ep li{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:10px 12px;border-top:2px dashed var(--line);font-weight:900;font-size:14px}
+  .mine-ep li:first-child{border-top:0}
+  .mine-ep li small{display:block;font-size:11px;font-weight:700;color:var(--mute)}
+  .mine-ep li a{background:var(--chili);color:var(--paper);text-decoration:none;font-size:12px;padding:8px 10px;border:2px solid var(--ink)}
+  .mine-ep .more{display:block;padding:12px;font-weight:900;border-top:3px solid var(--ink);text-align:center;text-decoration:none}
+  .tabs{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(100%,480px);z-index:20;background:var(--ink);display:grid;grid-template-columns:repeat(4,1fr);padding:6px max(10px,env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) max(10px,env(safe-area-inset-left,0px));gap:6px}
+  .tabs button{min-height:54px;border:2px solid transparent;background:transparent;color:var(--paper);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-weight:900;font-size:12px}
+  .tabs .gl{font-family:var(--display);font-size:20px;line-height:1}
+  .tabs button[aria-current="page"]{background:var(--yolk);color:var(--ink);border-color:var(--ink)}
+  .tabs .n{display:inline-grid;place-items:center;min-width:18px;height:18px;background:var(--chili);color:var(--paper);font-size:10px;margin-left:2px}
+  .view{animation:pageIn .3s cubic-bezier(.2,1.1,.3,1)}
+</style>
+
+<script>
+  import { episodes } from '../data/episodes';
+  import { svg } from '../lib/icons';
+
+  type Hit = { t: string; s: string; k: string; href: string; icon: string; tag: string };
+  const idx: Hit[] = JSON.parse(document.getElementById('search-data')!.textContent || '[]');
+  const $ = (s: string) => document.querySelector(s) as HTMLElement;
+  const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]!));
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function search(q: string) {
+    q = q.trim();
+    const res = $('#res');
+    if (!q) { res.innerHTML = '<div class="empty-box">상황(자취, 강아지)이나 물건(냄비, 사료)을 쳐 보세요. 물건을 찾으면 그 물건이 나오는 회차 장면으로 바로 가요.</div>'; return; }
+    const hits = idx.filter((h) => (h.t + ' ' + h.k).includes(q)).slice(0, 30);
+    res.innerHTML = hits.length
+      ? hits.map((h) => `<a class="hit" href="${h.href}">${svg(h.icon)}<span><b>${esc(h.t)}</b><small>${esc(h.s)}</small></span><em>${esc(h.tag)}</em></a>`).join('')
+      : `<div class="empty-box">「${esc(q)}」은 아직 없어요. 다음 회차 후보로 올려둘게요.</div>`;
+  }
+  function mine() {
+    let total = 0;
+    const html = episodes.map((ep) => {
+      let keys: string[] = [];
+      try { keys = JSON.parse(localStorage.getItem('hwick-' + ep.slug) || '[]'); } catch {}
+      const rows = keys.map((k) => { const [id, i] = k.split(':'); const it = ep.items.find((x) => x.id === id); const p = it?.products[+i]; return it && p ? { it, p } : null; }).filter(Boolean) as { it: any; p: any }[];
+      total += rows.length;
+      if (!rows.length) return '';
+      return `<div class="mine-ep"><h3>EP.${ep.no} ${ep.title}<span style="font-family:var(--body);font-size:12px">${rows.length}개</span></h3><ul>${rows.map(({ it, p }) => `<li><span>${esc(p.name)}<small>${esc(it.name)}</small></span><a href="${p.url}" target="_blank" rel="sponsored noopener">쿠팡 ↗</a></li>`).join('')}</ul><a class="more" href="/ep/${ep.slug}/">회차 다시 보기 →</a></div>`;
+    }).join('');
+    $('#mine').innerHTML = html || '<div class="empty-box">아직 담은 게 없어요. 회차를 넘기다 "담기"를 누르면 여기 모여요.</div>';
+    const n = $('#mineN'); n.textContent = String(total); n.hidden = !total;
+  }
+  function show(tab: string) {
+    ['home', 'toc', 'find', 'mine'].forEach((t) => { const v = document.getElementById('v-' + t)!; v.hidden = t !== tab; });
+    document.querySelectorAll<HTMLElement>('.tabs button').forEach((b) => (b.dataset.tab === tab ? b.setAttribute('aria-current', 'page') : b.removeAttribute('aria-current')));
+    scrollTo({ top: 0 });
+    if (tab === 'find') search(($('#q-find') as HTMLInputElement).value);
+    if (tab === 'mine') mine();
+  }
+  document.addEventListener('click', (e) => {
+    const b = (e.target as HTMLElement).closest('button') as HTMLElement | null;
+    if (!b) return;
+    if (b.dataset.tab) { show(b.dataset.tab); if (b.dataset.tab === 'find') setTimeout(() => ($('#q-find') as HTMLInputElement).focus(), 50); }
+    else if (b.dataset.q) { ($('#q-find') as HTMLInputElement).value = b.dataset.q; show('find'); }
+  });
+  $('#homeSearch').addEventListener('submit', (e) => { e.preventDefault(); ($('#q-find') as HTMLInputElement).value = ($('#q-home') as HTMLInputElement).value; show('find'); });
+  $('#findForm').addEventListener('submit', (e) => { e.preventDefault(); search(($('#q-find') as HTMLInputElement).value); });
+  $('#q-find').addEventListener('input', (e) => search((e.target as HTMLInputElement).value));
+  if (location.hash === '#toc') show('toc'); else if (location.hash === '#find') show('find'); else if (location.hash === '#mine') show('mine');
+  mine();
+
+  const WORDS = ['자취', '강아지', '러닝', '이사', '수능 응원'];
+  let wi = 0; const slot = $('#slot');
+  if (!reduce) setInterval(() => {
+    slot.classList.remove('in'); slot.classList.add('out');
+    setTimeout(() => { wi = (wi + 1) % WORDS.length; slot.textContent = WORDS[wi]; slot.classList.remove('out'); void slot.offsetWidth; slot.classList.add('in'); }, 180);
+  }, 2200);
+</script>

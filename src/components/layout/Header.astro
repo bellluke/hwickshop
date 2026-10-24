@@ -1,65 +1,15 @@
 ---
-import { categories } from '@/data/categories';
+// 글 페이지용 머리. 새 만화 컷 사이트와 같은 검은 띠와 노란 로고를 쓴다.
 ---
 
-<header class="sticky top-0 z-50 border-b border-stone-100 bg-[var(--color-bg)]/90 backdrop-blur-md">
-  <div class="content-width flex h-14 items-center justify-between">
-    <a href="/" class="text-xl font-bold text-[var(--color-primary)] no-underline tracking-tight">
-      휙
+<header class="sticky top-0 z-50" style="background:#15120E;color:#FBFAF4">
+  <div class="content-width flex h-14 items-center justify-between gap-3">
+    <a href="/" class="no-underline" style="font-family:'Black Han Sans',sans-serif;font-size:24px;line-height:1;color:#FFD21F">
+      휙<span style="font-family:var(--font-sans);font-weight:900;font-size:10px;letter-spacing:.2em;color:#FBFAF4;margin-left:6px">HWICK</span>
     </a>
-
-    <button
-      id="menu-toggle"
-      type="button"
-      class="flex h-10 w-10 items-center justify-center rounded-lg transition-colors duration-150 hover:bg-stone-100/60"
-      aria-label="메뉴 열기"
-      aria-expanded="false"
-      aria-controls="mobile-nav"
-    >
-      <svg id="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <line x1="4" y1="6" x2="20" y2="6" />
-        <line x1="4" y1="12" x2="20" y2="12" />
-        <line x1="4" y1="18" x2="20" y2="18" />
-      </svg>
-      <svg id="icon-close" class="hidden" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <line x1="18" y1="6" x2="6" y2="18" />
-        <line x1="6" y1="6" x2="18" y2="18" />
-      </svg>
-    </button>
+    <nav class="flex gap-2" aria-label="사이트 메뉴">
+      <a href="/#toc" class="no-underline" style="font-size:12px;font-weight:900;border:1.5px solid #FBFAF4;padding:4px 10px;color:#FBFAF4">목차</a>
+      <a href="/#find" class="no-underline" style="font-size:12px;font-weight:900;border:1.5px solid #FBFAF4;padding:4px 10px;color:#FBFAF4">찾기</a>
+    </nav>
   </div>
-
-  <nav
-    id="mobile-nav"
-    class="hidden border-t border-stone-100 bg-[var(--color-bg)]"
-    aria-label="카테고리 네비게이션"
-  >
-    <ul class="content-width py-3">
-      {categories.map((cat) => (
-        <li>
-          <a
-            href={cat.path}
-            class="block px-3 py-2.5 text-sm text-[var(--color-text)] no-underline transition-colors duration-150 hover:bg-stone-100/60 rounded-lg"
-          >
-            {cat.name}
-          </a>
-        </li>
-      ))}
-    </ul>
-  </nav>
 </header>
-
-<script>
-  const toggle = document.getElementById('menu-toggle');
-  const nav = document.getElementById('mobile-nav');
-  const iconMenu = document.getElementById('icon-menu');
-  const iconClose = document.getElementById('icon-close');
-
-  toggle?.addEventListener('click', () => {
-    const expanded = toggle.getAttribute('aria-expanded') === 'true';
-    toggle.setAttribute('aria-expanded', String(!expanded));
-    toggle.setAttribute('aria-label', expanded ? '메뉴 열기' : '메뉴 닫기');
-    nav?.classList.toggle('hidden');
-    iconMenu?.classList.toggle('hidden');
-    iconClose?.classList.toggle('hidden');
-  });
-</script>

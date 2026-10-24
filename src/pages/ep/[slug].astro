@@ -1,0 +1,315 @@
+---
+import ComicLayout from '@/layouts/ComicLayout.astro';
+import { episodes, TIER_LABEL, type Tier } from '@/data/episodes';
+import { svg, IC } from '@/lib/icons';
+import { renderArt, renderBudget, renderShop, renderTiers, ROOM_SLOTS } from '@/lib/render';
+
+export function getStaticPaths() {
+  return episodes.map((ep) => ({ params: { slug: ep.slug }, props: { ep } }));
+}
+const { ep } = Astro.props;
+const DEFAULT_LV = 1;
+const empty = new Set<string>();
+const count = (t: Tier) => ep.items.filter((i) => i.tier === t).length;
+const musts = ep.items.filter((i) => i.tier === 'must').slice(0, ROOM_SLOTS.length);
+const others = episodes.filter((e) => e.slug !== ep.slug);
+const title = `${ep.title} 준비물 — 뭐 사야 해? | 휙`;
+const description = `${ep.title}, ${ep.hook}. 오늘 꼭 ${count('must')}개, 이번 주 ${count('soon')}개. 품목마다 쿠팡 상품까지 골라뒀어요.`;
+const ld = {
+  '@context': 'https://schema.org', '@type': 'ItemList', name: `${ep.title} 준비물`,
+  itemListElement: ep.items.filter((i) => i.products.length).map((it, n) => ({ '@type': 'ListItem', position: n + 1, name: it.name })),
+};
+---
+
+<ComicLayout title={title} description={description} htmlClass="ep">
+  <script type="application/ld+json" set:html={JSON.stringify(ld)} slot="head" />
+  <header class="topbar">
+    <a class="logo" href="/">휙<small>HWICK</small></a>
+    <nav class="ticks" id="ticks" aria-label="장면 이동"></nav>
+    <a class="toplink" href="/#toc">목차</a>
+  </header>
+
+  <main class="app" id="app" data-slug={ep.slug}>
+    <section class={`scene s-room on bg-${ep.color}`} id="room" data-name="첫 장면">
+      <div class="page">
+        <span class="eyebrow pop"><b>EP.{ep.no}</b> {ep.title}</span>
+        <h1 class="pop" style="--d:.05s">{ep.h1}<span>{ep.sub}</span></h1>
+        <div class="panel room empty tilt-l pop" id="roomPanel" style="--d:.12s;--r:-1.4deg">
+          <svg viewBox="0 0 360 300" role="img" aria-label={`빈 방 그림. ${ep.title}에 꼭 필요한 물건이 떨어지며 채워집니다.`}>
+            <polygon points="0,0 360,0 290,44 70,44" fill="#FBFAF4" class="ik"></polygon>
+            <polygon points="0,0 70,44 70,184 0,300" fill="url(#ht)" stroke="none"></polygon>
+            <polygon points="0,0 70,44 70,184 0,300" fill="none" class="ik"></polygon>
+            <polygon points="360,0 290,44 290,184 360,300" fill="#FFE57A" class="ik"></polygon>
+            <rect x="70" y="44" width="220" height="140" fill="#FBFAF4" class="ik"></rect>
+            <polygon points="0,300 360,300 290,184 70,184" fill="url(#plank)" class="ik"></polygon>
+            <g class="ik" fill="none" stroke-width="2"><line x1="122" y1="184" x2="72" y2="300"></line><line x1="180" y1="184" x2="180" y2="300"></line><line x1="238" y1="184" x2="288" y2="300"></line></g>
+            <rect x="180" y="66" width="80" height="70" fill="#8EC2FF" class="ik"></rect>
+            <g class="ik" stroke-width="3"><line x1="220" y1="66" x2="220" y2="136"></line><line x1="180" y1="101" x2="260" y2="101"></line></g>
+            {musts.map((it, i) => (
+              <g transform={ROOM_SLOTS[i]}><g class="itm ik" style={`--d:${(0.05 + i * 0.14).toFixed(2)}s`} set:html={IC[it.icon] ?? IC.box}></g></g>
+            ))}
+            {ep.mascot && <g transform="translate(118 132) scale(.9)"><g class="ik" set:html={IC[ep.mascot]}></g></g>}
+          </svg>
+          <div class="balloon">{ep.balloon}</div>
+          <div class="sfx tung" aria-hidden="true">텅—</div>
+          <div class="sfx boom" style="left:8%;top:52%;--d:.15s" aria-hidden="true">쿵!</div>
+          <div class="sfx boom" style="right:6%;top:46%;--d:.45s" aria-hidden="true">탁!</div>
+          <div class="sfx boom" style="left:42%;top:30%;--d:.62s;font-size:44px" aria-hidden="true">휙!</div>
+        </div>
+        <p class="lead pop" style="--d:.2s">필요한 건 생각보다 적어.</p>
+        <div class="stats pop" style="--d:.26s" aria-label="준비물 수">
+          {(['must', 'soon', 'later'] as Tier[]).map((t) => <div><strong data-n={count(t)}>{count(t)}</strong><span>{TIER_LABEL[t]}</span></div>)}
+        </div>
+        <div class="how pop" style="--d:.28s" aria-label="휙 이용 순서">
+          <div><b>1</b>휙 보고</div><div><b>2</b>골라 담고</div><div class="cp"><b>3</b>쿠팡에서 산다</div>
+        </div>
+        <p class="disc pop" style="--d:.3s"><span>휙은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</span></p>
+        <div class="row pop" style="--d:.3s">
+          <button class="btn" id="refill" type="button">휙! 다시 채우기</button>
+          <button class="btn ink" type="button" data-go="choice">뭐부터 할지 고르기 ↓</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene s-choice" id="choice" data-name="선택">
+      <div class="page">
+        <span class="eyebrow pop" style="color:var(--paper)"><b>CHOICE</b> {ep.choice.eyebrow}</span>
+        <p class="choice-q pop" style="--d:.05s">{ep.choice.q}</p>
+        <div class="split pop" id="split" style="--d:.1s">
+          {ep.choice.options.map((o, i) => (
+            <button class={`half ${i === 0 ? 'a' : 'b'}`} type="button" data-pickscene={o.scene} data-side={i === 0 ? 'a' : 'b'} aria-label={o.sub}>
+              <span class="big">{o.big}</span><span class="sub">{o.sub}</span>
+            </button>
+          ))}
+          <span class="vs">VS</span>
+        </div>
+      </div>
+    </section>
+
+    {ep.scenes.map((sc, si) => (
+      <section class={`scene bg-${sc.color}`} id={sc.key} data-name={sc.key} data-scene={sc.key}>
+        <div class="page">
+          <div class="cap pop"><h2>{sc.title}</h2><span class="no" data-no>#0{si + 2}</span></div>
+          <div class={`panel hero tilt-${si ? 'l' : 'r'} pop ${sc.hero === 'stack' ? 'speed' : 'halftone'}`} style={`--d:.08s;--r:${si ? -1.4 : 1.2}deg`}>
+            <div class="art" data-art={sc.key} set:html={renderArt(ep, sc, DEFAULT_LV)}></div>
+            {sc.hero === 'stack' && sc.balloon && <div class="balloon">{sc.balloon}</div>}
+            {sc.hero === 'stack' && sc.sfx && <div class="sfx zz" aria-hidden="true">{sc.sfx}</div>}
+          </div>
+          <p class="say pop" style="--d:.14s" data-say={sc.key} aria-live="polite">{sc.levels[DEFAULT_LV].say}</p>
+          <div class="budget pop" style="--d:.18s" role="radiogroup" aria-label="얼마나 살까" data-budget={sc.key} set:html={renderBudget(sc, DEFAULT_LV)}></div>
+          <div class="shop pop" style="--d:.2s" data-shop={sc.key} set:html={renderShop(ep, sc, DEFAULT_LV, empty)}></div>
+          <div class="tiers pop" style="--d:.24s" data-tiers={sc.key} set:html={renderTiers(ep, sc, empty)}></div>
+          <button class="btn ink next" type="button" data-next>다음 컷 휙 ↓</button>
+        </div>
+      </section>
+    ))}
+
+    <section class="scene s-done" id="done" data-name="내 목록">
+      <div class="page">
+        <span class="eyebrow pop"><b>EP.{ep.no}</b> 마지막 컷</span>
+        <h2 class="pop" style="--d:.05s">준비 끝?<br /><span style="font-size:.5em">이제 쿠팡에서 휙.</span></h2>
+        <div class="pop" style="--d:.1s;display:flex;flex-direction:column;gap:8px">
+          <div class="meter"><strong id="mustHave">0</strong><span>/ {count('must')}</span><span style="font-size:18px;margin-left:6px">오늘 꼭 필요한 것</span></div>
+          <div class="bar" aria-hidden="true"><i id="mustBar" style="width:0"></i></div>
+          <p class="missing" id="missing"></p>
+        </div>
+        <div class="mylist pop" style="--d:.16s">
+          <h3>내 준비 목록 <span class="count" id="listCount2">0</span></h3>
+          <ul id="mylist"><li class="empty">아직 비어 있어요. 장면에서 담기를 누르면 여기 모여요.</li></ul>
+        </div>
+        <button class="btn" type="button" id="clear" style="align-self:flex-start">목록 비우기</button>
+        {ep.skip.length > 0 && (
+          <div class="skip pop"><h3>처음엔 안 사도 돼</h3><ul>{ep.skip.map((s) => <li>{s.name}<small>{s.why}</small></li>)}</ul></div>
+        )}
+        <p class="disc"><span>휙은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. 구매 가격은 그대로예요.</span></p>
+        {ep.legacy && <a class="legacy" href={ep.legacy.href}>{ep.legacy.title} →</a>}
+        <h3 class="lead" style="margin-top:12px">다른 회차도 휙</h3>
+        <div class="eps">
+          {others.map((o) => <a class={`ep bg-${o.color}`} href={`/ep/${o.slug}/`}><b>EP.{o.no}<br />{o.title}</b><span>{o.hook}</span></a>)}
+          <a class="ep" href="/#toc"><b>목차<br />전체 보기</b><span>준비 중인 회차까지</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="dock">
+    <button class="btn mine" type="button" data-go="done">내 목록 <span class="count" id="listCount">0</span></button>
+    <button class="btn ink" type="button" id="dockNext">다음 ↓</button>
+  </div>
+
+  <div class="scrim" id="scrim" hidden>
+    <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="shName">
+      <div class="sheet-top">
+        <div class="pic" id="shPic"></div>
+        <div><p class="lbl" id="shTier"></p><h4 id="shName"></h4></div>
+        <button class="x" type="button" id="shClose" aria-label="닫기">✕</button>
+      </div>
+      <p class="why" id="shWhy"></p>
+      <p class="lbl" id="shCritLbl">이것만 보고 고르기</p>
+      <ol id="shCrit"></ol>
+      <p class="lbl">쿠팡에서 보기</p>
+      <div class="plist" id="shProducts"></div>
+      <p class="disc"><span>휙은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</span></p>
+    </div>
+  </div>
+</ComicLayout>
+
+<script>
+  import { episodes, TIER_LABEL } from '../../data/episodes';
+  import { svg } from '../../lib/icons';
+  import { renderArt, renderBudget, renderShop, renderTiers, pkey } from '../../lib/render';
+
+  const app = document.getElementById('app')!;
+  const ep = episodes.find((e) => e.slug === app.dataset.slug)!;
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const $ = <T extends Element = HTMLElement>(s: string, r: ParentNode = document) => r.querySelector(s) as T;
+  const $$ = (s: string, r: ParentNode = document) => [...r.querySelectorAll<HTMLElement>(s)];
+  const KEY = 'hwick-' + ep.slug;
+
+  const picked = new Set<string>();
+  try { (JSON.parse(localStorage.getItem(KEY) || '[]') as string[]).forEach((k) => picked.add(k)); } catch {}
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify([...picked])); } catch {} };
+  const lv: Record<string, number> = {};
+  ep.scenes.forEach((s) => (lv[s.key] = 1));
+  let order = ep.scenes.map((s) => s.key);
+  const seq = () => ['room', 'choice', ...order, 'done'];
+  const itemOf = (id: string) => ep.items.find((i) => i.id === id)!;
+  const sceneOf = (key: string) => ep.scenes.find((s) => s.key === key)!;
+
+  function paintScene(key: string, animate = false) {
+    const sc = sceneOf(key);
+    const art = $(`[data-art="${key}"]`);
+    const draw = () => { art.innerHTML = renderArt(ep, sc, lv[key]); $(`[data-say="${key}"]`).textContent = sc.levels[lv[key]].say; };
+    if (!animate || reduce) draw();
+    else {
+      art.classList.remove('in'); art.classList.add('out');
+      setTimeout(() => { draw(); art.classList.remove('out'); void art.offsetWidth; art.classList.add('in'); }, 200);
+    }
+    $(`[data-budget="${key}"]`).innerHTML = renderBudget(sc, lv[key]);
+    paintShop(key);
+  }
+  function paintShop(key: string) {
+    const sc = sceneOf(key);
+    const box = $(`[data-shop="${key}"]`);
+    const rails = $$('.rail', box).map((r) => r.scrollLeft);
+    box.innerHTML = renderShop(ep, sc, lv[key], picked);
+    $$('.rail', box).forEach((r, i) => (r.scrollLeft = rails[i] ?? 0));
+    $(`[data-tiers="${key}"]`).innerHTML = renderTiers(ep, sc, picked);
+  }
+  function paintList(bump = false) {
+    const keys = [...picked].filter((k) => { const [id, i] = k.split(':'); return itemOf(id)?.products[+i]; });
+    ['listCount', 'listCount2'].forEach((id) => {
+      const c = document.getElementById(id)!; c.textContent = String(keys.length);
+      if (bump && !reduce) { c.classList.remove('bump'); void c.offsetWidth; c.classList.add('bump'); }
+    });
+    $('#mylist').innerHTML = keys.length ? keys.map((k) => {
+      const [id, i] = k.split(':'); const it = itemOf(id); const p = it.products[+i];
+      return `<li>${svg(it.icon)}<span>${p.name}<small>${it.name} · ${TIER_LABEL[it.tier]}</small></span><a class="li-go" href="${p.url}" target="_blank" rel="sponsored noopener">쿠팡 ↗</a></li>`;
+    }).join('') : '<li class="empty">아직 비어 있어요. 장면에서 담기를 누르면 여기 모여요.</li>';
+    const musts = ep.items.filter((i) => i.tier === 'must');
+    const have = musts.filter((it) => it.products.some((_, i) => picked.has(pkey(it.id, i))));
+    $('#mustHave').textContent = String(have.length);
+    ($('#mustBar') as HTMLElement).style.width = (have.length / musts.length) * 100 + '%';
+    const miss = musts.filter((it) => !have.includes(it));
+    $('#missing').innerHTML = miss.length
+      ? '아직 빠진 것: ' + miss.map((it) => `<button type="button" data-info="${it.id}">${it.name}</button>`).join(', ')
+      : '오늘 꼭 필요한 건 다 담았어요. 이제 쿠팡에서 사면 끝.';
+  }
+  function toggle(k: string, force?: boolean) {
+    const on = force ?? !picked.has(k);
+    on ? picked.add(k) : picked.delete(k);
+    save(); paintList(on);
+    paintShop(itemOf(k.split(':')[0]).scene);
+  }
+
+  // 이동
+  let current = 'room';
+  const go = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+  function buildTicks() {
+    $('#ticks').innerHTML = seq().map((id) => `<button type="button" data-go="${id}" aria-label="${document.getElementById(id)!.dataset.name} 장면으로"></button>`).join('');
+    mark(current);
+  }
+  function mark(id: string) {
+    current = id; const s = seq(); const i = s.indexOf(id);
+    $$('#ticks button').forEach((b, j) => { b.className = j < i ? 'done' : j === i ? 'now' : ''; });
+    $('#dockNext').textContent = id === 'done' ? '처음으로 ↑' : '다음 ↓';
+  }
+  function applyOrder() {
+    const done = document.getElementById('done')!;
+    order.forEach((k, i) => { const el = document.getElementById(k)!; app.insertBefore(el, done); $('[data-no]', el).textContent = '#0' + (i + 2); });
+    buildTicks();
+  }
+  const io = new IntersectionObserver((es) => es.forEach((e) => e.isIntersecting && e.target.classList.add('on')), { threshold: 0.12 });
+  const io2 = new IntersectionObserver((es) => es.forEach((e) => e.isIntersecting && mark(e.target.id)), { rootMargin: '-45% 0px -50% 0px' });
+  $$('.scene').forEach((s) => { if (s.id !== 'room' && s.getBoundingClientRect().top > innerHeight) s.classList.remove('on'); io.observe(s); io2.observe(s); });
+
+  // 빈 방 채우기
+  const room = $('#roomPanel');
+  function fillRoom() {
+    room.classList.remove('fill'); room.classList.add('empty'); void (room as HTMLElement).offsetWidth;
+    room.classList.remove('empty'); room.classList.add('fill');
+  }
+  if (reduce) { room.classList.remove('empty'); room.classList.add('fill'); } else setTimeout(fillRoom, 900);
+
+  // 상세 시트
+  let sheetId = '';
+  let lastFocus: HTMLElement | null = null;
+  function openSheet(id: string) {
+    const it = itemOf(id); sheetId = id; lastFocus = document.activeElement as HTMLElement;
+    $('#shPic').innerHTML = svg(it.icon); $('#shTier').textContent = TIER_LABEL[it.tier]; $('#shName').textContent = it.name;
+    $('#shWhy').textContent = it.why;
+    $('#shCritLbl').hidden = !it.crit.length;
+    $('#shCrit').innerHTML = it.crit.map((c) => `<li>${c}</li>`).join('');
+    paintSheetProducts();
+    $('#scrim').hidden = false; ($('#shClose') as HTMLElement).focus();
+  }
+  function paintSheetProducts() {
+    const it = itemOf(sheetId);
+    $('#shProducts').innerHTML = it.products.length ? it.products.map((p, i) => {
+      const on = picked.has(pkey(it.id, i));
+      return `<div><span>${p.name}</span><button type="button" data-pick="${it.id}" data-i="${i}" aria-pressed="${on}">${on ? '담음' : '담기'}</button><a href="${p.url}" target="_blank" rel="sponsored noopener">쿠팡 ↗</a></div>`;
+    }).join('') : '<p class="noprod" style="color:var(--mute)">살아보고 필요하면 사요. 상품은 아직 안 골랐어요.</p>';
+  }
+  const closeSheet = () => { $('#scrim').hidden = true; lastFocus?.focus(); };
+
+  document.addEventListener('click', (e) => {
+    const t = (e.target as HTMLElement).closest('button') as HTMLButtonElement | null;
+    if (!t) return;
+    const d = t.dataset;
+    if (d.go) go(d.go);
+    else if (d.pickscene) {
+      const p = d.pickscene; order = [p, ...order.filter((k) => k !== p)];
+      const sp = $('#split'); sp.classList.remove('pick-a', 'pick-b'); sp.classList.add('pick-' + d.side);
+      applyOrder(); setTimeout(() => { go(p); setTimeout(() => sp.classList.remove('pick-a', 'pick-b'), 600); }, reduce ? 0 : 420);
+    } else if (d.b !== undefined) {
+      const key = (t.closest('[data-budget]') as HTMLElement).dataset.budget!;
+      if (lv[key] === +d.b) return; lv[key] = +d.b; paintScene(key, true);
+      ($(`[data-budget="${key}"] [data-b="${d.b}"]`) as HTMLElement).focus();
+    } else if (d.pick) {
+      toggle(pkey(d.pick, +d.i!));
+      if (!$('#scrim').hidden) paintSheetProducts();
+    } else if (d.addset) {
+      const sc = sceneOf(d.addset);
+      sc.levels[lv[d.addset]].set.forEach((id) => { if (itemOf(id).products.length) picked.add(pkey(id, 0)); });
+      save(); paintList(true); paintShop(d.addset);
+    } else if (d.info) openSheet(d.info);
+    else if (t.hasAttribute('data-next')) { const s = seq(); go(s[s.indexOf((t.closest('.scene') as HTMLElement).id) + 1]); }
+    else if (t.id === 'dockNext') { const s = seq(); go(current === 'done' ? 'room' : s[s.indexOf(current) + 1]); }
+    else if (t.id === 'refill') fillRoom();
+    else if (t.id === 'clear') { picked.clear(); save(); paintList(); ep.scenes.forEach((s) => paintShop(s.key)); }
+    else if (t.id === 'shClose') closeSheet();
+  });
+  $('#scrim').addEventListener('click', (e) => { if ((e.target as HTMLElement).id === 'scrim') closeSheet(); });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !$('#scrim').hidden) closeSheet();
+    const g = (e.target as HTMLElement).closest?.('[data-budget]') as HTMLElement | null;
+    if (!g || (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft')) return;
+    e.preventDefault(); const key = g.dataset.budget!; const n = sceneOf(key).levels.length;
+    const i = (lv[key] + (e.key === 'ArrowRight' ? 1 : n - 1)) % n;
+    ($(`[data-b="${i}"]`, g) as HTMLElement).click();
+  });
+
+  ep.scenes.forEach((s) => paintShop(s.key));
+  buildTicks(); paintList();
+  void renderBudget; void renderArt;
+</script>

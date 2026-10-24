@@ -1,0 +1,50 @@
+---
+import '@/styles/comic.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  htmlClass?: string;
+  ogType?: string;
+}
+const {
+  title,
+  description = '처음 사는 사람의 쇼핑 만화. 상황을 고르면 살 것이 정해지고, 쿠팡에서 바로 사요.',
+  htmlClass = '',
+  ogType = 'website',
+} = Astro.props;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
+---
+
+<!doctype html>
+<html lang="ko" class={htmlClass}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content="휙 hwick.shop" />
+    <meta property="og:url" content={canonicalUrl} />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1:wght@500;700;900&display=swap" rel="stylesheet" />
+    <slot name="head" />
+  </head>
+  <body>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+      <defs>
+        <pattern id="ht" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.3" fill="#15120E"></circle></pattern>
+        <pattern id="htw" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.2" fill="#FBFAF4"></circle></pattern>
+        <pattern id="plank" width="40" height="300" patternUnits="userSpaceOnUse"><rect width="40" height="300" fill="#F2C200"></rect><line x1="0" y1="0" x2="0" y2="300" stroke="#15120E" stroke-width="2"></line></pattern>
+      </defs>
+    </svg>
+    <div class="deco l" aria-hidden="true">휙휙</div>
+    <div class="deco r" aria-hidden="true">HWICK</div>
+    <slot />
+  </body>
+</html>
