@@ -1,0 +1,53 @@
+{
+ "kick": "첫 고양이 · 쿠팡 랭킹",
+ "title": "고양이<br>모래,",
+ "q": "뭐 사지?",
+ "balloon": "종류가 왜<br>이렇게 많아…",
+ "mascot": "<path d=\"M84 90 Q108 92 104 66\" fill=\"none\" stroke-width=\"5\"/><ellipse cx=\"60\" cy=\"88\" rx=\"28\" ry=\"16\" fill=\"#FFD21F\"/><circle cx=\"60\" cy=\"52\" r=\"26\" fill=\"#FFD21F\"/><polygon points=\"38,38 34,14 54,30\" fill=\"#FFD21F\"/><polygon points=\"82,38 86,14 66,30\" fill=\"#FFD21F\"/><g stroke-width=\"3\"><line x1=\"50\" y1=\"30\" x2=\"50\" y2=\"40\"/><line x1=\"60\" y1=\"28\" x2=\"60\" y2=\"38\"/><line x1=\"70\" y1=\"30\" x2=\"70\" y2=\"40\"/></g><circle cx=\"50\" cy=\"54\" r=\"4\" fill=\"#15120E\" stroke=\"none\"/><circle cx=\"70\" cy=\"54\" r=\"4\" fill=\"#15120E\" stroke=\"none\"/><polygon points=\"56,62 64,62 60,67\" fill=\"#FF86BE\"/>",
+ "bgA": "var(--pink)",
+ "bPills": [
+  "리뷰 100개 넘는 것만"
+ ],
+ "products": [
+  {
+   "r": 3,
+   "img": "ep05-litter/img/p3.jpg",
+   "n": "THE 먼지없는 벤토나이트 모래\n6kg × 3개",
+   "star": "★ 4.5",
+   "rev": 1855,
+   "price": "12,650원",
+   "rocket": false,
+   "bg": "var(--sky)",
+   "sfx": "팡!"
+  },
+  {
+   "r": 2,
+   "img": "ep05-litter/img/p2.jpg",
+   "n": "블루펫 벤토나이트 모래\n10L × 3개",
+   "star": "★ 5.0",
+   "rev": 9310,
+   "price": "17,700원",
+   "rocket": true,
+   "bg": "var(--cobalt)",
+   "sfx": "착!"
+  },
+  {
+   "r": 1,
+   "img": "ep05-litter/img/p1.jpg",
+   "n": "슈퍼 카사바 모래\n3kg × 3개",
+   "star": "★ 5.0",
+   "rev": 251,
+   "price": "59,000원",
+   "rocket": false,
+   "bg": "var(--yolk)",
+   "sfx": "쾅!"
+  }
+ ],
+ "dKick": "처음 고를 때",
+ "dTitle": "모래는<br>이것만 봐",
+ "d1": "쓰던 모래와<br>같은 종류부터",
+ "d2": "벤토나이트는 잘 뭉치고<br>카사바는 가벼워요",
+ "eTitle": "고양이 오는 날<br>꼭 필요한 3개",
+ "eSub": "화장실·모래·이동장",
+ "asof": "10월 24일"
+}

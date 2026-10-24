@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:"BHS";src:url(fonts/BlackHanSans.ttf)}
+@font-face{font-family:"GA1";src:url(fonts/GothicA1-Bold.ttf);font-weight:700}
+@font-face{font-family:"GA1";src:url(fonts/GothicA1-Black.ttf);font-weight:900}
+:root{--ink:#15120E;--paper:#FBFAF4;--yolk:#FFD21F;--cobalt:#2234C8;--chili:#FF4A26;--pink:#FF86BE;--sky:#8EC2FF}
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--ink)}
+body{font-family:"GA1",sans-serif;font-weight:900;color:var(--ink);word-break:keep-all}
+.abs{position:absolute}
+#f{position:relative;width:1080px;height:1920px;overflow:hidden}
+.speed{position:absolute;inset:-700px;background:repeating-conic-gradient(from 0deg,transparent 0 3.6deg,rgba(21,18,14,.16) 3.6deg 5deg);-webkit-mask-image:radial-gradient(circle,transparent 16%,#000 38%)}
+.disp{font-family:"BHS",sans-serif;font-weight:400;line-height:.98;letter-spacing:-.02em}
+.out{color:var(--paper);-webkit-text-stroke:9px var(--ink);paint-order:stroke fill;text-shadow:12px 12px 0 var(--ink)}
+.box{border:9px solid var(--ink);box-shadow:18px 18px 0 var(--ink)}
+.brand{left:56px;top:96px;z-index:30;font-family:"BHS";font-size:76px;color:var(--yolk);-webkit-text-stroke:6px var(--ink);paint-order:stroke fill;line-height:1}
+.kick{font-size:36px;background:var(--ink);color:var(--yolk);padding:10px 20px;display:inline-block;letter-spacing:.03em}
+.ik{stroke:var(--ink);stroke-width:4;stroke-linejoin:miter}
+.balloon{background:var(--paper);border:8px solid var(--ink);padding:20px 30px;font-size:56px;line-height:1.18}
+.balloon::after{content:"";position:absolute;width:48px;height:48px;background:var(--paper);border-right:8px solid var(--ink);border-bottom:8px solid var(--ink);bottom:-30px;left:64px;transform:skewX(-30deg) rotate(45deg)}
+.pill{display:inline-flex;align-items:center;gap:12px;border:7px solid var(--ink);background:var(--paper);padding:8px 20px;font-size:46px;box-shadow:9px 9px 0 var(--ink)}
+.rocket{background:var(--cobalt);color:var(--paper);font-size:36px;padding:6px 14px;border:6px solid var(--ink)}
+.disc{font-size:27px;font-weight:700;background:var(--paper);border:5px solid var(--ink);padding:10px 16px;display:flex;gap:12px;align-items:center;line-height:1.3}
+.disc i{font-style:normal;background:var(--ink);color:var(--yolk);padding:2px 10px;font-weight:900}
+/* 안전 영역: x 56~940, y 220~1520 — 모든 글자는 이 안 */
+#safe{display:none;position:absolute;left:56px;top:220px;width:884px;height:1300px;outline:4px dashed red;z-index:99}
+</style></head><body>
+<div id="f">
+  <div class="abs" id="bg" style="inset:0"></div>
+  <div class="speed" id="spd"></div>
+  <div class="abs brand">휙</div>
+  <div id="safe"></div>
+
+  <div id="A" class="abs" style="inset:0">
+    <div class="abs" style="left:56px;top:236px"><span class="kick" id="akick"></span></div>
+    <div class="abs disp" id="a1" style="left:56px;top:330px;width:884px;font-size:176px;transform-origin:0 50%"></div>
+    <div class="abs disp out" id="a2" style="left:56px;width:884px;font-size:160px"></div>
+    <svg class="abs" id="mascot" viewBox="0 0 120 120" style="left:420px;top:960px;width:520px;height:520px"><g class="ik" id="mg"></g></svg>
+    <div class="abs balloon" id="ab" style="left:70px;top:1010px"></div>
+  </div>
+
+  <div id="B" class="abs" style="inset:0">
+    <div class="abs disp" id="b1" style="left:56px;width:884px;top:470px;text-align:center;font-size:140px">쿠팡 랭킹</div>
+    <div class="abs disp out" id="b2" style="left:56px;width:884px;top:640px;text-align:center;font-size:300px;white-space:nowrap">TOP 3</div>
+    <div class="abs" id="b3" style="left:56px;width:884px;top:1060px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:26px"></div>
+  </div>
+
+  <div id="C" class="abs" style="inset:0">
+    <div class="abs disp out" id="rank" style="left:56px;top:226px;font-size:210px">3<span style="font-size:.45em">위</span></div>
+    <div class="abs" id="tag" style="left:400px;top:300px"><span class="pill" style="font-size:40px">쿠팡 랭킹순</span></div>
+    <div class="abs box" id="photo" style="left:150px;top:470px;width:600px;height:600px;background:#fff;overflow:hidden"><img id="pimg" style="width:100%;height:100%;object-fit:contain;display:block"></div>
+    <div class="abs disp out" id="sfx" style="left:700px;top:440px;font-size:130px;transform:rotate(10deg)"></div>
+    <div class="abs" id="pname" style="left:56px;width:884px;top:1110px"><span id="pn" style="display:inline-block;background:var(--paper);border:8px solid var(--ink);padding:12px 22px;font-size:50px;line-height:1.2;box-shadow:12px 12px 0 var(--ink)"></span></div>
+    <div class="abs" id="stats" style="left:56px;top:1300px;display:flex;gap:16px;align-items:center"><span class="pill" id="st1"></span><span class="pill" id="st2"></span></div>
+    <div class="abs" id="pr" style="left:56px;top:1405px;display:flex;gap:16px;align-items:center"><span class="pill disp" id="price" style="font-size:58px;background:var(--yolk)"></span><span class="rocket" id="rk">로켓</span></div>
+  </div>
+
+  <div id="D" class="abs" style="inset:0">
+    <div class="abs" style="left:56px;top:236px"><span class="kick" id="dkick"></span></div>
+    <div class="abs disp" id="d0" style="left:56px;width:884px;top:330px;font-size:136px"></div>
+    <div class="abs box" id="d1" style="left:56px;width:860px;top:680px;background:var(--paper);padding:34px 40px;display:flex;gap:28px;align-items:center"><span class="disp" style="font-size:130px;color:var(--chili);-webkit-text-stroke:6px var(--ink);paint-order:stroke fill">1</span><span id="d1t" style="font-size:56px;line-height:1.25"></span></div>
+    <div class="abs box" id="d2" style="left:56px;width:860px;top:990px;background:var(--paper);padding:34px 40px;display:flex;gap:28px;align-items:center"><span class="disp" style="font-size:130px;color:var(--chili);-webkit-text-stroke:6px var(--ink);paint-order:stroke fill">2</span><span id="d2t" style="font-size:56px;line-height:1.25"></span></div>
+    <div class="abs" id="dnote" style="left:56px;width:860px;top:1320px"></div>
+  </div>
+
+  <div id="E" class="abs" style="inset:0">
+    <div class="abs disp" id="e1" style="left:56px;width:884px;top:250px;font-size:128px;transform-origin:0 50%"></div>
+    <div class="abs disp out" id="e2" style="left:56px;width:884px;font-size:96px"></div>
+    <div class="abs" id="e3"><span class="disp" style="display:inline-block;font-size:120px;background:var(--ink);color:var(--yolk);padding:18px 36px;transform:rotate(-2deg)">hwick.shop</span></div>
+    <div class="abs" id="e4" style="left:56px;width:884px;display:flex;flex-direction:column;gap:16px;align-items:flex-start"></div>
+  </div>
+
+  <div class="abs" id="wipe" style="left:-200px;top:-200px;width:1480px;height:2320px;background:var(--ink);transform:translateX(130%) skewX(-14deg);z-index:20;display:flex;align-items:center;justify-content:center">
+    <span class="disp" style="font-size:420px;color:var(--yolk);transform:skewX(14deg) rotate(-8deg)">휙!</span>
+  </div>
+</div>
+<script>
+const C=window.CFG, TL=window.TLD, P=C.products;
+const $=id=>document.getElementById(id);
+if(C.showSafe) $('safe').style.display='block';
+$('akick').textContent=C.kick; $('a1').innerHTML=C.title; $('a2').innerHTML=C.q; $('ab').innerHTML=C.balloon; $('mg').innerHTML=C.mascot;
+$('b3').innerHTML=C.bPills.map(t=>`<span class="pill">${t}</span>`).join('');
+$('dkick').textContent=C.dKick; $('d0').innerHTML=C.dTitle; $('d1t').innerHTML=C.d1; $('d2t').innerHTML=C.d2;
+if(C.dNote) $('dnote').innerHTML=`<div class="disc" style="font-size:30px"><i>!</i>${C.dNote}</div>`;
+$('e1').innerHTML=C.eTitle; $('e2').innerHTML=C.eSub;
+$('e4').innerHTML=`<span class="pill" style="font-size:44px">프로필 링크에서 휙</span>`+(C.eNote?`<div class="disc"><i>!</i>${C.eNote}</div>`:'')+`<div class="disc"><i>AD</i>쿠팡 파트너스 활동의 일환으로 수수료를 제공받습니다</div><div class="disc" style="font-size:24px">순위·가격·리뷰 수는 ${C.asof} 기준이에요</div>`;
+// 세로 위치는 실제 높이로 쌓는다 (안전 영역 안)
+function stack(){
+  const a1=$('a1'); $('a2').style.top=(330+a1.offsetHeight+10)+'px';
+  const e1=$('e1'); let y=250+e1.offsetHeight+20; $('e2').style.top=y+'px'; y+=$('e2').offsetHeight+34;
+  $('e3').style.left='56px'; $('e3').style.top=y+'px'; y+=$('e3').offsetHeight+40; $('e4').style.top=y+'px';
+}
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,b)=>cl((t-a)/(b-a));
+const back=x=>{const c=2.2;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const out=x=>1-Math.pow(1-x,3);
+const slam=(el,t,at,from=1.7,rot=-6)=>{const k=back(p(t,at,at+.32));el.style.opacity=t<at?0:1;el.style.transform=`scale(${from+(1-from)*k}) rotate(${rot*(1-k)}deg)`;};
+const TA=TL.TA,TB=TL.TB,TD=TL.TD,TE=TL.TE,END=TL.END;
+window.DURATION=END;
+let cur=-1, stacked=false;
+window.renderAt=function(t){
+  if(!stacked){stack();stacked=true;}
+  const show=(id,v)=>$(id).style.display=v?'block':'none';
+  show('A',t<TA);show('B',t>=TA&&t<TB);show('C',t>=TB&&t<TD);show('D',t>=TD&&t<TE);show('E',t>=TE);
+  $('spd').style.transform=`rotate(${t*6}deg)`;
+  if(t<TA){$('bg').style.background=C.bgA;slam($('a1'),t,.05);slam($('a2'),t,.4,2,-10);
+    const k=out(p(t,.3,.7));$('mascot').style.transform=`translateY(${(1-k)*700}px) rotate(${-8*(1-k)}deg)`;
+    slam($('ab'),t,1.1,.3,-12);}
+  if(t>=TA&&t<TB){const lt=t-TA;$('bg').style.background='var(--yolk)';slam($('b1'),lt,0,1.3,4);slam($('b2'),lt,.12,2.4,-10);slam($('b3'),lt,.5,.4,6);}
+  if(t>=TB&&t<TD){
+    let i=0;while(i<P.length-1&&t>=TL.CS[i+1])i++;const it=P[i],lt=t-TL.CS[i],DUR=TL.CD[i];
+    $('bg').style.background=it.bg;
+    if(cur!==i){cur=i;$('pimg').src=it.img;$('pn').innerHTML=it.n.replace('\n','<br>');$('sfx').textContent=it.sfx;$('st1').textContent=it.star;$('price').textContent=it.price;
+      $('rk').style.display=it.rocket?'inline-block':'none';$('rank').innerHTML=it.r+'<span style="font-size:.45em">위</span>';}
+    const k=back(p(lt,.05,.4)),o=p(lt,DUR-.18,DUR),ox=-1300*o*o;
+    $('photo').style.transform=`translateX(${ox}px) scale(${1.5-.5*k}) rotate(${(i%2?8:-8)*(1-k)+(i%2?1.5:-1.5)}deg)`;
+    slam($('rank'),lt,0,2.2,-12);$('rank').style.transform+=` translateX(${ox}px)`;
+    slam($('tag'),lt,.1,1.3,0);$('tag').style.transform+=` translateX(${ox}px)`;
+    slam($('sfx'),lt,.18,.2,30);$('sfx').style.transform+=` rotate(10deg) translateX(${ox}px)`;
+    slam($('pname'),lt,.35,1.2,0);$('pname').style.transform+=` translateX(${ox}px)`;
+    slam($('stats'),lt,.6,1.2,0);$('stats').style.transform+=` translateX(${ox}px)`;
+    slam($('pr'),lt,.8,1.4,-3);$('pr').style.transform+=` translateX(${ox}px)`;
+    const n=Math.round(it.rev*out(p(lt,.6,1.6)));$('st2').textContent='리뷰 '+n.toLocaleString('ko-KR');
+  }
+  if(t>=TD&&t<TE){const lt=t-TD;$('bg').style.background='var(--paper)';slam($('d0'),lt,.05,1.6,-6);slam($('d1'),lt,.6,.3,-6);slam($('d2'),lt,1.2,.3,6);if(C.dNote)slam($('dnote'),lt,1.8,.6,0);}
+  if(t>=TE){const lt=t-TE;$('bg').style.background=C.bgA;slam($('e1'),lt,.1,1.6,-6);slam($('e2'),lt,.6,.3,6);slam($('e3'),lt,1.0,1.8,-8);
+    const s=out(p(lt,1.4,1.8));$('e4').style.transform=`translateX(${(1-s)*-1200}px)`;}
+  const wipes=[TA-.3,TE-.3];let wx=130;
+  wipes.forEach(w=>{if(t>=w&&t<w+.6){const q=p(t,w,w+.6);wx=130-260*(q<.5?2*q*q:1-Math.pow(-2*q+2,2)/2);}});
+  $('wipe').style.transform=`translateX(${wx}%) skewX(-14deg)`;
+};
+</script>
+</body></html>

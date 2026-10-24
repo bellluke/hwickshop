@@ -1,0 +1,53 @@
+{
+ "kick": "러닝 입문 · 쿠팡 랭킹",
+ "title": "러닝화,",
+ "q": "뭐 신지?",
+ "balloon": "일단 달려<br>보려는데…",
+ "mascot": "<path d=\"M10 82 L10 56 Q24 54 34 44 L52 40 Q60 58 82 62 Q108 66 112 82Z\" fill=\"#FF4A26\"/><path d=\"M10 82 L112 82 L112 96 L10 96Z\" fill=\"#FBFAF4\"/><path d=\"M10 88 L112 88 L112 96 L10 96Z\" fill=\"url(#ht)\" stroke=\"none\"/><g stroke-width=\"3\"><line x1=\"40\" y1=\"50\" x2=\"52\" y2=\"58\"/><line x1=\"46\" y1=\"46\" x2=\"58\" y2=\"54\"/></g>",
+ "bgA": "var(--yolk)",
+ "bPills": [
+  "리뷰 100개 넘는 것만"
+ ],
+ "products": [
+  {
+   "r": 3,
+   "img": "ep06-shoes/img/p3.jpg",
+   "n": "슈페르 가벼운 런닝화\n여성",
+   "star": "★ 4.5",
+   "rev": 9176,
+   "price": "19,800원",
+   "rocket": true,
+   "bg": "var(--sky)",
+   "sfx": "탁!"
+  },
+  {
+   "r": 2,
+   "img": "ep06-shoes/img/p2.jpg",
+   "n": "카노 다이얼 러닝화\n남성",
+   "star": "★ 4.5",
+   "rev": 1401,
+   "price": "26,850원",
+   "rocket": true,
+   "bg": "var(--pink)",
+   "sfx": "착!"
+  },
+  {
+   "r": 1,
+   "img": "ep06-shoes/img/p1.jpg",
+   "n": "슈페르 발편한 런닝화\n남성",
+   "star": "★ 4.0",
+   "rev": 9296,
+   "price": "19,800원",
+   "rocket": true,
+   "bg": "var(--cobalt)",
+   "sfx": "쾅!"
+  }
+ ],
+ "dKick": "처음 살 때",
+ "dTitle": "러닝화는<br>이 2개만 봐",
+ "d1": "평소보다 5mm<br>크게 신는 사람이 많아요",
+ "d2": "양말도<br>러닝 양말로",
+ "eTitle": "러닝<br>첫 달 준비물",
+ "eSub": "신발·양말·겨울 장갑",
+ "asof": "10월 24일"
+}
